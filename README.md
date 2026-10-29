@@ -2,7 +2,7 @@
 
 Eine App, die Bibelleser ohne theologisches Vorwissen nah an den Urtext bringt und das Spektrum wissenschaftlicher Auslegung zeigt.
 
-Aktuell läuft der **Testlauf mit dem Markusevangelium**: Lesen, Urtext Wort für Wort, Wortbedeutung und Grammatik in Alltagssprache, Vergleichsübersetzungen, Notizen sowie die Pipeline für die KI-Studienübersetzung und die Auslegungsüberblicke. Konto, echtes Abo und Live-Fragen an den Text folgen als nächster Schritt. Der Gesamtplan steht im [Planungsdokument](https://claude.ai/artifact/SYj5KDrZ1wwBhguihFjavb), eine Kurzfassung in [docs/plan.md](docs/plan.md).
+Aktuell läuft der **Testlauf mit dem Markusevangelium**: Lesen, Urtext Wort für Wort, Wortbedeutung und Grammatik in Alltagssprache, Vergleichsübersetzungen, Notizen, die Pipeline für die KI-Studienübersetzung und die Auslegungsüberblicke sowie Konto mit Notiz-Synchronisation, Abo und Live-Fragen an den Text über ein Supabase-Backend. Der Gesamtplan steht im [Planungsdokument](https://claude.ai/artifact/SYj5KDrZ1wwBhguihFjavb), eine Kurzfassung in [docs/plan.md](docs/plan.md).
 
 ## Starten
 
@@ -29,7 +29,9 @@ npm run typecheck
 | `src/components/` | Bausteine wie Interlinear-Vers, Wort-Blatt, Notiz-Blatt |
 | `src/data/mark.ts` | Zugriff auf Text, Lexikon und Grammatik |
 | `src/lib/grammar.ts` | Grammatik-Codes in Alltagssprache |
-| `src/state/` | Einstellungen und Notizen (lokal gespeichert) |
+| `src/state/` | Einstellungen, Notizen mit Synchronisation, Konto, Abo-Status |
+| `src/lib/cloud.ts` | Verbindung zum Backend |
+| `supabase/` | Datenbank-Schema, Zugriffsregeln, Backend-Funktionen |
 | `assets/data/` | Erzeugte Markus-Daten, nicht von Hand bearbeiten |
 | `pipeline/` | Skripte, die die Daten aus offenen Quellen bauen |
 | `pipeline/ai/` | KI-Pipeline für Übersetzung und Auslegungen |
@@ -42,6 +44,10 @@ npm run data:build   # schreibt assets/data/
 ```
 
 Quellen und Lizenzen: [docs/datenquellen.md](docs/datenquellen.md).
+
+## Konto und Backend
+
+Ohne Einrichtung läuft die App rein lokal. Für Konto, Synchronisation, Abo und Live-Fragen: [docs/backend.md](docs/backend.md). Die nötigen Werte stehen in [.env.example](.env.example).
 
 ## KI-Inhalte erzeugen
 

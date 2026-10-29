@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { InterlinearVerse } from '@/components/interlinear-verse';
+import { AskTextPanel } from '@/components/live-ai';
 import { Sheet } from '@/components/sheet';
 import { ThemedText } from '@/components/themed-text';
 import { Radius, Spacing } from '@/constants/theme';
@@ -27,10 +28,11 @@ type Props = {
   onWordPress: (word: Word, index: number) => void;
   onNotePress: () => void;
   onTopicPress: (topic: ExegesisTopic) => void;
+  onOpenAccount: () => void;
 };
 
 /** Zweite Ebene beim Lesen: ein Vers im Urtext, im Vergleich, mit Fußnoten, Auslegungen und Notiz. */
-export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onNotePress, onTopicPress }: Props) {
+export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onNotePress, onTopicPress, onOpenAccount }: Props) {
   const theme = useTheme();
   const { settings } = useSettings();
   const { getNote } = useNotes();
@@ -93,6 +95,8 @@ export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onN
           ) : null,
         )}
       </View>
+
+      <AskTextPanel chapter={chapter} verse={verse.v} onOpenAccount={onOpenAccount} />
 
       <Pressable
         onPress={onNotePress}

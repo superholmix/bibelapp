@@ -5,6 +5,8 @@ import { useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import AppTabs from '@/components/app-tabs';
+import { AuthProvider } from '@/state/auth';
+import { EntitlementProvider } from '@/state/entitlement';
 import { NotesProvider } from '@/state/notes';
 import { SettingsProvider } from '@/state/settings';
 
@@ -21,9 +23,13 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <SettingsProvider>
-          <NotesProvider>
-            <AppTabs />
-          </NotesProvider>
+          <AuthProvider>
+            <EntitlementProvider>
+              <NotesProvider>
+                <AppTabs />
+              </NotesProvider>
+            </EntitlementProvider>
+          </AuthProvider>
         </SettingsProvider>
       </ThemeProvider>
     </SafeAreaProvider>

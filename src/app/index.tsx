@@ -1,4 +1,4 @@
-import { useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -67,6 +67,12 @@ export default function ReaderScreen() {
   const [chapterNo, setChapterNo] = useState(settings.lastChapter);
   const [mode, setMode] = useState<Mode>(settings.interlinear ? 'interlinear' : 'read');
   const [active, setActive] = useState<Active>({ kind: 'none' });
+  const router = useRouter();
+  // Blatt schließen, dann Konto und Abo unter „Mehr“ öffnen
+  const openAccount = () => {
+    setActive({ kind: 'none' });
+    router.navigate({ pathname: '/mehr', params: { konto: '1' } });
+  };
   const [highlight, setHighlight] = useState<number | null>(null);
   const listRef = useRef<FlatList>(null);
 
@@ -306,6 +312,7 @@ export default function ReaderScreen() {
           onWordPress={(word, index) => setActive({ kind: 'word', verse: active.verse, word, index })}
           onNotePress={() => setActive({ kind: 'note', verse: active.verse.v })}
           onTopicPress={(topic) => setActive({ kind: 'topic', topic })}
+          onOpenAccount={openAccount}
         />
       ) : null}
       {active.kind === 'word' ? (
@@ -315,12 +322,13 @@ export default function ReaderScreen() {
           chapter={chapterNo}
           verse={active.verse.v}
           onClose={() => setActive({ kind: 'none' })}
+          onOpenAccount={openAccount}
         />
       ) : null}
       {active.kind === 'note' ? (
         <NoteSheet target={{ chapter: chapterNo, verse: active.verse }} onClose={() => setActive({ kind: 'none' })} />
       ) : null}
-      {active.kind === 'topic' ? <ExegesisSheet topic={active.topic} onClose={() => setActive({ kind: 'none' })} /> : null}
+      {active.kind === 'topic' ? <ExegesisSheet topic={active.topic} onClose={() => setActive({ kind: 'none' })} onOpenAccount={openAccount} /> : null}
     </ThemedView>
   );
 }
