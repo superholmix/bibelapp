@@ -1,4 +1,3983 @@
 {
-  "status": "pending",
-  "verses": {}
+ "status": "draft",
+ "model": "Claude (Claude-Code-Sitzung)",
+ "promptVersion": "uebersetzung-v1",
+ "verses": {
+  "1.1": {
+   "text": "Anfang des Evangeliums von Jesus Christus, [dem] Sohn Gottes.",
+   "notes": [
+    {
+     "anchor": "Evangeliums",
+     "text": "Griechisch euangelion, „gute Nachricht“. Markus meint damit die Botschaft von Jesus, nicht ein Buch."
+    },
+    {
+     "anchor": "Christus",
+     "text": "Christos heißt „der Gesalbte“, das griechische Wort für das hebräische „Messias“."
+    },
+    {
+     "anchor": "Sohn Gottes",
+     "text": "Diese Worte fehlen in einigen frühen Handschriften. Ob Markus sie geschrieben hat, ist offen; viele Ausgaben setzen sie in Klammern."
+    }
+   ],
+   "glosses": [
+    "Anfang",
+    "<des>",
+    "Evangeliums",
+    "Jesu",
+    "Christi",
+    "Sohnes",
+    "Gottes"
+   ]
+  },
+  "1.2": {
+   "text": "Wie geschrieben steht bei Jesaja, dem Propheten: „Siehe, ich sende meinen Boten vor dir her, der deinen Weg bereiten wird.“",
+   "notes": [
+    {
+     "anchor": "bei Jesaja",
+     "text": "Das Zitat verbindet Maleachi 3,1 (vgl. 2. Mose 23,20) mit Jesaja 40,3 (Vers 3). Markus nennt nur Jesaja, den bekannteren Propheten."
+    },
+    {
+     "anchor": "Boten",
+     "text": "Griechisch angelos kann „Bote“ oder „Engel“ heißen; hier ist ein menschlicher Bote gemeint."
+    },
+    {
+     "anchor": "vor dir her",
+     "text": "Wörtlich: „vor deinem Angesicht“."
+    }
+   ],
+   "glosses": [
+    "wie",
+    "ist geschrieben",
+    "in",
+    "<dem>",
+    "Jesaja",
+    "dem",
+    "Propheten",
+    "siehe",
+    "ich sende",
+    "den",
+    "Boten",
+    "meinen",
+    "vor",
+    "Angesicht",
+    "deinem",
+    "der",
+    "wird bereiten",
+    "den",
+    "Weg",
+    "deinen"
+   ]
+  },
+  "1.3": {
+   "text": "„Stimme eines Rufenden in der Wüste: Bereitet den Weg des Herrn, macht seine Pfade gerade!“",
+   "notes": [
+    {
+     "anchor": "Herrn",
+     "text": "Bei Jesaja steht hier der Gottesname JHWH. Markus bezieht das Wort offenbar auf Jesus."
+    },
+    {
+     "anchor": "Wüste",
+     "text": "Eine unbewohnte, karge Gegend, nicht unbedingt eine Sandwüste."
+    }
+   ],
+   "glosses": [
+    "Stimme",
+    "eines Rufenden",
+    "in",
+    "der",
+    "Wüste",
+    "bereitet",
+    "den",
+    "Weg",
+    "des Herrn",
+    "gerade",
+    "macht",
+    "die",
+    "Pfade",
+    "seine"
+   ]
+  },
+  "1.4": {
+   "text": "Johannes trat auf, der in der Wüste taufte und eine Taufe der Umkehr zur Vergebung der Sünden verkündete.",
+   "notes": [
+    {
+     "anchor": "der in der Wüste taufte",
+     "text": "Mit Artikel, wie in vielen Handschriften, kann man auch lesen: „Johannes der Täufer trat in der Wüste auf“."
+    },
+    {
+     "anchor": "Umkehr",
+     "text": "Griechisch metanoia: ein Umdenken, das das ganze Leben neu ausrichtet; oft mit „Buße“ übersetzt."
+    }
+   ],
+   "glosses": [
+    "trat auf",
+    "Johannes",
+    "der",
+    "taufend",
+    "in",
+    "der",
+    "Wüste",
+    "und",
+    "verkündend",
+    "eine Taufe",
+    "der Umkehr",
+    "zur",
+    "Vergebung",
+    "der Sünden"
+   ]
+  },
+  "1.5": {
+   "text": "Und das ganze Land Judäa und alle Leute aus Jerusalem zogen zu ihm hinaus und ließen sich von ihm im Jordanfluss taufen und bekannten ihre Sünden.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "zog hinaus",
+    "zu",
+    "ihm",
+    "ganze",
+    "das",
+    "judäische",
+    "Land",
+    "und",
+    "die",
+    "Jerusalemer",
+    "alle",
+    "und",
+    "sie ließen sich taufen",
+    "von",
+    "ihm",
+    "in",
+    "dem",
+    "Jordan",
+    "Fluss",
+    "bekennend",
+    "die",
+    "Sünden",
+    "ihre"
+   ]
+  },
+  "1.6": {
+   "text": "Und Johannes war in Kamelhaar gekleidet und [trug] einen ledernen Gürtel um seine Hüften, und er aß Heuschrecken und wilden Honig.",
+   "notes": [
+    {
+     "anchor": "Kamelhaar",
+     "text": "So war auch der Prophet Elia gekleidet (2. Könige 1,8). Markus zeichnet Johannes als den wiederkommenden Elia (vgl. 9,11–13)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "war",
+    "<der>",
+    "Johannes",
+    "bekleidet mit",
+    "Haaren",
+    "des Kamels",
+    "und",
+    "einem Gürtel",
+    "ledernen",
+    "um",
+    "die",
+    "Hüfte",
+    "seine",
+    "und",
+    "essend",
+    "Heuschrecken",
+    "und",
+    "Honig",
+    "wilden"
+   ]
+  },
+  "1.7": {
+   "text": "Und er verkündete: „Nach mir kommt der, der stärker ist als ich. Ich bin es nicht wert, mich zu bücken und den Riemen seiner Sandalen zu lösen.",
+   "notes": [
+    {
+     "anchor": "Sandalen zu lösen",
+     "text": "Das war die Arbeit eines Sklaven. Johannes stellt sich tief unter den, der nach ihm kommt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er verkündete",
+    "sagend",
+    "es kommt",
+    "der",
+    "Stärkere",
+    "als ich",
+    "nach",
+    "mir",
+    "dessen",
+    "nicht",
+    "ich bin",
+    "würdig",
+    "mich bückend",
+    "zu lösen",
+    "den",
+    "Riemen",
+    "der",
+    "Sandalen",
+    "seiner"
+   ]
+  },
+  "1.8": {
+   "text": "Ich habe euch mit Wasser getauft, er aber wird euch mit heiligem Geist taufen.“",
+   "notes": [
+    {
+     "anchor": "mit heiligem Geist",
+     "text": "Im Griechischen ohne Artikel. Gemeint ist Gottes eigener Geist, den die Propheten für die Endzeit angekündigt hatten (vgl. Joel 3,1)."
+    }
+   ],
+   "glosses": [
+    "ich",
+    "taufte",
+    "euch",
+    "mit Wasser",
+    "er",
+    "aber",
+    "wird taufen",
+    "euch",
+    "mit",
+    "Geist",
+    "heiligem"
+   ]
+  },
+  "1.9": {
+   "text": "Und es geschah in jenen Tagen: Jesus kam aus Nazaret in Galiläa und wurde von Johannes im Jordan getauft.",
+   "notes": [
+    {
+     "anchor": "im Jordan",
+     "text": "Wörtlich „in den Jordan hinein“; das deutet auf ein Untertauchen."
+    }
+   ],
+   "glosses": [
+    "und",
+    "es geschah",
+    "in",
+    "jenen",
+    "<den>",
+    "Tagen",
+    "kam",
+    "Jesus",
+    "von",
+    "Nazaret",
+    "<des>",
+    "Galiläas",
+    "und",
+    "er wurde getauft",
+    "in",
+    "den",
+    "Jordan",
+    "von",
+    "Johannes"
+   ]
+  },
+  "1.10": {
+   "text": "Und sofort, als er aus dem Wasser heraufstieg, sah er den Himmel aufreißen und den Geist wie eine Taube auf ihn herabkommen.",
+   "notes": [
+    {
+     "anchor": "sofort",
+     "text": "Griechisch euthys, ein Lieblingswort des Markus (über 40-mal). Es treibt die Erzählung voran und heißt oft einfach „gleich darauf“."
+    },
+    {
+     "anchor": "den Himmel aufreißen",
+     "text": "Wörtlich „die Himmel zerrissen werden“. Dasselbe Verb steht in 15,38 beim Vorhang des Tempels."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sofort",
+    "heraufsteigend",
+    "aus",
+    "dem",
+    "Wasser",
+    "er sah",
+    "zerrissen werdend",
+    "die",
+    "Himmel",
+    "und",
+    "den",
+    "Geist",
+    "wie",
+    "eine Taube",
+    "herabkommend",
+    "auf",
+    "ihn"
+   ]
+  },
+  "1.11": {
+   "text": "Und eine Stimme kam aus dem Himmel: „Du bist mein geliebter Sohn, an dir habe ich Gefallen gefunden.“",
+   "notes": [
+    {
+     "anchor": "Gefallen gefunden",
+     "text": "Anklang an Psalm 2,7 und Jesaja 42,1. Die Vergangenheitsform kann zeitlos gemeint sein: „an dir habe ich Freude“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "eine Stimme",
+    "kam",
+    "aus",
+    "den",
+    "Himmeln",
+    "du",
+    "bist",
+    "der",
+    "Sohn",
+    "mein",
+    "der",
+    "geliebte",
+    "an",
+    "dir",
+    "ich habe Gefallen gefunden"
+   ]
+  },
+  "1.12": {
+   "text": "Und sofort trieb ihn der Geist in die Wüste hinaus.",
+   "notes": [
+    {
+     "anchor": "trieb",
+     "text": "Im Griechischen Gegenwart („treibt“): Markus erzählt oft im Präsens, um eine Szene lebendig zu machen. Das Verb ist kräftig: „hinauswerfen“, „hinaustreiben“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sofort",
+    "der",
+    "Geist",
+    "ihn",
+    "treibt hinaus",
+    "in",
+    "die",
+    "Wüste"
+   ]
+  },
+  "1.13": {
+   "text": "Und er war vierzig Tage in der Wüste und wurde vom Satan versucht. Er war bei den wilden Tieren, und die Engel dienten ihm.",
+   "notes": [
+    {
+     "anchor": "vierzig Tage",
+     "text": "Erinnert an Mose (2. Mose 34,28), Elia (1. Könige 19,8) und Israels vierzig Jahre in der Wüste."
+    },
+    {
+     "anchor": "versucht",
+     "text": "Griechisch peirazō heißt „prüfen“, „auf die Probe stellen“ oder „zum Bösen verleiten“."
+    },
+    {
+     "anchor": "Satan",
+     "text": "Hebräisch „Widersacher“, „Ankläger“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er war",
+    "in",
+    "der",
+    "Wüste",
+    "vierzig",
+    "Tage",
+    "versucht werdend",
+    "von",
+    "<dem>",
+    "Satan",
+    "und",
+    "er war",
+    "bei",
+    "den",
+    "wilden Tieren",
+    "und",
+    "die",
+    "Engel",
+    "dienten",
+    "ihm"
+   ]
+  },
+  "1.14": {
+   "text": "Nachdem aber Johannes ausgeliefert worden war, kam Jesus nach Galiläa und verkündete das Evangelium Gottes",
+   "notes": [
+    {
+     "anchor": "ausgeliefert",
+     "text": "Griechisch paradidōmi, „ausliefern“, „übergeben“. Dasselbe Wort verwendet Markus später für Jesus (z. B. 9,31; 14,41)."
+    }
+   ],
+   "glosses": [
+    "nach",
+    "aber",
+    "dem",
+    "ausgeliefert werden",
+    "<den>",
+    "Johannes",
+    "kam",
+    "<der>",
+    "Jesus",
+    "nach",
+    "<das>",
+    "Galiläa",
+    "verkündend",
+    "das",
+    "Evangelium",
+    "<des>",
+    "Gottes"
+   ]
+  },
+  "1.15": {
+   "text": "und sagte: „Die Zeit ist erfüllt, und das Reich Gottes ist nahe gekommen. Kehrt um und glaubt an das Evangelium!“",
+   "notes": [
+    {
+     "anchor": "Zeit",
+     "text": "Griechisch kairos: der festgesetzte, entscheidende Zeitpunkt."
+    },
+    {
+     "anchor": "Reich Gottes",
+     "text": "Griechisch basileia, „Königsherrschaft“. Gemeint ist weniger ein Gebiet als Gottes Herrschaft, die sich durchsetzt."
+    },
+    {
+     "anchor": "ist nahe gekommen",
+     "text": "Das Perfekt kann „ist herbeigekommen, steht bevor“ oder „ist schon da“ meinen; die Auslegungen gehen auseinander."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sagend",
+    "<dass>",
+    "ist erfüllt",
+    "die",
+    "Zeit",
+    "und",
+    "ist nahe gekommen",
+    "das",
+    "Reich",
+    "<des>",
+    "Gottes",
+    "kehrt um",
+    "und",
+    "glaubt",
+    "an",
+    "das",
+    "Evangelium"
+   ]
+  },
+  "1.16": {
+   "text": "Und als er am See von Galiläa entlangging, sah er Simon und Andreas, den Bruder Simons, wie sie [ihre Netze] im See auswarfen; sie waren nämlich Fischer.",
+   "notes": [
+    {
+     "anchor": "See",
+     "text": "Griechisch thalassa, „Meer“. Gemeint ist der See Gennesaret."
+    }
+   ],
+   "glosses": [
+    "und",
+    "vorbeigehend",
+    "an",
+    "dem",
+    "See",
+    "<des>",
+    "Galiläas",
+    "er sah",
+    "Simon",
+    "und",
+    "Andreas",
+    "den",
+    "Bruder",
+    "Simons",
+    "das Netz auswerfend",
+    "in",
+    "dem",
+    "See",
+    "sie waren",
+    "nämlich",
+    "Fischer"
+   ]
+  },
+  "1.17": {
+   "text": "Und Jesus sagte zu ihnen: „Kommt, mir nach! Ich werde euch zu Menschenfischern machen.“",
+   "notes": [
+    {
+     "anchor": "Menschenfischern",
+     "text": "Wörtlich „Fischer von Menschen“. Das Bild knüpft an ihren Beruf an."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sagte",
+    "zu ihnen",
+    "<der>",
+    "Jesus",
+    "kommt",
+    "hinter",
+    "mir",
+    "und",
+    "ich werde machen",
+    "euch",
+    "zu werden",
+    "Fischer",
+    "von Menschen"
+   ]
+  },
+  "1.18": {
+   "text": "Und sofort ließen sie die Netze liegen und folgten ihm.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sofort",
+    "verlassend",
+    "die",
+    "Netze",
+    "sie folgten",
+    "ihm"
+   ]
+  },
+  "1.19": {
+   "text": "Und als er ein wenig weitergegangen war, sah er Jakobus, den [Sohn] des Zebedäus, und seinen Bruder Johannes, wie sie im Boot die Netze in Ordnung brachten.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "weitergehend",
+    "ein wenig",
+    "er sah",
+    "Jakobus",
+    "den",
+    "<des>",
+    "Zebedäus",
+    "und",
+    "Johannes",
+    "den",
+    "Bruder",
+    "seinen",
+    "und",
+    "sie",
+    "in",
+    "dem",
+    "Boot",
+    "in Ordnung bringend",
+    "die",
+    "Netze"
+   ]
+  },
+  "1.20": {
+   "text": "Und sofort rief er sie. Und sie ließen ihren Vater Zebedäus mit den Tagelöhnern im Boot zurück und gingen ihm nach.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sofort",
+    "er rief",
+    "sie",
+    "und",
+    "verlassend",
+    "den",
+    "Vater",
+    "ihren",
+    "Zebedäus",
+    "in",
+    "dem",
+    "Boot",
+    "mit",
+    "den",
+    "Tagelöhnern",
+    "sie gingen weg",
+    "hinter",
+    "ihm"
+   ]
+  },
+  "1.21": {
+   "text": "Und sie gehen nach Kafarnaum hinein. Und gleich am Sabbat ging er in die Synagoge und lehrte.",
+   "notes": [
+    {
+     "anchor": "Sabbat",
+     "text": "Der wöchentliche Ruhetag von Freitagabend bis Samstagabend. Die griechische Mehrzahl „an den Sabbaten“ meint hier einen einzelnen Sabbat."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sie gehen hinein",
+    "nach",
+    "Kafarnaum",
+    "und",
+    "sofort",
+    "an den",
+    "Sabbaten",
+    "hineingehend",
+    "in",
+    "die",
+    "Synagoge",
+    "er lehrte"
+   ]
+  },
+  "1.22": {
+   "text": "Und sie waren außer sich über seine Lehre, denn er lehrte sie wie einer, der Vollmacht hat, und nicht wie die Schriftgelehrten.",
+   "notes": [
+    {
+     "anchor": "Vollmacht",
+     "text": "Griechisch exousia: das Recht und die Macht, aus eigener Befugnis zu handeln."
+    },
+    {
+     "anchor": "Schriftgelehrten",
+     "text": "Fachleute für die Auslegung des jüdischen Gesetzes, oft zugleich Lehrer und Juristen."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sie gerieten außer sich",
+    "über",
+    "die",
+    "Lehre",
+    "seine",
+    "er war",
+    "denn",
+    "lehrend",
+    "sie",
+    "wie",
+    "Vollmacht",
+    "habend",
+    "und",
+    "nicht",
+    "wie",
+    "die",
+    "Schriftgelehrten"
+   ]
+  },
+  "1.23": {
+   "text": "Und sofort war in ihrer Synagoge ein Mensch mit einem unreinen Geist, und er schrie auf",
+   "notes": [
+    {
+     "anchor": "mit einem unreinen Geist",
+     "text": "Wörtlich „in einem unreinen Geist“: ganz in dessen Gewalt. „Unrein“ meint, was von Gott trennt und nicht vor ihn treten kann."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sofort",
+    "war",
+    "in",
+    "der",
+    "Synagoge",
+    "ihrer",
+    "ein Mensch",
+    "in",
+    "Geist",
+    "unreinem",
+    "und",
+    "er schrie auf"
+   ]
+  },
+  "1.24": {
+   "text": "und sagte: „Was haben wir mit dir zu tun, Jesus von Nazaret? Bist du gekommen, um uns zu vernichten? Ich weiß, wer du bist: der Heilige Gottes!“",
+   "notes": [
+    {
+     "anchor": "Was haben wir mit dir zu tun",
+     "text": "Wörtlich „Was [ist] uns und dir?“, eine Redewendung der Abwehr: „Lass uns in Ruhe!“"
+    }
+   ],
+   "glosses": [
+    "sagend",
+    "was",
+    "uns",
+    "und",
+    "dir",
+    "Jesus",
+    "Nazarener",
+    "bist du gekommen",
+    "zu vernichten",
+    "uns",
+    "ich kenne",
+    "dich",
+    "wer",
+    "du bist",
+    "der",
+    "Heilige",
+    "<des>",
+    "Gottes"
+   ]
+  },
+  "1.25": {
+   "text": "Und Jesus fuhr ihn an: „Verstumme und fahr aus ihm aus!“",
+   "notes": [
+    {
+     "anchor": "Verstumme",
+     "text": "Wörtlich „Lass dir das Maul verbinden!“, ein scharfes Wort."
+    }
+   ],
+   "glosses": [
+    "und",
+    "fuhr an",
+    "ihn",
+    "<der>",
+    "Jesus",
+    "sagend",
+    "verstumme",
+    "und",
+    "fahr aus",
+    "aus",
+    "ihm"
+   ]
+  },
+  "1.26": {
+   "text": "Und der unreine Geist riss ihn hin und her, schrie mit lauter Stimme und fuhr aus ihm aus.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "zerrend",
+    "ihn",
+    "der",
+    "Geist",
+    "der",
+    "unreine",
+    "und",
+    "schreiend",
+    "mit Stimme",
+    "lauter",
+    "er fuhr aus",
+    "aus",
+    "ihm"
+   ]
+  },
+  "1.27": {
+   "text": "Und alle erschraken, sodass sie sich untereinander fragten: „Was ist das? Eine neue Lehre mit Vollmacht! Sogar den unreinen Geistern gebietet er, und sie gehorchen ihm.“",
+   "notes": [
+    {
+     "anchor": "Eine neue Lehre mit Vollmacht",
+     "text": "Man kann auch verbinden: „Eine neue Lehre! Mit Vollmacht gebietet er sogar den unreinen Geistern.“"
+    }
+   ],
+   "glosses": [
+    "und",
+    "erschraken",
+    "alle",
+    "sodass",
+    "sich fragten",
+    "unter",
+    "sich selbst",
+    "sagend",
+    "was",
+    "ist",
+    "dies",
+    "eine Lehre",
+    "neue",
+    "mit",
+    "Vollmacht",
+    "auch",
+    "den",
+    "Geistern",
+    "<den>",
+    "unreinen",
+    "er gebietet",
+    "und",
+    "sie gehorchen",
+    "ihm"
+   ]
+  },
+  "1.28": {
+   "text": "Und die Kunde von ihm verbreitete sich sofort überall in der ganzen Umgebung von Galiläa.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "ging hinaus",
+    "die",
+    "Kunde",
+    "von ihm",
+    "sofort",
+    "überall",
+    "in",
+    "die ganze",
+    "<die>",
+    "Umgebung",
+    "<des>",
+    "Galiläas"
+   ]
+  },
+  "1.29": {
+   "text": "Und sofort verließen sie die Synagoge und gingen mit Jakobus und Johannes in das Haus von Simon und Andreas.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sofort",
+    "aus",
+    "der",
+    "Synagoge",
+    "hinausgehend",
+    "sie kamen",
+    "in",
+    "das",
+    "Haus",
+    "Simons",
+    "und",
+    "Andreas'",
+    "mit",
+    "Jakobus",
+    "und",
+    "Johannes"
+   ]
+  },
+  "1.30": {
+   "text": "Die Schwiegermutter Simons aber lag mit Fieber im Bett, und sofort erzählen sie ihm von ihr.",
+   "notes": [],
+   "glosses": [
+    "die",
+    "aber",
+    "Schwiegermutter",
+    "Simons",
+    "lag darnieder",
+    "fiebernd",
+    "und",
+    "sofort",
+    "sie sagen",
+    "ihm",
+    "über",
+    "sie"
+   ]
+  },
+  "1.31": {
+   "text": "Und er ging zu ihr, fasste sie bei der Hand und richtete sie auf. Und das Fieber verließ sie, und sie diente ihnen.",
+   "notes": [
+    {
+     "anchor": "richtete sie auf",
+     "text": "Griechisch egeirō, „aufrichten“, „aufwecken“; dasselbe Wort steht für die Auferweckung Jesu (16,6)."
+    },
+    {
+     "anchor": "diente",
+     "text": "Griechisch diakoneō, „dienen“, auch „bewirten“. Dasselbe Wort steht für die Engel in 1,13 und für Jesus selbst in 10,45."
+    }
+   ],
+   "glosses": [
+    "und",
+    "hinzutretend",
+    "er richtete auf",
+    "sie",
+    "ergreifend",
+    "die",
+    "Hand",
+    "und",
+    "verließ",
+    "sie",
+    "das",
+    "Fieber",
+    "und",
+    "sie diente",
+    "ihnen"
+   ]
+  },
+  "1.32": {
+   "text": "Als es aber Abend geworden und die Sonne untergegangen war, brachte man alle Kranken und Besessenen zu ihm.",
+   "notes": [
+    {
+     "anchor": "die Sonne untergegangen war",
+     "text": "Mit Sonnenuntergang endete der Sabbat; erst jetzt durfte man Kranke tragen."
+    }
+   ],
+   "glosses": [
+    "Abend",
+    "aber",
+    "geworden",
+    "als",
+    "ging unter",
+    "die",
+    "Sonne",
+    "sie brachten",
+    "zu",
+    "ihm",
+    "alle",
+    "die",
+    "schlecht",
+    "habenden",
+    "und",
+    "die",
+    "Besessenen"
+   ]
+  },
+  "1.33": {
+   "text": "Und die ganze Stadt war vor der Tür versammelt.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "war",
+    "ganze",
+    "die",
+    "Stadt",
+    "versammelt",
+    "an",
+    "der",
+    "Tür"
+   ]
+  },
+  "1.34": {
+   "text": "Und er heilte viele, die an verschiedenen Krankheiten litten, und trieb viele Dämonen aus. Und er ließ die Dämonen nicht reden, weil sie ihn kannten.",
+   "notes": [
+    {
+     "anchor": "ließ die Dämonen nicht reden",
+     "text": "Immer wieder verbietet Jesus, über ihn zu reden (1,44; 3,12; 8,30). Die Forschung spricht vom „Messiasgeheimnis“ bei Markus."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er heilte",
+    "viele",
+    "schlecht",
+    "habende",
+    "an verschiedenen",
+    "Krankheiten",
+    "und",
+    "Dämonen",
+    "viele",
+    "er trieb aus",
+    "und",
+    "nicht",
+    "er ließ",
+    "reden",
+    "die",
+    "Dämonen",
+    "weil",
+    "sie kannten",
+    "ihn"
+   ]
+  },
+  "1.35": {
+   "text": "Und früh am Morgen, als es noch ganz dunkel war, stand er auf, ging hinaus an einen einsamen Ort und betete dort.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "früh",
+    "in der Nacht",
+    "sehr",
+    "aufstehend",
+    "er ging hinaus",
+    "und",
+    "er ging weg",
+    "an",
+    "einsamen",
+    "Ort",
+    "und dort",
+    "er betete"
+   ]
+  },
+  "1.36": {
+   "text": "Und Simon und die, die bei ihm waren, eilten ihm nach",
+   "notes": [],
+   "glosses": [
+    "und",
+    "verfolgte",
+    "ihn",
+    "Simon",
+    "und",
+    "die",
+    "mit",
+    "ihm"
+   ]
+  },
+  "1.37": {
+   "text": "und fanden ihn und sagen zu ihm: „Alle suchen dich.“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sie fanden",
+    "ihn",
+    "und",
+    "sie sagen",
+    "ihm",
+    "<dass>",
+    "alle",
+    "suchen",
+    "dich"
+   ]
+  },
+  "1.38": {
+   "text": "Und er sagt zu ihnen: „Lasst uns anderswohin gehen, in die nächsten Marktflecken, damit ich auch dort verkünde. Denn dazu bin ich ausgegangen.“",
+   "notes": [
+    {
+     "anchor": "Marktflecken",
+     "text": "Griechisch kōmopolis: ein größeres Dorf, eine Kleinstadt."
+    },
+    {
+     "anchor": "dazu bin ich ausgegangen",
+     "text": "Gemeint ist zunächst „dazu bin ich aus [Kafarnaum] weggegangen“; manche hören darin auch „dazu bin ich [von Gott] gekommen“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihnen",
+    "lasst uns gehen",
+    "anderswohin",
+    "in",
+    "die",
+    "benachbarten",
+    "Marktflecken",
+    "damit",
+    "auch",
+    "dort",
+    "ich verkünde",
+    "zu",
+    "diesem",
+    "denn",
+    "ich bin ausgegangen"
+   ]
+  },
+  "1.39": {
+   "text": "Und er zog durch ganz Galiläa, verkündete in ihren Synagogen und trieb die Dämonen aus.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er kam",
+    "verkündend",
+    "in",
+    "die",
+    "Synagogen",
+    "ihre",
+    "in",
+    "ganz",
+    "<das>",
+    "Galiläa",
+    "und",
+    "die",
+    "Dämonen",
+    "austreibend"
+   ]
+  },
+  "1.40": {
+   "text": "Und es kommt ein Aussätziger zu ihm, bittet ihn, fällt auf die Knie und sagt zu ihm: „Wenn du willst, kannst du mich rein machen.“",
+   "notes": [
+    {
+     "anchor": "Aussätziger",
+     "text": "Griechisch lepros meint verschiedene Hautkrankheiten, nicht nur die heutige Lepra. Wer sie hatte, galt als unrein und musste abseits leben (3. Mose 13,45–46)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "kommt",
+    "zu",
+    "ihm",
+    "ein Aussätziger",
+    "bittend",
+    "ihn",
+    "und",
+    "kniend",
+    "und",
+    "sagend",
+    "ihm",
+    "<dass>",
+    "wenn",
+    "du willst",
+    "du kannst",
+    "mich",
+    "rein machen"
+   ]
+  },
+  "1.41": {
+   "text": "Und er hatte Mitleid, streckte seine Hand aus, berührte ihn und sagt zu ihm: „Ich will, sei rein!“",
+   "notes": [
+    {
+     "anchor": "hatte Mitleid",
+     "text": "Einige alte Handschriften lesen „er wurde zornig“. Viele Forscher halten das für ursprünglich, weil Schreiber es eher gemildert als eingefügt hätten."
+    },
+    {
+     "anchor": "berührte ihn",
+     "text": "Wer einen Aussätzigen berührte, wurde selbst unrein. Hier geht die Reinheit umgekehrt von Jesus aus."
+    }
+   ],
+   "glosses": [
+    "und",
+    "Mitleid habend",
+    "ausstreckend",
+    "die",
+    "Hand",
+    "seine",
+    "er berührte",
+    "und",
+    "sagt",
+    "ihm",
+    "ich will",
+    "werde rein"
+   ]
+  },
+  "1.42": {
+   "text": "Und sofort wich der Aussatz von ihm, und er wurde rein.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sofort",
+    "ging weg",
+    "von",
+    "ihm",
+    "der",
+    "Aussatz",
+    "und",
+    "er wurde rein"
+   ]
+  },
+  "1.43": {
+   "text": "Und er fuhr ihn heftig an und schickte ihn sofort fort",
+   "notes": [
+    {
+     "anchor": "fuhr ihn heftig an",
+     "text": "Griechisch embrimaomai, „anschnauben“, ein Ausdruck starker Erregung."
+    }
+   ],
+   "glosses": [
+    "und",
+    "anfahrend",
+    "ihn",
+    "sofort",
+    "er schickte fort",
+    "ihn"
+   ]
+  },
+  "1.44": {
+   "text": "und sagt zu ihm: „Sieh zu, dass du niemandem etwas sagst! Sondern geh, zeig dich dem Priester und bring für deine Reinigung dar, was Mose angeordnet hat, ihnen zum Zeugnis.“",
+   "notes": [
+    {
+     "anchor": "was Mose angeordnet hat",
+     "text": "Die Opfer nach 3. Mose 14. Der Priester musste die Heilung bestätigen."
+    },
+    {
+     "anchor": "ihnen zum Zeugnis",
+     "text": "Entweder „als Beweis für sie“ (dass er rein ist) oder „als Zeugnis gegen sie“; das Griechische lässt beides zu."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihm",
+    "sieh",
+    "niemandem",
+    "nichts",
+    "sag",
+    "sondern",
+    "geh",
+    "dich selbst",
+    "zeig",
+    "dem",
+    "Priester",
+    "und",
+    "bring dar",
+    "für",
+    "die",
+    "Reinigung",
+    "deine",
+    "was",
+    "anordnete",
+    "Mose",
+    "zum",
+    "Zeugnis",
+    "ihnen"
+   ]
+  },
+  "1.45": {
+   "text": "Der aber ging hinaus und fing an, es überall zu verkünden und die Sache bekannt zu machen, sodass Jesus nicht mehr offen in eine Stadt gehen konnte. Er blieb vielmehr draußen an einsamen Orten, und sie kamen von überall her zu ihm.",
+   "notes": [
+    {
+     "anchor": "die Sache",
+     "text": "Griechisch logos, „Wort“, hier „die Geschichte“, „die Sache“. Manche verstehen es als „das Wort“, die Botschaft."
+    }
+   ],
+   "glosses": [
+    "der",
+    "aber",
+    "hinausgehend",
+    "er fing an",
+    "zu verkünden",
+    "viel",
+    "und",
+    "bekannt zu machen",
+    "das",
+    "Wort",
+    "sodass",
+    "nicht mehr",
+    "er",
+    "konnte",
+    "offen",
+    "in",
+    "eine Stadt",
+    "hineingehen",
+    "sondern",
+    "draußen",
+    "an",
+    "einsamen",
+    "Orten",
+    "er war",
+    "und",
+    "sie kamen",
+    "zu",
+    "ihm",
+    "von überall"
+   ]
+  },
+  "2.1": {
+   "text": "Und als er nach einigen Tagen wieder nach Kafarnaum kam, wurde bekannt, dass er zu Hause war.",
+   "notes": [
+    {
+     "anchor": "zu Hause",
+     "text": "Wörtlich „im Haus“. Vermutlich ist das Haus des Simon gemeint (1,29)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "hineingehend",
+    "wieder",
+    "nach",
+    "Kafarnaum",
+    "nach",
+    "Tagen",
+    "es wurde gehört",
+    "dass",
+    "im",
+    "Haus",
+    "er ist"
+   ]
+  },
+  "2.2": {
+   "text": "Und es versammelten sich so viele, dass nicht einmal vor der Tür mehr Platz war. Und er sagte ihnen das Wort.",
+   "notes": [
+    {
+     "anchor": "das Wort",
+     "text": "Gemeint ist die Botschaft vom Reich Gottes (1,14–15)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "versammelten sich",
+    "viele",
+    "sodass",
+    "nicht mehr",
+    "Platz haben",
+    "nicht einmal",
+    "<die>",
+    "an",
+    "der",
+    "Tür",
+    "und",
+    "er redete",
+    "zu ihnen",
+    "das",
+    "Wort"
+   ]
+  },
+  "2.3": {
+   "text": "Und es kommen [Leute], die einen Gelähmten zu ihm bringen; vier Männer tragen ihn.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sie kommen",
+    "bringend",
+    "zu",
+    "ihm",
+    "einen Gelähmten",
+    "getragen werdend",
+    "von",
+    "vier"
+   ]
+  },
+  "2.4": {
+   "text": "Und weil sie ihn wegen der Menge nicht zu ihm bringen konnten, deckten sie das Dach über der Stelle ab, wo er war. Sie rissen es auf und lassen die Matte herab, auf der der Gelähmte lag.",
+   "notes": [
+    {
+     "anchor": "deckten sie das Dach über der Stelle ab",
+     "text": "Das Flachdach eines einfachen Hauses bestand aus Balken, Zweigen und festgestampftem Lehm und war über eine Außentreppe erreichbar."
+    },
+    {
+     "anchor": "Matte",
+     "text": "Griechisch krabattos: eine einfache Liege oder Matte, wie arme Leute sie benutzten."
+    }
+   ],
+   "glosses": [
+    "und",
+    "nicht",
+    "könnend",
+    "heranbringen",
+    "zu ihm",
+    "wegen",
+    "der",
+    "Menge",
+    "sie deckten ab",
+    "das",
+    "Dach",
+    "wo",
+    "er war",
+    "und",
+    "aufgrabend",
+    "sie lassen herab",
+    "die",
+    "Matte",
+    "wo",
+    "der",
+    "Gelähmte",
+    "lag"
+   ]
+  },
+  "2.5": {
+   "text": "Und als Jesus ihren Glauben sah, sagt er zu dem Gelähmten: „Kind, deine Sünden sind vergeben.“",
+   "notes": [
+    {
+     "anchor": "ihren Glauben",
+     "text": "Gemeint ist das Vertrauen der Träger, vielleicht auch des Gelähmten selbst."
+    },
+    {
+     "anchor": "sind vergeben",
+     "text": "Das Passiv lässt offen, wer vergibt; im jüdischen Sprachgebrauch umschreibt es oft Gottes Handeln."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sehend",
+    "<der>",
+    "Jesus",
+    "den",
+    "Glauben",
+    "ihren",
+    "er sagt",
+    "dem",
+    "Gelähmten",
+    "Kind",
+    "sind vergeben",
+    "deine",
+    "die",
+    "Sünden"
+   ]
+  },
+  "2.6": {
+   "text": "Es saßen dort aber einige von den Schriftgelehrten und überlegten in ihren Herzen:",
+   "notes": [],
+   "glosses": [
+    "es waren",
+    "aber",
+    "einige",
+    "von den",
+    "Schriftgelehrten",
+    "dort",
+    "sitzend",
+    "und",
+    "überlegend",
+    "in",
+    "den",
+    "Herzen",
+    "ihren"
+   ]
+  },
+  "2.7": {
+   "text": "„Was redet der so? Er lästert Gott! Wer kann Sünden vergeben außer Gott allein?“",
+   "notes": [
+    {
+     "anchor": "Er lästert Gott",
+     "text": "Gotteslästerung hieß hier: sich anmaßen, was nur Gott zusteht."
+    },
+    {
+     "anchor": "außer Gott allein",
+     "text": "Wörtlich „wenn nicht einer, Gott“. Anklang an das Glaubensbekenntnis Israels: „Der Herr ist einer“ (5. Mose 6,4)."
+    }
+   ],
+   "glosses": [
+    "warum",
+    "dieser",
+    "so",
+    "redet",
+    "er lästert",
+    "wer",
+    "kann",
+    "vergeben",
+    "Sünden",
+    "wenn",
+    "nicht",
+    "einer",
+    "<der>",
+    "Gott"
+   ]
+  },
+  "2.8": {
+   "text": "Und sofort erkannte Jesus in seinem Geist, dass sie so bei sich überlegten, und sagt zu ihnen: „Warum überlegt ihr das in euren Herzen?",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sofort",
+    "erkennend",
+    "<der>",
+    "Jesus",
+    "im",
+    "Geist",
+    "seinem",
+    "dass",
+    "so",
+    "sie überlegen",
+    "in",
+    "sich selbst",
+    "er sagt",
+    "ihnen",
+    "warum",
+    "dies",
+    "überlegt ihr",
+    "in",
+    "den",
+    "Herzen",
+    "euren"
+   ]
+  },
+  "2.9": {
+   "text": "Was ist leichter: zu dem Gelähmten zu sagen: ‚Deine Sünden sind vergeben‘, oder zu sagen: ‚Steh auf, nimm deine Matte und geh umher‘?",
+   "notes": [],
+   "glosses": [
+    "was",
+    "ist",
+    "leichter",
+    "zu sagen",
+    "dem",
+    "Gelähmten",
+    "sind vergeben",
+    "deine",
+    "die",
+    "Sünden",
+    "oder",
+    "zu sagen",
+    "steh auf",
+    "und",
+    "nimm",
+    "die",
+    "Matte",
+    "deine",
+    "und",
+    "geh umher"
+   ]
+  },
+  "2.10": {
+   "text": "Damit ihr aber wisst, dass der Menschensohn Vollmacht hat, auf der Erde Sünden zu vergeben“ – sagt er zu dem Gelähmten:",
+   "notes": [
+    {
+     "anchor": "Menschensohn",
+     "text": "Wörtlich „der Sohn des Menschen“. Jesus bezeichnet sich bei Markus mit diesem Ausdruck; er kann einfach „ein Mensch“ meinen, erinnert aber auch an die himmlische Gestalt in Daniel 7,13–14."
+    }
+   ],
+   "glosses": [
+    "damit",
+    "aber",
+    "ihr wisst",
+    "dass",
+    "Vollmacht",
+    "hat",
+    "der",
+    "Sohn",
+    "<des>",
+    "Menschen",
+    "zu vergeben",
+    "Sünden",
+    "auf",
+    "der",
+    "Erde",
+    "er sagt",
+    "dem",
+    "Gelähmten"
+   ]
+  },
+  "2.11": {
+   "text": "„Dir sage ich: Steh auf, nimm deine Matte und geh nach Hause!“",
+   "notes": [],
+   "glosses": [
+    "dir",
+    "ich sage",
+    "steh auf",
+    "nimm",
+    "die",
+    "Matte",
+    "deine",
+    "und",
+    "geh",
+    "in",
+    "das",
+    "Haus",
+    "dein"
+   ]
+  },
+  "2.12": {
+   "text": "Und er stand auf, nahm sofort die Matte und ging vor aller Augen hinaus, sodass alle außer sich gerieten, Gott priesen und sagten: „So etwas haben wir noch nie gesehen!“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er stand auf",
+    "und",
+    "sofort",
+    "aufnehmend",
+    "die",
+    "Matte",
+    "er ging hinaus",
+    "vor",
+    "allen",
+    "sodass",
+    "außer sich gerieten",
+    "alle",
+    "und",
+    "priesen",
+    "<den>",
+    "Gott",
+    "sagend",
+    "<dass>",
+    "so",
+    "niemals",
+    "sahen wir"
+   ]
+  },
+  "2.13": {
+   "text": "Und er ging wieder hinaus an den See, und die ganze Menge kam zu ihm, und er lehrte sie.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er ging hinaus",
+    "wieder",
+    "an",
+    "den",
+    "See",
+    "und",
+    "ganze",
+    "die",
+    "Menge",
+    "kam",
+    "zu",
+    "ihm",
+    "und",
+    "er lehrte",
+    "sie"
+   ]
+  },
+  "2.14": {
+   "text": "Und als er vorüberging, sah er Levi, den [Sohn] des Alphäus, an der Zollstelle sitzen und sagt zu ihm: „Folge mir!“ Und er stand auf und folgte ihm.",
+   "notes": [
+    {
+     "anchor": "Zollstelle",
+     "text": "Hier wurden Abgaben auf Waren erhoben, die die Grenze oder die Straße passierten. Zöllner arbeiteten auf eigene Rechnung für die Herrschenden und galten als Betrüger und Kollaborateure."
+    }
+   ],
+   "glosses": [
+    "und",
+    "vorübergehend",
+    "er sah",
+    "Levi",
+    "den",
+    "<des>",
+    "Alphäus",
+    "sitzend",
+    "an",
+    "der",
+    "Zollstelle",
+    "und",
+    "er sagt",
+    "ihm",
+    "folge",
+    "mir",
+    "und",
+    "aufstehend",
+    "er folgte",
+    "ihm"
+   ]
+  },
+  "2.15": {
+   "text": "Und es geschieht, dass er in seinem Haus zu Tisch liegt, und viele Zöllner und Sünder lagen mit Jesus und seinen Jüngern zu Tisch; denn es waren viele, und sie folgten ihm.",
+   "notes": [
+    {
+     "anchor": "in seinem Haus",
+     "text": "Gemeint ist wohl das Haus des Levi; das Griechische lässt auch das Haus Jesu zu."
+    },
+    {
+     "anchor": "zu Tisch liegt",
+     "text": "Bei festlichen Mahlzeiten lag man auf Polstern um einen niedrigen Tisch."
+    },
+    {
+     "anchor": "Sünder",
+     "text": "Menschen, die das Gesetz offen nicht hielten oder wegen ihres Berufs als unrein galten."
+    },
+    {
+     "anchor": "sie folgten ihm",
+     "text": "Unklar ist, ob die Jünger gemeint sind oder die Zöllner und Sünder."
+    }
+   ],
+   "glosses": [
+    "und",
+    "es geschieht",
+    "zu Tisch liegen",
+    "ihn",
+    "in",
+    "dem",
+    "Haus",
+    "seinem",
+    "und",
+    "viele",
+    "Zöllner",
+    "und",
+    "Sünder",
+    "lagen mit zu Tisch",
+    "<dem>",
+    "Jesus",
+    "und",
+    "den",
+    "Jüngern",
+    "seinen",
+    "es waren",
+    "denn",
+    "viele",
+    "und",
+    "sie folgten",
+    "ihm"
+   ]
+  },
+  "2.16": {
+   "text": "Und als die Schriftgelehrten der Pharisäer sahen, dass er mit den Sündern und Zöllnern aß, sagten sie zu seinen Jüngern: „Mit den Zöllnern und Sündern isst er?“",
+   "notes": [
+    {
+     "anchor": "Pharisäer",
+     "text": "Eine Bewegung frommer Laien, die das Gesetz bis in den Alltag genau halten wollten, besonders die Regeln über Reinheit, Zehnten und Sabbat."
+    },
+    {
+     "anchor": "isst er",
+     "text": "Man kann auch als Aussage lesen: „Er isst mit den Zöllnern und Sündern!“ oder als Frage „Warum isst er …?“"
+    }
+   ],
+   "glosses": [
+    "und",
+    "die",
+    "Schriftgelehrten",
+    "der",
+    "Pharisäer",
+    "sehend",
+    "dass",
+    "er isst",
+    "mit",
+    "den",
+    "Sündern",
+    "und",
+    "Zöllnern",
+    "sie sagten",
+    "den",
+    "Jüngern",
+    "seinen",
+    "<dass>",
+    "mit",
+    "den",
+    "Zöllnern",
+    "und",
+    "Sündern",
+    "er isst"
+   ]
+  },
+  "2.17": {
+   "text": "Und als Jesus das hörte, sagt er zu ihnen: „Nicht die Starken brauchen einen Arzt, sondern die Kranken. Ich bin nicht gekommen, Gerechte zu rufen, sondern Sünder.“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "hörend",
+    "<der>",
+    "Jesus",
+    "er sagt",
+    "ihnen",
+    "<dass>",
+    "nicht",
+    "Bedarf",
+    "haben",
+    "die",
+    "Starken",
+    "an einem Arzt",
+    "sondern",
+    "die",
+    "schlecht",
+    "habenden",
+    "nicht",
+    "ich kam",
+    "zu rufen",
+    "Gerechte",
+    "sondern",
+    "Sünder"
+   ]
+  },
+  "2.18": {
+   "text": "Und die Jünger des Johannes und die Pharisäer pflegten zu fasten. Und sie kommen und sagen zu ihm: „Warum fasten die Jünger des Johannes und die Jünger der Pharisäer, deine Jünger aber fasten nicht?“",
+   "notes": [
+    {
+     "anchor": "pflegten zu fasten",
+     "text": "Das Griechische kann auch heißen „fasteten gerade“. Fromme Juden fasteten oft zweimal in der Woche."
+    }
+   ],
+   "glosses": [
+    "und",
+    "waren",
+    "die",
+    "Jünger",
+    "des Johannes",
+    "und",
+    "die",
+    "Pharisäer",
+    "fastend",
+    "und",
+    "sie kommen",
+    "und",
+    "sie sagen",
+    "ihm",
+    "wegen",
+    "was",
+    "die",
+    "Jünger",
+    "des Johannes",
+    "und",
+    "die",
+    "Jünger",
+    "der",
+    "Pharisäer",
+    "fasten",
+    "die",
+    "aber",
+    "deinen",
+    "Jünger",
+    "nicht",
+    "fasten"
+   ]
+  },
+  "2.19": {
+   "text": "Und Jesus sagte zu ihnen: „Können denn die Hochzeitsgäste fasten, während der Bräutigam bei ihnen ist? Solange sie den Bräutigam bei sich haben, können sie nicht fasten.",
+   "notes": [
+    {
+     "anchor": "Hochzeitsgäste",
+     "text": "Wörtlich „die Söhne des Brautgemachs“: die engsten Freunde des Bräutigams."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sagte",
+    "ihnen",
+    "<der>",
+    "Jesus",
+    "etwa",
+    "können",
+    "die",
+    "Söhne",
+    "des",
+    "Brautgemachs",
+    "in",
+    "dem",
+    "der",
+    "Bräutigam",
+    "bei",
+    "ihnen",
+    "ist",
+    "fasten",
+    "so lange",
+    "Zeit",
+    "sie haben",
+    "den",
+    "Bräutigam",
+    "bei",
+    "ihnen",
+    "nicht",
+    "sie können",
+    "fasten"
+   ]
+  },
+  "2.20": {
+   "text": "Es werden aber Tage kommen, da wird ihnen der Bräutigam weggenommen sein, und dann werden sie fasten, an jenem Tag.",
+   "notes": [
+    {
+     "anchor": "weggenommen",
+     "text": "Erster versteckter Hinweis bei Markus auf den gewaltsamen Tod Jesu."
+    }
+   ],
+   "glosses": [
+    "es werden kommen",
+    "aber",
+    "Tage",
+    "wenn",
+    "weggenommen ist",
+    "von",
+    "ihnen",
+    "der",
+    "Bräutigam",
+    "und",
+    "dann",
+    "sie werden fasten",
+    "an",
+    "jenem",
+    "<dem>",
+    "Tag"
+   ]
+  },
+  "2.21": {
+   "text": "Niemand näht einen Flicken aus ungewalktem Tuch auf ein altes Kleid. Sonst reißt der Flicken davon ab, das Neue vom Alten, und der Riss wird schlimmer.",
+   "notes": [
+    {
+     "anchor": "ungewalktem",
+     "text": "Neuer Wollstoff, der noch nicht durch Walken verdichtet ist und beim ersten Waschen einläuft."
+    }
+   ],
+   "glosses": [
+    "niemand",
+    "einen Flicken",
+    "von Tuch",
+    "ungewalktem",
+    "näht auf",
+    "auf",
+    "ein Kleid",
+    "altes",
+    "wenn",
+    "aber",
+    "nicht",
+    "reißt ab",
+    "das",
+    "Füllstück",
+    "von",
+    "ihm",
+    "das",
+    "neue",
+    "vom",
+    "alten",
+    "und",
+    "schlimmer",
+    "ein Riss",
+    "wird"
+   ]
+  },
+  "2.22": {
+   "text": "Und niemand füllt jungen Wein in alte Schläuche. Sonst sprengt der Wein die Schläuche, und der Wein ist verloren und die Schläuche auch. Sondern: jungen Wein in neue Schläuche!“",
+   "notes": [
+    {
+     "anchor": "Schläuche",
+     "text": "Weinschläuche aus Tierhaut. Alte Schläuche sind spröde und reißen, wenn junger Wein gärt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "niemand",
+    "füllt",
+    "Wein",
+    "jungen",
+    "in",
+    "Schläuche",
+    "alte",
+    "wenn",
+    "aber",
+    "nicht",
+    "wird sprengen",
+    "der",
+    "Wein",
+    "die",
+    "Schläuche",
+    "und",
+    "der",
+    "Wein",
+    "geht verloren",
+    "und",
+    "die",
+    "Schläuche",
+    "sondern",
+    "Wein",
+    "jungen",
+    "in",
+    "Schläuche",
+    "neue"
+   ]
+  },
+  "2.23": {
+   "text": "Und es geschah, dass er am Sabbat durch die Kornfelder ging, und seine Jünger fingen an, im Gehen die Ähren abzurupfen.",
+   "notes": [
+    {
+     "anchor": "im Gehen",
+     "text": "Wörtlich „einen Weg zu machen, rupfend“. Das Abrupfen fremder Ähren war erlaubt (5. Mose 23,26), aber am Sabbat galt es als verbotene Erntearbeit."
+    }
+   ],
+   "glosses": [
+    "und",
+    "es geschah",
+    "er",
+    "an",
+    "den",
+    "Sabbaten",
+    "hindurchgehen",
+    "durch",
+    "die",
+    "Kornfelder",
+    "und",
+    "die",
+    "Jünger",
+    "seine",
+    "fingen an",
+    "einen Weg",
+    "zu machen",
+    "rupfend",
+    "die",
+    "Ähren"
+   ]
+  },
+  "2.24": {
+   "text": "Und die Pharisäer sagten zu ihm: „Sieh doch, warum tun sie am Sabbat, was nicht erlaubt ist?“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "die",
+    "Pharisäer",
+    "sagten",
+    "ihm",
+    "sieh",
+    "warum",
+    "tun sie",
+    "an den",
+    "Sabbaten",
+    "was",
+    "nicht",
+    "ist erlaubt"
+   ]
+  },
+  "2.25": {
+   "text": "Und er sagt zu ihnen: „Habt ihr nie gelesen, was David tat, als er in Not war und Hunger hatte, er und seine Begleiter?",
+   "notes": [
+    {
+     "anchor": "was David tat",
+     "text": "Die Geschichte steht in 1. Samuel 21,1–7."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihnen",
+    "niemals",
+    "habt ihr gelesen",
+    "was",
+    "tat",
+    "David",
+    "als",
+    "Bedarf",
+    "er hatte",
+    "und",
+    "er hungerte",
+    "er selbst",
+    "und",
+    "die",
+    "mit",
+    "ihm"
+   ]
+  },
+  "2.26": {
+   "text": "Wie er in das Haus Gottes ging, zur Zeit des Hohenpriesters Abjatar, und die Schaubrote aß, die niemand essen darf außer den Priestern, und auch seinen Begleitern davon gab?“",
+   "notes": [
+    {
+     "anchor": "Abjatar",
+     "text": "Nach 1. Samuel 21 war Ahimelech, der Vater Abjatars, damals Priester. Matthäus und Lukas lassen den Namen weg; „zur Zeit des Abjatar“ kann auch den Abschnitt der Schrift meinen, der nach ihm benannt war."
+    },
+    {
+     "anchor": "Schaubrote",
+     "text": "Wörtlich „Brote der Darlegung“: zwölf Brote, die im Heiligtum vor Gott lagen und nur von Priestern gegessen werden durften (3. Mose 24,5–9)."
+    }
+   ],
+   "glosses": [
+    "wie",
+    "er ging hinein",
+    "in",
+    "das",
+    "Haus",
+    "<des>",
+    "Gottes",
+    "zur Zeit",
+    "Abjatars",
+    "des Hohenpriesters",
+    "und",
+    "die",
+    "Brote",
+    "der",
+    "Darlegung",
+    "er aß",
+    "welche",
+    "nicht",
+    "es ist erlaubt",
+    "zu essen",
+    "wenn",
+    "nicht",
+    "den",
+    "Priestern",
+    "und",
+    "er gab",
+    "auch",
+    "den",
+    "mit",
+    "ihm",
+    "seienden"
+   ]
+  },
+  "2.27": {
+   "text": "Und er sagte zu ihnen: „Der Sabbat ist um des Menschen willen da und nicht der Mensch um des Sabbats willen.",
+   "notes": [
+    {
+     "anchor": "ist um des Menschen willen da",
+     "text": "Wörtlich „wurde wegen des Menschen“: Gott hat den Sabbat für den Menschen geschaffen."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagte",
+    "ihnen",
+    "der",
+    "Sabbat",
+    "wegen",
+    "des",
+    "Menschen",
+    "wurde",
+    "und",
+    "nicht",
+    "der",
+    "Mensch",
+    "wegen",
+    "des",
+    "Sabbats"
+   ]
+  },
+  "2.28": {
+   "text": "Also ist der Menschensohn Herr auch über den Sabbat.“",
+   "notes": [
+    {
+     "anchor": "Menschensohn",
+     "text": "Weil es um den Menschen geht (V. 27), kann man hier auch „der Mensch“ hören; im Zusammenhang des Markus ist aber Jesus gemeint."
+    }
+   ],
+   "glosses": [
+    "also",
+    "Herr",
+    "ist",
+    "der",
+    "Sohn",
+    "<des>",
+    "Menschen",
+    "auch",
+    "des",
+    "Sabbats"
+   ]
+  },
+  "3.1": {
+   "text": "Und er ging wieder in die Synagoge. Und dort war ein Mensch, der eine verdorrte Hand hatte.",
+   "notes": [
+    {
+     "anchor": "verdorrte",
+     "text": "Wörtlich „ausgetrocknet“: eine gelähmte oder verkümmerte Hand."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er ging hinein",
+    "wieder",
+    "in",
+    "die",
+    "Synagoge",
+    "und",
+    "es war",
+    "dort",
+    "ein Mensch",
+    "verdorrt",
+    "habend",
+    "die",
+    "Hand"
+   ]
+  },
+  "3.2": {
+   "text": "Und sie lauerten ihm auf, ob er ihn am Sabbat heilen würde, damit sie ihn anklagen könnten.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "sie lauerten auf",
+    "ihm",
+    "ob",
+    "an den",
+    "Sabbaten",
+    "er wird heilen",
+    "ihn",
+    "damit",
+    "sie anklagen",
+    "ihn"
+   ]
+  },
+  "3.3": {
+   "text": "Und er sagt zu dem Menschen mit der verdorrten Hand: „Steh auf [und tritt] in die Mitte!“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagt",
+    "dem",
+    "Menschen",
+    "dem",
+    "die",
+    "verdorrte",
+    "Hand",
+    "habenden",
+    "steh auf",
+    "in",
+    "die",
+    "Mitte"
+   ]
+  },
+  "3.4": {
+   "text": "Und er sagt zu ihnen: „Ist es erlaubt, am Sabbat Gutes zu tun oder Böses, ein Leben zu retten oder zu töten?“ Sie aber schwiegen.",
+   "notes": [
+    {
+     "anchor": "ein Leben",
+     "text": "Griechisch psychē: Leben, Seele, der ganze lebendige Mensch."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihnen",
+    "ist es erlaubt",
+    "an den",
+    "Sabbaten",
+    "Gutes",
+    "zu tun",
+    "oder",
+    "Böses zu tun",
+    "Leben",
+    "zu retten",
+    "oder",
+    "zu töten",
+    "die",
+    "aber",
+    "sie schwiegen"
+   ]
+  },
+  "3.5": {
+   "text": "Und er sah sie ringsum voll Zorn an, betrübt über die Verhärtung ihres Herzens, und sagt zu dem Menschen: „Streck die Hand aus!“ Und er streckte [sie] aus, und seine Hand wurde wiederhergestellt.",
+   "notes": [
+    {
+     "anchor": "Verhärtung ihres Herzens",
+     "text": "Das Herz ist in der Bibel der Ort des Denkens und Wollens. Gemeint ist eine Unfähigkeit oder Weigerung, zu verstehen."
+    }
+   ],
+   "glosses": [
+    "und",
+    "ringsum anblickend",
+    "sie",
+    "mit",
+    "Zorn",
+    "betrübt",
+    "über",
+    "die",
+    "Verhärtung",
+    "des",
+    "Herzens",
+    "ihres",
+    "er sagt",
+    "dem",
+    "Menschen",
+    "streck aus",
+    "die",
+    "Hand",
+    "und",
+    "er streckte aus",
+    "und",
+    "wurde wiederhergestellt",
+    "die",
+    "Hand",
+    "seine"
+   ]
+  },
+  "3.6": {
+   "text": "Und die Pharisäer gingen hinaus und berieten sofort mit den Herodianern gegen ihn, wie sie ihn umbringen könnten.",
+   "notes": [
+    {
+     "anchor": "Herodianern",
+     "text": "Anhänger oder Gefolgsleute des Herodes Antipas, des Landesherrn von Galiläa."
+    }
+   ],
+   "glosses": [
+    "und",
+    "hinausgehend",
+    "die",
+    "Pharisäer",
+    "sofort",
+    "mit",
+    "den",
+    "Herodianern",
+    "einen Beschluss",
+    "sie fassten",
+    "gegen",
+    "ihn",
+    "wie",
+    "ihn",
+    "sie vernichten könnten"
+   ]
+  },
+  "3.7": {
+   "text": "Und Jesus zog sich mit seinen Jüngern an den See zurück. Und eine große Menge aus Galiläa folgte [ihm], auch aus Judäa",
+   "notes": [],
+   "glosses": [
+    "und",
+    "<der>",
+    "Jesus",
+    "mit",
+    "den",
+    "Jüngern",
+    "seinen",
+    "zog sich zurück",
+    "an",
+    "den",
+    "See",
+    "und",
+    "große",
+    "Menge",
+    "aus",
+    "<dem>",
+    "Galiläa",
+    "folgte",
+    "und",
+    "aus",
+    "<dem>",
+    "Judäa"
+   ]
+  },
+  "3.8": {
+   "text": "und aus Jerusalem und aus Idumäa und von jenseits des Jordan und aus der Gegend um Tyrus und Sidon. Eine große Menge, die gehört hatte, was er alles tat, kam zu ihm.",
+   "notes": [
+    {
+     "anchor": "Idumäa",
+     "text": "Gebiet südlich von Judäa. Tyrus und Sidon sind Hafenstädte im heutigen Libanon. Die Menschen kommen also aus allen Richtungen, auch aus nichtjüdischem Gebiet."
+    }
+   ],
+   "glosses": [
+    "und",
+    "aus",
+    "Jerusalem",
+    "und",
+    "aus",
+    "<dem>",
+    "Idumäa",
+    "und",
+    "jenseits",
+    "des",
+    "Jordan",
+    "und",
+    "um",
+    "Tyrus",
+    "und",
+    "Sidon",
+    "Menge",
+    "große",
+    "hörend",
+    "wie viel",
+    "er tat",
+    "sie kamen",
+    "zu",
+    "ihm"
+   ]
+  },
+  "3.9": {
+   "text": "Und er sagte zu seinen Jüngern, ein Boot solle für ihn bereitliegen wegen der Menge, damit sie ihn nicht erdrückten.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagte",
+    "den",
+    "Jüngern",
+    "seinen",
+    "dass",
+    "ein Boot",
+    "bereitstehe",
+    "ihm",
+    "wegen",
+    "der",
+    "Menge",
+    "damit",
+    "nicht",
+    "sie bedrängen",
+    "ihn"
+   ]
+  },
+  "3.10": {
+   "text": "Denn er hatte viele geheilt, sodass alle, die Leiden hatten, sich auf ihn stürzten, um ihn zu berühren.",
+   "notes": [
+    {
+     "anchor": "Leiden",
+     "text": "Wörtlich „Geißeln“, „Plagen“: Krankheiten als quälende Schläge."
+    }
+   ],
+   "glosses": [
+    "viele",
+    "denn",
+    "er heilte",
+    "sodass",
+    "herfallen",
+    "über ihn",
+    "damit",
+    "ihn",
+    "sie berühren",
+    "so viele",
+    "hatten",
+    "Plagen"
+   ]
+  },
+  "3.11": {
+   "text": "Und wenn die unreinen Geister ihn sahen, fielen sie vor ihm nieder und schrien: „Du bist der Sohn Gottes!“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "die",
+    "Geister",
+    "die",
+    "unreinen",
+    "wann immer",
+    "ihn",
+    "sie sahen",
+    "sie fielen nieder",
+    "vor ihm",
+    "und",
+    "sie schrien",
+    "sagend",
+    "<dass>",
+    "du",
+    "bist",
+    "der",
+    "Sohn",
+    "<des>",
+    "Gottes"
+   ]
+  },
+  "3.12": {
+   "text": "Und er fuhr sie scharf an, ihn nicht bekannt zu machen.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "viel",
+    "er fuhr an",
+    "sie",
+    "damit",
+    "nicht",
+    "ihn",
+    "bekannt",
+    "sie machten"
+   ]
+  },
+  "3.13": {
+   "text": "Und er steigt auf den Berg und ruft zu sich, die er selbst wollte, und sie kamen zu ihm.",
+   "notes": [
+    {
+     "anchor": "den Berg",
+     "text": "Gemeint ist das Bergland am See. Auf einem Berg empfing auch Mose den Bund (2. Mose 19); manche hören hier diesen Anklang."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er steigt hinauf",
+    "auf",
+    "den",
+    "Berg",
+    "und",
+    "er ruft herbei",
+    "die",
+    "er wollte",
+    "er selbst",
+    "und",
+    "sie gingen",
+    "zu",
+    "ihm"
+   ]
+  },
+  "3.14": {
+   "text": "Und er setzte zwölf ein, die er auch Apostel nannte, damit sie bei ihm seien und damit er sie aussende zu verkünden",
+   "notes": [
+    {
+     "anchor": "zwölf",
+     "text": "Die Zahl erinnert an die zwölf Stämme Israels: Jesus sammelt das Gottesvolk neu."
+    },
+    {
+     "anchor": "die er auch Apostel nannte",
+     "text": "Diese Worte fehlen in einem Teil der Handschriften; vielleicht stammen sie aus Lukas 6,13. „Apostel“ heißt „Gesandter“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er machte",
+    "zwölf",
+    "die",
+    "auch",
+    "Apostel",
+    "er nannte",
+    "damit",
+    "sie seien",
+    "mit",
+    "ihm",
+    "und",
+    "damit",
+    "er sende",
+    "sie",
+    "zu verkünden"
+   ]
+  },
+  "3.15": {
+   "text": "und Vollmacht zu haben, die Dämonen auszutreiben.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "zu haben",
+    "Vollmacht",
+    "auszutreiben",
+    "die",
+    "Dämonen"
+   ]
+  },
+  "3.16": {
+   "text": "Und er setzte die Zwölf ein: Und er gab dem Simon den Beinamen Petrus,",
+   "notes": [
+    {
+     "anchor": "Petrus",
+     "text": "Griechisch „Fels“, „Stein“, wie das aramäische Kefas."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er machte",
+    "die",
+    "Zwölf",
+    "und",
+    "er legte auf",
+    "einen Namen",
+    "<dem>",
+    "Simon",
+    "Petrus"
+   ]
+  },
+  "3.17": {
+   "text": "und Jakobus, den [Sohn] des Zebedäus, und Johannes, den Bruder des Jakobus – und er gab ihnen den Beinamen Boanerges, das heißt Donnersöhne –,",
+   "notes": [
+    {
+     "anchor": "Boanerges",
+     "text": "Wohl aus dem Aramäischen. Der Sinn ist nicht sicher; vielleicht deutet der Name auf ein stürmisches Wesen (vgl. Lukas 9,54)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "Jakobus",
+    "den",
+    "<des>",
+    "Zebedäus",
+    "und",
+    "Johannes",
+    "den",
+    "Bruder",
+    "<des>",
+    "Jakobus",
+    "und",
+    "er legte auf",
+    "ihnen",
+    "Namen",
+    "Boanerges",
+    "was",
+    "ist",
+    "Söhne",
+    "des Donners"
+   ]
+  },
+  "3.18": {
+   "text": "und Andreas und Philippus und Bartholomäus und Matthäus und Thomas und Jakobus, den [Sohn] des Alphäus, und Thaddäus und Simon den Kananäer",
+   "notes": [
+    {
+     "anchor": "Kananäer",
+     "text": "Vom aramäischen Wort für „Eiferer“. Lukas übersetzt es mit „Zelot“ (Lukas 6,15): ein Eiferer für Gottes Gesetz, vielleicht auch ein Widerständler gegen Rom."
+    }
+   ],
+   "glosses": [
+    "und",
+    "Andreas",
+    "und",
+    "Philippus",
+    "und",
+    "Bartholomäus",
+    "und",
+    "Matthäus",
+    "und",
+    "Thomas",
+    "und",
+    "Jakobus",
+    "den",
+    "<des>",
+    "Alphäus",
+    "und",
+    "Thaddäus",
+    "und",
+    "Simon",
+    "den",
+    "Kananäer"
+   ]
+  },
+  "3.19": {
+   "text": "und Judas Iskariot, der ihn dann auch auslieferte.",
+   "notes": [
+    {
+     "anchor": "Iskariot",
+     "text": "Die Bedeutung ist umstritten: „Mann aus Kerijot“ (einem Ort in Judäa) ist die häufigste Deutung."
+    },
+    {
+     "anchor": "auslieferte",
+     "text": "Dasselbe Wort wie in 1,14 bei Johannes: „ausliefern“, „übergeben“, oft mit „verraten“ übersetzt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "Judas",
+    "Iskariot",
+    "der",
+    "auch",
+    "lieferte aus",
+    "ihn"
+   ]
+  },
+  "3.20": {
+   "text": "Und er kommt nach Hause. Und wieder kommt die Menge zusammen, sodass sie nicht einmal Brot essen konnten.",
+   "notes": [
+    {
+     "anchor": "nach Hause",
+     "text": "Wörtlich „in ein Haus“ oder „heim“."
+    },
+    {
+     "anchor": "Brot essen",
+     "text": "Hebräische Redeweise für „eine Mahlzeit halten“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er kommt",
+    "in",
+    "ein Haus",
+    "und",
+    "kommt zusammen",
+    "wieder",
+    "die",
+    "Menge",
+    "sodass",
+    "nicht",
+    "können",
+    "sie",
+    "nicht einmal",
+    "Brot",
+    "essen"
+   ]
+  },
+  "3.21": {
+   "text": "Und als seine Angehörigen das hörten, machten sie sich auf, um ihn zu packen; denn sie sagten: „Er ist von Sinnen.“",
+   "notes": [
+    {
+     "anchor": "seine Angehörigen",
+     "text": "Wörtlich „die bei ihm“, „die Seinen“. Nach V. 31 ist die Familie gemeint."
+    },
+    {
+     "anchor": "sie sagten",
+     "text": "Das Griechische lässt offen, ob die Familie das sagt oder ob „man“ es sagt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "hörend",
+    "die",
+    "von",
+    "ihm",
+    "sie gingen hinaus",
+    "zu packen",
+    "ihn",
+    "sie sagten",
+    "denn",
+    "<dass>",
+    "er ist von Sinnen"
+   ]
+  },
+  "3.22": {
+   "text": "Und die Schriftgelehrten, die von Jerusalem herabgekommen waren, sagten: „Er hat den Beelzebul!“ und: „Mit dem Obersten der Dämonen treibt er die Dämonen aus.“",
+   "notes": [
+    {
+     "anchor": "Beelzebul",
+     "text": "Ursprünglich wohl ein Name eines kanaanäischen Gottes („Herr der Wohnung“ oder „Fürst Baal“). Hier ist der Teufel gemeint."
+    },
+    {
+     "anchor": "herabgekommen",
+     "text": "Jerusalem liegt hoch; man „steigt hinauf“ nach Jerusalem und „hinab“ ins Land."
+    }
+   ],
+   "glosses": [
+    "und",
+    "die",
+    "Schriftgelehrten",
+    "die",
+    "von",
+    "Jerusalem",
+    "herabgekommen",
+    "sagten",
+    "<dass>",
+    "Beelzebul",
+    "er hat",
+    "und",
+    "<dass>",
+    "durch",
+    "den",
+    "Herrscher",
+    "der",
+    "Dämonen",
+    "er treibt aus",
+    "die",
+    "Dämonen"
+   ]
+  },
+  "3.23": {
+   "text": "Und er rief sie zu sich und redete in Gleichnissen zu ihnen: „Wie kann der Satan den Satan austreiben?",
+   "notes": [
+    {
+     "anchor": "Gleichnissen",
+     "text": "Griechisch parabolē, hebräisch maschal: Bildwort, Vergleich, Rätselrede."
+    }
+   ],
+   "glosses": [
+    "und",
+    "herbeirufend",
+    "sie",
+    "in",
+    "Gleichnissen",
+    "er redete",
+    "zu ihnen",
+    "wie",
+    "kann",
+    "Satan",
+    "Satan",
+    "austreiben"
+   ]
+  },
+  "3.24": {
+   "text": "Und wenn ein Reich in sich selbst gespalten ist, kann dieses Reich nicht bestehen.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "wenn",
+    "ein Reich",
+    "gegen",
+    "sich selbst",
+    "gespalten ist",
+    "nicht",
+    "kann",
+    "bestehen",
+    "das",
+    "Reich",
+    "jenes"
+   ]
+  },
+  "3.25": {
+   "text": "Und wenn ein Haus in sich selbst gespalten ist, wird dieses Haus nicht bestehen können.",
+   "notes": [
+    {
+     "anchor": "Haus",
+     "text": "Gemeint ist auch die Hausgemeinschaft, die Familie."
+    }
+   ],
+   "glosses": [
+    "und",
+    "wenn",
+    "ein Haus",
+    "gegen",
+    "sich selbst",
+    "gespalten ist",
+    "nicht",
+    "wird können",
+    "das",
+    "Haus",
+    "jenes",
+    "bestehen"
+   ]
+  },
+  "3.26": {
+   "text": "Und wenn der Satan gegen sich selbst aufgestanden ist und gespalten ist, kann er nicht bestehen, sondern es ist aus mit ihm.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "wenn",
+    "der",
+    "Satan",
+    "stand auf",
+    "gegen",
+    "sich selbst",
+    "und",
+    "wurde gespalten",
+    "nicht",
+    "er kann",
+    "bestehen",
+    "sondern",
+    "ein Ende",
+    "er hat"
+   ]
+  },
+  "3.27": {
+   "text": "Aber niemand kann in das Haus des Starken eindringen und seinen Hausrat rauben, wenn er nicht zuerst den Starken fesselt. Dann wird er sein Haus ausrauben.",
+   "notes": [
+    {
+     "anchor": "den Starken fesselt",
+     "text": "Jesus deutet seine Austreibungen als Sieg über den „Starken“, den Satan. Vgl. 1,7, wo Johannes Jesus „den Stärkeren“ nennt, und Jesaja 49,24–25."
+    }
+   ],
+   "glosses": [
+    "aber",
+    "nicht",
+    "kann",
+    "niemand",
+    "in",
+    "das",
+    "Haus",
+    "des",
+    "Starken",
+    "hineingehend",
+    "die",
+    "Geräte",
+    "seine",
+    "rauben",
+    "wenn",
+    "nicht",
+    "zuerst",
+    "den",
+    "Starken",
+    "er fesselt",
+    "und",
+    "dann",
+    "das",
+    "Haus",
+    "sein",
+    "wird er ausrauben"
+   ]
+  },
+  "3.28": {
+   "text": "Amen, ich sage euch: Alles wird den Menschenkindern vergeben werden, die Sünden und die Lästerungen, so viele sie auch lästern mögen.",
+   "notes": [
+    {
+     "anchor": "Amen",
+     "text": "Hebräisch „gewiss“, „so ist es“. Jesus stellt es ungewöhnlicherweise an den Anfang seiner Worte, um sie feierlich zu bekräftigen."
+    },
+    {
+     "anchor": "Menschenkindern",
+     "text": "Wörtlich „Söhnen der Menschen“, hebräische Redeweise für „Menschen“."
+    }
+   ],
+   "glosses": [
+    "Amen",
+    "ich sage",
+    "euch",
+    "<dass>",
+    "alles",
+    "wird vergeben werden",
+    "den",
+    "Söhnen",
+    "der",
+    "Menschen",
+    "die",
+    "Sünden",
+    "und",
+    "die",
+    "Lästerungen",
+    "so viele",
+    "<wenn>",
+    "sie lästern"
+   ]
+  },
+  "3.29": {
+   "text": "Wer aber gegen den heiligen Geist lästert, hat in Ewigkeit keine Vergebung, sondern ist einer ewigen Sünde schuldig.“",
+   "notes": [
+    {
+     "anchor": "gegen den heiligen Geist lästert",
+     "text": "Nach V. 30 ist gemeint: Gottes Wirken durch Jesus für das Werk eines unreinen Geistes erklären."
+    },
+    {
+     "anchor": "in Ewigkeit",
+     "text": "Wörtlich „bis in das Zeitalter“, eine Redeweise für „niemals“."
+    }
+   ],
+   "glosses": [
+    "wer",
+    "aber",
+    "<etwa>",
+    "lästert",
+    "gegen",
+    "den",
+    "Geist",
+    "den",
+    "heiligen",
+    "nicht",
+    "hat",
+    "Vergebung",
+    "in",
+    "das",
+    "Zeitalter",
+    "sondern",
+    "schuldig",
+    "ist",
+    "ewiger",
+    "Sünde"
+   ]
+  },
+  "3.30": {
+   "text": "Denn sie hatten gesagt: „Er hat einen unreinen Geist.“",
+   "notes": [],
+   "glosses": [
+    "weil",
+    "sie sagten",
+    "einen Geist",
+    "unreinen",
+    "er hat"
+   ]
+  },
+  "3.31": {
+   "text": "Und es kommen seine Mutter und seine Brüder. Und sie standen draußen, schickten zu ihm und ließen ihn rufen.",
+   "notes": [
+    {
+     "anchor": "Brüder",
+     "text": "Das Wort meint zunächst leibliche Brüder (vgl. 6,3). Nach späterer kirchlicher Deutung sind Halbbrüder oder Vettern gemeint."
+    }
+   ],
+   "glosses": [
+    "und",
+    "kommt",
+    "die",
+    "Mutter",
+    "seine",
+    "und",
+    "die",
+    "Brüder",
+    "seine",
+    "und",
+    "draußen",
+    "stehend",
+    "sie schickten",
+    "zu",
+    "ihm",
+    "rufend",
+    "ihn"
+   ]
+  },
+  "3.32": {
+   "text": "Und eine Menge saß um ihn herum, und sie sagen zu ihm: „Sieh, deine Mutter und deine Brüder und deine Schwestern sind draußen und suchen dich.“",
+   "notes": [
+    {
+     "anchor": "und deine Schwestern",
+     "text": "Diese Worte fehlen in vielen Handschriften."
+    }
+   ],
+   "glosses": [
+    "und",
+    "saß",
+    "um",
+    "ihn",
+    "eine Menge",
+    "und",
+    "sie sagen",
+    "ihm",
+    "siehe",
+    "die",
+    "Mutter",
+    "deine",
+    "und",
+    "die",
+    "Brüder",
+    "deine",
+    "und",
+    "die",
+    "Schwestern",
+    "deine",
+    "draußen",
+    "suchen",
+    "dich"
+   ]
+  },
+  "3.33": {
+   "text": "Und er antwortet ihnen: „Wer ist meine Mutter und [wer sind] meine Brüder?“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "antwortend",
+    "ihnen",
+    "er sagt",
+    "wer",
+    "ist",
+    "die",
+    "Mutter",
+    "meine",
+    "und",
+    "die",
+    "Brüder",
+    "meine"
+   ]
+  },
+  "3.34": {
+   "text": "Und er sah ringsum die an, die im Kreis um ihn saßen, und sagt: „Seht, [das sind] meine Mutter und meine Brüder.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "ringsum anblickend",
+    "die",
+    "um",
+    "ihn",
+    "im Kreis",
+    "sitzenden",
+    "er sagt",
+    "siehe",
+    "die",
+    "Mutter",
+    "meine",
+    "und",
+    "die",
+    "Brüder",
+    "meine"
+   ]
+  },
+  "3.35": {
+   "text": "Denn wer den Willen Gottes tut, der ist mir Bruder und Schwester und Mutter.“",
+   "notes": [],
+   "glosses": [
+    "wer",
+    "denn",
+    "<etwa>",
+    "tut",
+    "den",
+    "Willen",
+    "<des>",
+    "Gottes",
+    "dieser",
+    "Bruder",
+    "mein",
+    "und",
+    "Schwester",
+    "und",
+    "Mutter",
+    "ist"
+   ]
+  },
+  "4.1": {
+   "text": "Und wieder fing er an, am See zu lehren. Und eine sehr große Menge versammelt sich bei ihm, sodass er in ein Boot stieg und sich auf dem See [hin]setzte; und die ganze Menge war am See an Land.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "wieder",
+    "er fing an",
+    "zu lehren",
+    "an",
+    "dem",
+    "See",
+    "und",
+    "versammelt sich",
+    "bei",
+    "ihm",
+    "eine Menge",
+    "sehr große",
+    "sodass",
+    "er",
+    "in",
+    "ein Boot",
+    "einsteigend",
+    "sich setzen",
+    "auf",
+    "dem",
+    "See",
+    "und",
+    "ganze",
+    "die",
+    "Menge",
+    "am",
+    "den",
+    "See",
+    "auf",
+    "dem",
+    "Land",
+    "war"
+   ]
+  },
+  "4.2": {
+   "text": "Und er lehrte sie vieles in Gleichnissen und sagte zu ihnen in seiner Lehre:",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er lehrte",
+    "sie",
+    "in",
+    "Gleichnissen",
+    "vieles",
+    "und",
+    "er sagte",
+    "ihnen",
+    "in",
+    "der",
+    "Lehre",
+    "seiner"
+   ]
+  },
+  "4.3": {
+   "text": "„Hört! Siehe, der Sämann ging hinaus, um zu säen.",
+   "notes": [],
+   "glosses": [
+    "hört",
+    "siehe",
+    "ging hinaus",
+    "der",
+    "Säende",
+    "zu säen"
+   ]
+  },
+  "4.4": {
+   "text": "Und es geschah beim Säen: Einiges fiel auf den Weg, und die Vögel kamen und fraßen es auf.",
+   "notes": [
+    {
+     "anchor": "auf den Weg",
+     "text": "Wörtlich „neben den Weg“: auf den festgetretenen Pfad am oder durch das Feld. In Palästina wurde oft erst gesät und dann gepflügt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "es geschah",
+    "beim",
+    "<das>",
+    "Säen",
+    "das eine",
+    "<zwar>",
+    "fiel",
+    "neben",
+    "den",
+    "Weg",
+    "und",
+    "kamen",
+    "die",
+    "Vögel",
+    "und",
+    "fraßen auf",
+    "es"
+   ]
+  },
+  "4.5": {
+   "text": "Und anderes fiel auf felsigen Boden, wo es nicht viel Erde hatte, und es ging sofort auf, weil es keine tiefe Erde hatte.",
+   "notes": [
+    {
+     "anchor": "felsigen Boden",
+     "text": "Gemeint ist eine dünne Erdschicht über Felsgestein."
+    }
+   ],
+   "glosses": [
+    "und",
+    "anderes",
+    "fiel",
+    "auf",
+    "den",
+    "felsigen Boden",
+    "wo",
+    "nicht",
+    "es hatte",
+    "Erde",
+    "viel",
+    "und",
+    "sofort",
+    "es ging auf",
+    "wegen",
+    "des",
+    "nicht",
+    "Habens",
+    "Tiefe",
+    "der Erde"
+   ]
+  },
+  "4.6": {
+   "text": "Und als die Sonne aufging, wurde es versengt, und weil es keine Wurzel hatte, verdorrte es.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "als",
+    "aufging",
+    "die",
+    "Sonne",
+    "es wurde versengt",
+    "und",
+    "wegen",
+    "des",
+    "nicht",
+    "Habens",
+    "Wurzel",
+    "es verdorrte"
+   ]
+  },
+  "4.7": {
+   "text": "Und anderes fiel unter die Dornen, und die Dornen wuchsen auf und erstickten es, und es brachte keine Frucht.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "anderes",
+    "fiel",
+    "unter",
+    "die",
+    "Dornen",
+    "und",
+    "wuchsen auf",
+    "die",
+    "Dornen",
+    "und",
+    "erstickten",
+    "es",
+    "und",
+    "Frucht",
+    "keine",
+    "es gab"
+   ]
+  },
+  "4.8": {
+   "text": "Und anderes fiel auf die gute Erde und brachte Frucht, die aufging und wuchs, und es trug dreißigfach und sechzigfach und hundertfach.“",
+   "notes": [
+    {
+     "anchor": "hundertfach",
+     "text": "Ein überreicher Ertrag; im Altertum galten das Sieben- bis Zehnfache als gute Ernte."
+    }
+   ],
+   "glosses": [
+    "und",
+    "anderes",
+    "fiel",
+    "auf",
+    "die",
+    "Erde",
+    "die",
+    "gute",
+    "und",
+    "gab",
+    "Frucht",
+    "aufgehend",
+    "und",
+    "wachsend",
+    "und",
+    "trug",
+    "eines",
+    "dreißig",
+    "und",
+    "eines",
+    "sechzig",
+    "und",
+    "eines",
+    "hundert"
+   ]
+  },
+  "4.9": {
+   "text": "Und er sagte: „Wer Ohren hat zu hören, der höre!“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagte",
+    "wer",
+    "hat",
+    "Ohren",
+    "zu hören",
+    "er höre"
+   ]
+  },
+  "4.10": {
+   "text": "Und als er allein war, fragten ihn die, die um ihn waren, zusammen mit den Zwölf nach den Gleichnissen.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "als",
+    "er war",
+    "für sich",
+    "allein",
+    "sie fragten",
+    "ihn",
+    "die",
+    "um",
+    "ihn",
+    "mit",
+    "den",
+    "Zwölf",
+    "die",
+    "Gleichnisse"
+   ]
+  },
+  "4.11": {
+   "text": "Und er sagte zu ihnen: „Euch ist das Geheimnis des Reiches Gottes gegeben. Denen aber draußen wird alles in Gleichnissen zuteil,",
+   "notes": [
+    {
+     "anchor": "Geheimnis",
+     "text": "Griechisch mystērion: etwas, das Gott verborgen hält und nur durch Offenbarung erkannt werden kann."
+    },
+    {
+     "anchor": "Denen aber draußen",
+     "text": "Gemeint sind die, die nicht zum Kreis um Jesus gehören (vgl. 3,31–35)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagte",
+    "ihnen",
+    "euch",
+    "das",
+    "Geheimnis",
+    "ist gegeben",
+    "des",
+    "Reiches",
+    "<des>",
+    "Gottes",
+    "jenen",
+    "aber",
+    "den",
+    "draußen",
+    "in",
+    "Gleichnissen",
+    "das",
+    "alles",
+    "geschieht"
+   ]
+  },
+  "4.12": {
+   "text": "damit sie sehen und sehen und doch nicht erkennen, hören und hören und doch nicht verstehen, damit sie nicht umkehren und ihnen vergeben wird.“",
+   "notes": [
+    {
+     "anchor": "damit",
+     "text": "Ein schwieriges Wort. Jesus zitiert Jesaja 6,9–10. Ausleger verstehen das griechische hina hier als Absicht („damit“), als Folge („sodass“) oder als Hinweis auf die Erfüllung der Schrift („damit erfüllt wird, dass“)."
+    },
+    {
+     "anchor": "damit sie nicht umkehren",
+     "text": "Das griechische mēpote kann auch „ob sie nicht vielleicht doch umkehren“ heißen."
+    }
+   ],
+   "glosses": [
+    "damit",
+    "sehend",
+    "sie sehen",
+    "und",
+    "nicht",
+    "sie erkennen",
+    "und",
+    "hörend",
+    "sie hören",
+    "und",
+    "nicht",
+    "sie verstehen",
+    "damit nicht",
+    "sie umkehren",
+    "und",
+    "vergeben wird",
+    "ihnen"
+   ]
+  },
+  "4.13": {
+   "text": "Und er sagt zu ihnen: „Ihr versteht dieses Gleichnis nicht? Wie wollt ihr dann alle Gleichnisse verstehen?",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihnen",
+    "nicht",
+    "ihr versteht",
+    "<das>",
+    "Gleichnis",
+    "dieses",
+    "und",
+    "wie",
+    "alle",
+    "die",
+    "Gleichnisse",
+    "werdet ihr erkennen"
+   ]
+  },
+  "4.14": {
+   "text": "Der Sämann sät das Wort.",
+   "notes": [],
+   "glosses": [
+    "der",
+    "Säende",
+    "das",
+    "Wort",
+    "sät"
+   ]
+  },
+  "4.15": {
+   "text": "Die am Weg sind die, bei denen das Wort gesät wird; und wenn sie es gehört haben, kommt sofort der Satan und nimmt das Wort weg, das in sie gesät ist.",
+   "notes": [],
+   "glosses": [
+    "diese",
+    "aber",
+    "sind",
+    "die",
+    "neben",
+    "den",
+    "Weg",
+    "wo",
+    "gesät wird",
+    "das",
+    "Wort",
+    "und",
+    "wenn",
+    "sie hören",
+    "sofort",
+    "kommt",
+    "der",
+    "Satan",
+    "und",
+    "nimmt weg",
+    "das",
+    "Wort",
+    "das",
+    "gesäte",
+    "in",
+    "sie"
+   ]
+  },
+  "4.16": {
+   "text": "Und die auf felsigen Boden gesät werden, sind die, die das Wort sofort mit Freude aufnehmen, wenn sie es hören.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "diese",
+    "sind",
+    "die",
+    "auf",
+    "die",
+    "felsigen Stellen",
+    "gesät werdenden",
+    "die",
+    "wenn",
+    "sie hören",
+    "das",
+    "Wort",
+    "sofort",
+    "mit",
+    "Freude",
+    "sie nehmen auf",
+    "es"
+   ]
+  },
+  "4.17": {
+   "text": "Aber sie haben keine Wurzel in sich, sondern sind unbeständig. Wenn dann Bedrängnis oder Verfolgung um des Wortes willen kommt, kommen sie sofort zu Fall.",
+   "notes": [
+    {
+     "anchor": "kommen sie sofort zu Fall",
+     "text": "Griechisch skandalizomai: „straucheln“, „sich abbringen lassen“, „vom Glauben abfallen“."
+    }
+   ],
+   "glosses": [
+    "und",
+    "nicht",
+    "sie haben",
+    "Wurzel",
+    "in",
+    "sich selbst",
+    "sondern",
+    "unbeständig",
+    "sie sind",
+    "dann",
+    "entstehend",
+    "Bedrängnis",
+    "oder",
+    "Verfolgung",
+    "wegen",
+    "des",
+    "Wortes",
+    "sofort",
+    "sie kommen zu Fall"
+   ]
+  },
+  "4.18": {
+   "text": "Und andere sind die, die unter die Dornen gesät werden. Das sind die, die das Wort gehört haben,",
+   "notes": [],
+   "glosses": [
+    "und",
+    "andere",
+    "sind",
+    "die",
+    "unter",
+    "die",
+    "Dornen",
+    "gesät werdenden",
+    "diese",
+    "sind",
+    "die",
+    "das",
+    "Wort",
+    "gehört habenden"
+   ]
+  },
+  "4.19": {
+   "text": "aber die Sorgen dieser Welt und die Verführung des Reichtums und die Begierden nach allem anderen dringen ein und ersticken das Wort, und es bleibt ohne Frucht.",
+   "notes": [
+    {
+     "anchor": "dieser Welt",
+     "text": "Wörtlich „des Zeitalters“: der gegenwärtigen Weltzeit."
+    }
+   ],
+   "glosses": [
+    "und",
+    "die",
+    "Sorgen",
+    "des",
+    "Zeitalters",
+    "und",
+    "die",
+    "Verführung",
+    "des",
+    "Reichtums",
+    "und",
+    "die",
+    "nach",
+    "dem",
+    "übrigen",
+    "Begierden",
+    "hineingehend",
+    "ersticken",
+    "das",
+    "Wort",
+    "und",
+    "fruchtlos",
+    "wird es"
+   ]
+  },
+  "4.20": {
+   "text": "Und die auf die gute Erde gesät sind, sind die, die das Wort hören und annehmen und Frucht bringen, dreißigfach und sechzigfach und hundertfach.“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "jene",
+    "sind",
+    "die",
+    "auf",
+    "die",
+    "Erde",
+    "die",
+    "gute",
+    "gesäten",
+    "welche",
+    "hören",
+    "das",
+    "Wort",
+    "und",
+    "annehmen",
+    "und",
+    "Frucht bringen",
+    "eines",
+    "dreißig",
+    "und",
+    "eines",
+    "sechzig",
+    "und",
+    "eines",
+    "hundert"
+   ]
+  },
+  "4.21": {
+   "text": "Und er sagte zu ihnen: „Kommt etwa die Lampe, damit man sie unter den Scheffel oder unter das Bett stellt? Nicht vielmehr, damit man sie auf den Leuchter stellt?",
+   "notes": [
+    {
+     "anchor": "Kommt etwa die Lampe",
+     "text": "Ungewöhnlich: Die Lampe „kommt“. Manche hören darin einen Hinweis auf Jesus selbst, der gekommen ist."
+    },
+    {
+     "anchor": "Scheffel",
+     "text": "Ein Hohlmaß für Getreide, etwa acht bis neun Liter, als Gefäß."
+    },
+    {
+     "anchor": "Bett",
+     "text": "Gemeint ist wohl das Liegepolster beim Essen."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagte",
+    "ihnen",
+    "etwa",
+    "kommt",
+    "die",
+    "Lampe",
+    "damit",
+    "unter",
+    "den",
+    "Scheffel",
+    "sie gestellt wird",
+    "oder",
+    "unter",
+    "das",
+    "Bett",
+    "nicht",
+    "damit",
+    "auf",
+    "den",
+    "Leuchter",
+    "sie gestellt wird"
+   ]
+  },
+  "4.22": {
+   "text": "Denn es gibt nichts Verborgenes, außer damit es offenbar wird, und nichts ist geheim geworden, außer damit es ans Licht kommt.",
+   "notes": [],
+   "glosses": [
+    "nicht",
+    "denn",
+    "es ist",
+    "Verborgenes",
+    "wenn",
+    "nicht",
+    "damit",
+    "es offenbar wird",
+    "und nicht",
+    "wurde",
+    "Geheimes",
+    "sondern",
+    "damit",
+    "es kommt",
+    "ins",
+    "Offenbare"
+   ]
+  },
+  "4.23": {
+   "text": "Wenn jemand Ohren hat zu hören, der höre!“",
+   "notes": [],
+   "glosses": [
+    "wenn",
+    "jemand",
+    "hat",
+    "Ohren",
+    "zu hören",
+    "er höre"
+   ]
+  },
+  "4.24": {
+   "text": "Und er sagte zu ihnen: „Achtet darauf, was ihr hört! Mit dem Maß, mit dem ihr messt, wird euch zugemessen werden, und es wird euch noch hinzugefügt werden.",
+   "notes": [
+    {
+     "anchor": "Mit dem Maß, mit dem ihr messt",
+     "text": "Ein Sprichwort. Hier bezogen auf das Hören: Wer sich ganz auf Jesu Wort einlässt, empfängt umso mehr."
+    }
+   ],
+   "glosses": [
+    "und",
+    "er sagte",
+    "ihnen",
+    "seht",
+    "was",
+    "ihr hört",
+    "mit",
+    "welchem",
+    "Maß",
+    "ihr messt",
+    "wird gemessen werden",
+    "euch",
+    "und",
+    "wird hinzugefügt werden",
+    "euch"
+   ]
+  },
+  "4.25": {
+   "text": "Denn wer hat, dem wird gegeben werden; und wer nicht hat, dem wird auch das genommen werden, was er hat.“",
+   "notes": [],
+   "glosses": [
+    "wer",
+    "denn",
+    "hat",
+    "wird gegeben werden",
+    "ihm",
+    "und",
+    "wer",
+    "nicht",
+    "hat",
+    "auch",
+    "was",
+    "er hat",
+    "wird genommen werden",
+    "von",
+    "ihm"
+   ]
+  },
+  "4.26": {
+   "text": "Und er sagte: „So ist es mit dem Reich Gottes: wie wenn ein Mensch den Samen auf die Erde wirft",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagte",
+    "so",
+    "ist",
+    "das",
+    "Reich",
+    "<des>",
+    "Gottes",
+    "wie",
+    "ein Mensch",
+    "wirft",
+    "den",
+    "Samen",
+    "auf",
+    "die",
+    "Erde"
+   ]
+  },
+  "4.27": {
+   "text": "und schläft und aufsteht, Nacht und Tag, und der Same sprießt und wächst – wie, weiß er selbst nicht.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er schläft",
+    "und",
+    "er steht auf",
+    "Nacht",
+    "und",
+    "Tag",
+    "und",
+    "der",
+    "Same",
+    "sprießt",
+    "und",
+    "wird lang",
+    "wie",
+    "nicht",
+    "weiß",
+    "er selbst"
+   ]
+  },
+  "4.28": {
+   "text": "Von selbst bringt die Erde Frucht, zuerst den Halm, dann die Ähre, dann das volle Korn in der Ähre.",
+   "notes": [
+    {
+     "anchor": "Von selbst",
+     "text": "Griechisch automatē: ohne Zutun des Menschen."
+    }
+   ],
+   "glosses": [
+    "von selbst",
+    "die",
+    "Erde",
+    "bringt Frucht",
+    "zuerst",
+    "Gras",
+    "dann",
+    "Ähre",
+    "dann",
+    "volles",
+    "Korn",
+    "in",
+    "der",
+    "Ähre"
+   ]
+  },
+  "4.29": {
+   "text": "Wenn aber die Frucht es zulässt, schickt er sofort die Sichel, denn die Ernte ist da.“",
+   "notes": [
+    {
+     "anchor": "schickt er sofort die Sichel",
+     "text": "Anklang an Joel 4,13, wo die Ernte ein Bild für Gottes Gericht am Ende ist."
+    }
+   ],
+   "glosses": [
+    "wenn",
+    "aber",
+    "es zulässt",
+    "die",
+    "Frucht",
+    "sofort",
+    "er schickt",
+    "die",
+    "Sichel",
+    "weil",
+    "ist da",
+    "die",
+    "Ernte"
+   ]
+  },
+  "4.30": {
+   "text": "Und er sagte: „Wie sollen wir das Reich Gottes vergleichen, oder in welchem Gleichnis sollen wir es darstellen?",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagte",
+    "wie",
+    "sollen wir vergleichen",
+    "das",
+    "Reich",
+    "<des>",
+    "Gottes",
+    "oder",
+    "in",
+    "welchem",
+    "es",
+    "Gleichnis",
+    "sollen wir darstellen"
+   ]
+  },
+  "4.31": {
+   "text": "Wie ein Senfkorn: Wenn es auf die Erde gesät wird, ist es kleiner als alle Samen auf der Erde.",
+   "notes": [
+    {
+     "anchor": "Senfkorn",
+     "text": "Gemeint ist wohl der Schwarze Senf, dessen Samen etwa einen Millimeter groß sind; sprichwörtlich für das Kleinste."
+    }
+   ],
+   "glosses": [
+    "wie",
+    "ein Korn",
+    "des Senfs",
+    "das",
+    "wenn",
+    "es gesät wird",
+    "auf",
+    "die",
+    "Erde",
+    "kleiner",
+    "seiend",
+    "als alle",
+    "die",
+    "Samen",
+    "die",
+    "auf",
+    "der",
+    "Erde"
+   ]
+  },
+  "4.32": {
+   "text": "Und wenn es gesät ist, geht es auf und wird größer als alle Gartenkräuter und treibt große Zweige, sodass die Vögel des Himmels in seinem Schatten nisten können.“",
+   "notes": [
+    {
+     "anchor": "die Vögel des Himmels",
+     "text": "Anklang an Bilder vom Weltenbaum, unter dem die Völker Schutz finden (Ezechiel 17,23; 31,6; Daniel 4,9.18)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "wenn",
+    "es gesät ist",
+    "es geht auf",
+    "und",
+    "wird",
+    "größer",
+    "als alle",
+    "die",
+    "Gartenkräuter",
+    "und",
+    "es macht",
+    "Zweige",
+    "große",
+    "sodass",
+    "können",
+    "unter",
+    "den",
+    "Schatten",
+    "seinen",
+    "die",
+    "Vögel",
+    "des",
+    "Himmels",
+    "nisten"
+   ]
+  },
+  "4.33": {
+   "text": "Und in vielen solchen Gleichnissen sagte er ihnen das Wort, so wie sie es hören konnten.",
+   "notes": [],
+   "glosses": [
+    "und",
+    "in solchen",
+    "Gleichnissen",
+    "vielen",
+    "er redete",
+    "zu ihnen",
+    "das",
+    "Wort",
+    "so wie",
+    "sie konnten",
+    "hören"
+   ]
+  },
+  "4.34": {
+   "text": "Ohne Gleichnis aber redete er nicht zu ihnen; wenn er aber mit seinen Jüngern allein war, erklärte er ihnen alles.",
+   "notes": [],
+   "glosses": [
+    "ohne",
+    "aber",
+    "Gleichnis",
+    "nicht",
+    "er redete",
+    "zu ihnen",
+    "für",
+    "sich allein",
+    "aber",
+    "den",
+    "eigenen",
+    "Jüngern",
+    "er löste auf",
+    "alles"
+   ]
+  },
+  "4.35": {
+   "text": "Und an jenem Tag, als es Abend geworden war, sagt er zu ihnen: „Lasst uns ans andere Ufer hinüberfahren!“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagt",
+    "ihnen",
+    "an",
+    "jenem",
+    "<dem>",
+    "Tag",
+    "Abend",
+    "geworden",
+    "lasst uns hinüberfahren",
+    "an",
+    "das",
+    "jenseitige [Ufer]"
+   ]
+  },
+  "4.36": {
+   "text": "Und sie ließen die Menge [zurück] und nehmen ihn mit, wie er im Boot war; und andere Boote waren bei ihm.",
+   "notes": [
+    {
+     "anchor": "wie er im Boot war",
+     "text": "Er saß bereits im Boot, aus dem er gelehrt hatte (4,1)."
+    }
+   ],
+   "glosses": [
+    "und",
+    "zurücklassend",
+    "die",
+    "Menge",
+    "sie nehmen mit",
+    "ihn",
+    "wie",
+    "er war",
+    "in",
+    "dem",
+    "Boot",
+    "und",
+    "andere",
+    "Boote",
+    "waren",
+    "bei",
+    "ihm"
+   ]
+  },
+  "4.37": {
+   "text": "Und es kommt ein heftiger Sturmwind auf, und die Wellen schlugen in das Boot, sodass das Boot schon voll lief.",
+   "notes": [
+    {
+     "anchor": "heftiger Sturmwind",
+     "text": "Auf dem See Gennesaret, der etwa 200 Meter unter dem Meeresspiegel liegt, entstehen durch Fallwinde plötzlich schwere Stürme."
+    }
+   ],
+   "glosses": [
+    "und",
+    "entsteht",
+    "ein Sturm",
+    "großer",
+    "des Windes",
+    "und",
+    "die",
+    "Wellen",
+    "schlugen",
+    "in",
+    "das",
+    "Boot",
+    "sodass",
+    "schon",
+    "gefüllt wurde",
+    "das",
+    "Boot"
+   ]
+  },
+  "4.38": {
+   "text": "Und er war im Heck und schlief auf dem Kissen. Und sie wecken ihn und sagen zu ihm: „Lehrer, kümmert es dich nicht, dass wir untergehen?“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er",
+    "war",
+    "in",
+    "dem",
+    "Heck",
+    "auf",
+    "dem",
+    "Kopfkissen",
+    "schlafend",
+    "und",
+    "sie wecken",
+    "ihn",
+    "und",
+    "sagen",
+    "ihm",
+    "Lehrer",
+    "nicht",
+    "kümmert es",
+    "dich",
+    "dass",
+    "wir gehen unter"
+   ]
+  },
+  "4.39": {
+   "text": "Und er stand auf, fuhr den Wind an und sagte zum See: „Schweig, verstumme!“ Und der Wind legte sich, und es trat eine große Stille ein.",
+   "notes": [
+    {
+     "anchor": "verstumme",
+     "text": "Dasselbe Wort wie bei der Austreibung in 1,25. Jesus spricht den Sturm an wie einen Dämon. In Psalm 107,29 ist es Gott, der den Sturm stillt."
+    }
+   ],
+   "glosses": [
+    "und",
+    "aufgeweckt",
+    "er fuhr an",
+    "den",
+    "Wind",
+    "und",
+    "sagte",
+    "dem",
+    "See",
+    "schweig",
+    "verstumme",
+    "und",
+    "legte sich",
+    "der",
+    "Wind",
+    "und",
+    "es wurde",
+    "Stille",
+    "große"
+   ]
+  },
+  "4.40": {
+   "text": "Und er sagte zu ihnen: „Warum seid ihr so feige? Habt ihr noch keinen Glauben?“",
+   "notes": [],
+   "glosses": [
+    "und",
+    "er sagte",
+    "ihnen",
+    "warum",
+    "feige",
+    "seid ihr",
+    "noch nicht",
+    "habt ihr",
+    "Glauben"
+   ]
+  },
+  "4.41": {
+   "text": "Und sie gerieten in große Furcht und sagten zueinander: „Wer ist denn dieser, dass ihm sogar der Wind und der See gehorchen?“",
+   "notes": [
+    {
+     "anchor": "gerieten in große Furcht",
+     "text": "Wörtlich „sie fürchteten sich mit großer Furcht“. Die Furcht gilt jetzt nicht mehr dem Sturm, sondern Jesus."
+    }
+   ],
+   "glosses": [
+    "und",
+    "sie fürchteten sich",
+    "Furcht",
+    "große",
+    "und",
+    "sie sagten",
+    "zu",
+    "einander",
+    "wer",
+    "denn",
+    "dieser",
+    "ist",
+    "dass",
+    "auch",
+    "der",
+    "Wind",
+    "und",
+    "der",
+    "See",
+    "gehorcht",
+    "ihm"
+   ]
+  }
+ },
+ "sections": {
+  "1.1": "Johannes der Täufer",
+  "1.9": "Taufe und Versuchung Jesu, seine erste Botschaft",
+  "1.16": "Die ersten Jünger; Jesus lehrt in Kafarnaum",
+  "1.23": "Ein Mann mit einem unreinen Geist",
+  "1.29": "Heilungen in Kafarnaum",
+  "1.38": "Predigt in Galiläa; ein Aussätziger wird rein",
+  "2.1": "Ein Gelähmter wird geheilt",
+  "2.10": "Die Berufung des Levi; die Frage nach dem Fasten",
+  "2.19": "Bräutigam, Flicken und Wein; Ähren am Sabbat",
+  "2.25": "Der Herr des Sabbats",
+  "3.1": "Heilung am Sabbat",
+  "3.7": "Viele kommen zu Jesus",
+  "3.13": "Die Zwölf",
+  "3.20": "Jesus und Beelzebul",
+  "3.28": "Die Sünde gegen den heiligen Geist; die wahren Verwandten Jesu",
+  "4.1": "Das Gleichnis vom Sämann",
+  "4.10": "Warum Jesus in Gleichnissen redet; die Deutung des Gleichnisses",
+  "4.21": "Licht und Maß; die von selbst wachsende Saat",
+  "4.30": "Das Senfkorn; Jesus stillt den Sturm"
+ }
 }
