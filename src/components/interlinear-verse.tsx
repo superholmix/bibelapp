@@ -36,15 +36,15 @@ function InterlinearVerseImpl({ chapter, verse, settings, onWordPress }: Props) 
               {word.g}
             </ThemedText>
             {settings.showTranslit ? (
-              <ThemedText type="caption" themeColor="textSecondary" style={styles.translit}>
+              <ThemedText type="caption" themeColor="textSecondary" style={styles.translit} scale>
                 {word.tr}
               </ThemedText>
             ) : null}
-            <ThemedText type="small" themeColor={gloss.silent ? 'textSecondary' : 'text'} style={gloss.silent && styles.silent}>
+            <ThemedText type="small" themeColor={gloss.silent ? 'textSecondary' : 'text'} style={gloss.silent && styles.silent} scale>
               {gloss.text}
             </ThemedText>
             {settings.showGrammar ? (
-              <ThemedText type="caption" style={{ color: kindColor[grammar.kind] }}>
+              <ThemedText type="caption" style={{ color: kindColor[grammar.kind] }} scale>
                 {grammar.short}
               </ThemedText>
             ) : null}

@@ -16,6 +16,8 @@ export type Settings = {
   showTranslit: boolean;
   /** Grammatik-Kurzform unter jedem Wort */
   showGrammar: boolean;
+  /** Schriftgröße für den Bibeltext: Index in TextScales (constants/theme) */
+  textSize: number;
   /** Zuletzt gelesenes Kapitel */
   lastChapter: number;
   /** Nur im Testlauf: Abo simulieren, solange RevenueCat noch nicht eingebunden ist */
@@ -28,6 +30,7 @@ const DEFAULTS: Settings = {
   interlinear: false,
   showTranslit: true,
   showGrammar: true,
+  textSize: 1,
   lastChapter: 1,
   simulateSubscription: true,
 };
