@@ -13,6 +13,10 @@ import { useNotes } from '@/state/notes';
 
 type Props = { visible: boolean; onClose: () => void };
 
+// Supabase verschickt je nach Projekteinstellung 6- bis 10-stellige Codes (Standard: 8)
+const CODE_MIN = 6;
+const CODE_MAX = 10;
+
 function formatDate(iso: string | null) {
   return iso ? new Date(iso).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 }
@@ -98,6 +102,7 @@ function SignIn() {
   };
 
   const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+  const codeComplete = code.length >= CODE_MIN;
 
   return (
     <View style={styles.block}>
@@ -120,18 +125,18 @@ function SignIn() {
         </>
       ) : (
         <>
-          <ThemedText type="small">Wir haben dir einen 6-stelligen Code an {email.trim()} geschickt.</ThemedText>
+          <ThemedText type="small">Wir haben dir einen Code an {email.trim()} geschickt.</ThemedText>
           <Field
             value={code}
-            onChangeText={(t) => setCode(t.replace(/\D/g, '').slice(0, 6))}
-            placeholder="123456"
+            onChangeText={(t) => setCode(t.replace(/\D/g, '').slice(0, CODE_MAX))}
+            placeholder="Code"
             keyboardType="number-pad"
             autoComplete="one-time-code"
             textContentType="oneTimeCode"
             style={styles.codeInput}
-            onSubmitEditing={() => code.length === 6 && act(() => verifyCode(email, code))}
+            onSubmitEditing={() => codeComplete && act(() => verifyCode(email, code))}
           />
-          <Button label="Anmelden" busy={busy} disabled={code.length !== 6} onPress={() => act(() => verifyCode(email, code))} />
+          <Button label="Anmelden" busy={busy} disabled={!codeComplete} onPress={() => act(() => verifyCode(email, code))} />
           <View style={styles.linkRow}>
             <Pressable
               onPress={() => act(async () => (await send(), setInfo('Neuer Code ist unterwegs. Schau auch im Spam-Ordner nach.')))}

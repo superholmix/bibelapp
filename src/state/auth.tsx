@@ -10,7 +10,7 @@ type AuthContextValue = {
   loading: boolean;
   session: Session | null;
   user: User | null;
-  /** Schickt einen 6-stelligen Code per E-Mail. Legt das Konto beim ersten Mal an. */
+  /** Schickt einen Code (6 bis 10 Ziffern) per E-Mail. Legt das Konto beim ersten Mal an. */
   sendCode: (email: string) => Promise<void>;
   verifyCode: (email: string, code: string) => Promise<void>;
   signOut: () => Promise<void>;
