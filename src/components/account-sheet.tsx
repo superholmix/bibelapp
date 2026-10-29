@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Platform, Pressable, StyleSheet, TextInput, View } from 'react-native';
 
 import { Sheet } from '@/components/sheet';
@@ -61,17 +61,40 @@ function SignIn() {
   const [step, setStep] = useState<'email' | 'code'>('email');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [info, setInfo] = useState<string | null>(null);
+  // Supabase erlaubt einen neuen Code erst nach 60 Sekunden
+  const [waitUntil, setWaitUntil] = useState(0);
+  const [now, setNow] = useState(Date.now());
+  const inFlight = useRef(false);
+
+  useEffect(() => {
+    if (waitUntil <= Date.now()) return;
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, [waitUntil]);
+  const waitSeconds = Math.max(0, Math.ceil((waitUntil - now) / 1000));
 
   const act = async (fn: () => Promise<void>) => {
+    // Doppeltes Tippen schickt sonst mehrere Anfragen auf einmal
+    if (inFlight.current) return;
+    inFlight.current = true;
     setBusy(true);
     setError(null);
+    setInfo(null);
     try {
       await fn();
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Das hat nicht geklappt.');
     } finally {
+      inFlight.current = false;
       setBusy(false);
     }
+  };
+
+  const send = async () => {
+    await sendCode(email);
+    setWaitUntil(Date.now() + 60_000);
+    setNow(Date.now());
   };
 
   const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
@@ -91,9 +114,9 @@ function SignIn() {
             autoComplete="email"
             keyboardType="email-address"
             textContentType="emailAddress"
-            onSubmitEditing={() => validEmail && act(async () => (await sendCode(email), setStep('code')))}
+            onSubmitEditing={() => validEmail && act(async () => (await send(), setStep('code')))}
           />
-          <Button label="Code senden" busy={busy} disabled={!validEmail} onPress={() => act(async () => (await sendCode(email), setStep('code')))} />
+          <Button label="Code senden" busy={busy} disabled={!validEmail} onPress={() => act(async () => (await send(), setStep('code')))} />
         </>
       ) : (
         <>
@@ -110,8 +133,13 @@ function SignIn() {
           />
           <Button label="Anmelden" busy={busy} disabled={code.length !== 6} onPress={() => act(() => verifyCode(email, code))} />
           <View style={styles.linkRow}>
-            <Pressable onPress={() => act(() => sendCode(email))} accessibilityRole="button">
-              <ThemedText type="link">Code neu senden</ThemedText>
+            <Pressable
+              onPress={() => act(async () => (await send(), setInfo('Neuer Code ist unterwegs. Schau auch im Spam-Ordner nach.')))}
+              disabled={busy || waitSeconds > 0}
+              accessibilityRole="button">
+              <ThemedText type="link" style={waitSeconds > 0 ? styles.dimmed : undefined}>
+                {waitSeconds > 0 ? `Code neu senden (in ${waitSeconds} s)` : 'Code neu senden'}
+              </ThemedText>
             </Pressable>
             <Pressable onPress={() => (setStep('email'), setCode(''), setError(null))} accessibilityRole="button">
               <ThemedText type="link">Andere E-Mail</ThemedText>
@@ -119,6 +147,11 @@ function SignIn() {
           </View>
         </>
       )}
+      {info ? (
+        <ThemedText type="small" themeColor="textSecondary">
+          {info}
+        </ThemedText>
+      ) : null}
       {error ? (
         <ThemedText type="small" style={styles.error}>
           {error}
@@ -392,5 +425,8 @@ const styles = StyleSheet.create({
   },
   error: {
     color: '#A33A2C',
+  },
+  dimmed: {
+    opacity: 0.5,
   },
 });
