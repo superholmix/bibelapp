@@ -16,7 +16,9 @@ const outDir = path.join(here, '..', 'assets', 'data');
 
 const BOOK = 'Mrk';
 const BOOK_INDEX = 40; // 0-basiert in den scrollmapper-Dateien (Genesis = 0)
-const BASE_EDITION = 'NA28'; // Wörter, die im Nestle-Aland-Text stehen
+// Wörter, die im Nestle-Aland-Text stehen. In den Evangelien ist NA28 wortgleich mit NA27, die
+// NA28-Spalte von TAGNT lässt aber eingeklammerte Wörter weg (z. B. 3,14) und vertauscht 1,2.
+const BASE_EDITION = 'NA27';
 
 async function readCache(name) {
   return readFile(path.join(cacheDir, name), 'utf8');
@@ -48,7 +50,8 @@ function parseTagnt(text) {
     const f = line.split('\t');
     const ref = f[0].match(refRe);
     if (!ref) throw new Error('Unbekannte Referenz: ' + f[0]);
-    if (!f[5].split('+').includes(BASE_EDITION)) continue;
+    // Einträge wie "NA27»1" markieren nur eine Verknüpfung, das Wort steht trotzdem im Text
+    if (!f[5].split('+').some((ed) => ed.replace(/[«»]\d+$/, '') === BASE_EDITION)) continue;
     const [, chapter, verse] = ref;
     const greek = splitGreek(f[1]);
     const grammar = splitPairs(f[3]);
