@@ -1,6 +1,7 @@
 /**
  * Farben, Schriften und Abstände der App.
- * Ruhige Papiertöne, eine warme Akzentfarbe; Wortarten nur dezent eingefärbt.
+ * Klare, kühle Grundtöne, ein leuchtendes Petrol als Akzent, Pink für Hauptwörter.
+ * Schrift: Inter (mit vollem polytonischem Griechisch), in der App mitgeliefert.
  */
 
 import '@/global.css';
@@ -9,55 +10,57 @@ import { Platform } from 'react-native';
 
 export const Colors = {
   light: {
-    text: '#1F1B16',
-    textSecondary: '#6B645A',
-    background: '#F7F4EE',
+    text: '#0F1A1C',
+    textSecondary: '#5A6B6E',
+    background: '#F5F8F8',
     backgroundElement: '#FFFFFF',
-    backgroundSelected: '#EDE6DA',
-    border: '#E4DDD1',
-    accent: '#8A4B2A',
-    accentSoft: '#F1E4DA',
-    verb: '#2F5F98',
-    noun: '#2E7556',
-    function: '#8A8174',
+    backgroundSelected: '#E3EDEE',
+    border: '#DAE4E5',
+    accent: '#00838B',
+    accentSoft: '#DDF2F2',
+    verb: '#3B5BDB',
+    noun: '#D6336C',
+    function: '#8A9799',
+    danger: '#C2255C',
+    onAccent: '#FFFFFF',
   },
   dark: {
-    text: '#EDE8DF',
-    textSecondary: '#A39C90',
-    background: '#151412',
-    backgroundElement: '#1F1D1A',
-    backgroundSelected: '#2C2925',
-    border: '#34302B',
-    accent: '#E0A274',
-    accentSoft: '#3A2C22',
-    verb: '#8DB4E6',
-    noun: '#86C7A6',
-    function: '#8E877C',
+    text: '#E8F0F1',
+    textSecondary: '#93A6A9',
+    background: '#0D1314',
+    backgroundElement: '#162022',
+    backgroundSelected: '#1F2D30',
+    border: '#273538',
+    accent: '#2ED3CE',
+    accentSoft: '#0F3536',
+    verb: '#91A7FF',
+    noun: '#F783AC',
+    function: '#7D8D90',
+    danger: '#F783AC',
+    onAccent: '#04201F',
   },
 } as const;
 
 export type ThemeColor = keyof typeof Colors.light & keyof typeof Colors.dark;
 
-export const Fonts = Platform.select({
-  ios: {
-    sans: 'system-ui',
-    serif: 'ui-serif',
-    rounded: 'ui-rounded',
-    mono: 'ui-monospace',
-  },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
-  },
-  web: {
-    sans: 'var(--font-display)',
-    serif: 'var(--font-serif)',
-    rounded: 'var(--font-rounded)',
-    mono: 'var(--font-mono)',
-  },
-});
+/** Inter in den geladenen Schnitten (siehe src/app/_layout.tsx). */
+export const Fonts = {
+  regular: 'Inter_400Regular',
+  italic: 'Inter_400Regular_Italic',
+  medium: 'Inter_500Medium',
+  semibold: 'Inter_600SemiBold',
+  bold: 'Inter_700Bold',
+  mono: Platform.select({ ios: 'ui-monospace', web: 'var(--font-mono)', default: 'monospace' }),
+} as const;
+
+/** Schriftgrößen für den Bibeltext, einstellbar unter „Mehr“. */
+export const TextScales = [
+  { label: 'Klein', factor: 0.9 },
+  { label: 'Normal', factor: 1 },
+  { label: 'Groß', factor: 1.15 },
+  { label: 'Sehr groß', factor: 1.3 },
+  { label: 'Riesig', factor: 1.5 },
+] as const;
 
 export const Spacing = {
   half: 2,

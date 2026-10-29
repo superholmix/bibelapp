@@ -46,7 +46,7 @@ export function NoteSheet({ target, onClose }: Props) {
         autoFocus
         style={[
           styles.input,
-          { color: theme.text, borderColor: theme.border, backgroundColor: theme.background, fontFamily: Fonts.serif },
+          { color: theme.text, borderColor: theme.border, backgroundColor: theme.background, fontFamily: Fonts.regular },
         ]}
       />
       <View style={styles.row}>

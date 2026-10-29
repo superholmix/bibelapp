@@ -31,7 +31,7 @@ function timeAgo(iso: string | null) {
 
 function Button({ label, onPress, kind = 'primary', busy, disabled }: { label: string; onPress: () => void; kind?: 'primary' | 'secondary' | 'danger'; busy?: boolean; disabled?: boolean }) {
   const theme = useTheme();
-  const bg = kind === 'primary' ? theme.accent : kind === 'danger' ? '#A33A2C' : 'transparent';
+  const bg = kind === 'primary' ? theme.accent : kind === 'danger' ? theme.danger : 'transparent';
   const off = disabled || busy;
   return (
     <Pressable
@@ -39,8 +39,8 @@ function Button({ label, onPress, kind = 'primary', busy, disabled }: { label: s
       disabled={off}
       style={[styles.button, { backgroundColor: bg, borderColor: kind === 'secondary' ? theme.border : bg, opacity: off ? 0.6 : 1 }]}
       accessibilityRole="button">
-      {busy ? <ActivityIndicator color={kind === 'secondary' ? theme.accent : '#FFFFFF'} /> : null}
-      <ThemedText type="smallBold" style={kind === 'secondary' ? undefined : styles.buttonTextLight}>
+      {busy ? <ActivityIndicator color={kind === 'secondary' ? theme.accent : theme.onAccent} /> : null}
+      <ThemedText type="smallBold" style={kind === 'secondary' ? undefined : { color: theme.onAccent }}>
         {label}
       </ThemedText>
     </Pressable>
@@ -158,7 +158,7 @@ function SignIn() {
         </ThemedText>
       ) : null}
       {error ? (
-        <ThemedText type="small" style={styles.error}>
+        <ThemedText type="small" themeColor="danger">
           {error}
         </ThemedText>
       ) : null}
@@ -243,7 +243,7 @@ function Subscription() {
         </Pressable>
       ) : null}
       {message ? (
-        <ThemedText type="small" style={styles.error}>
+        <ThemedText type="small" themeColor="danger">
           {message}
         </ThemedText>
       ) : null}
@@ -345,14 +345,14 @@ function SignedIn() {
               <ThemedText type="link">Abmelden</ThemedText>
             </Pressable>
             <Pressable onPress={() => setConfirm('delete')} accessibilityRole="button">
-              <ThemedText type="small" style={styles.error}>
+              <ThemedText type="small" themeColor="danger">
                 Konto löschen
               </ThemedText>
             </Pressable>
           </View>
         )}
         {error ? (
-          <ThemedText type="small" style={styles.error}>
+          <ThemedText type="small" themeColor="danger">
             {error}
           </ThemedText>
         ) : null}
@@ -414,9 +414,6 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.two + 2,
     paddingHorizontal: Spacing.three,
   },
-  buttonTextLight: {
-    color: '#FFFFFF',
-  },
   buttonRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
@@ -427,9 +424,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     flexWrap: 'wrap',
     gap: Spacing.three,
-  },
-  error: {
-    color: '#A33A2C',
   },
   dimmed: {
     opacity: 0.5,

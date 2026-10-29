@@ -8,6 +8,8 @@ import { ExegesisSheet } from '@/components/exegesis-sheet';
 import { InterlinearVerse } from '@/components/interlinear-verse';
 import { NoteSheet } from '@/components/note-sheet';
 import { Segmented } from '@/components/segmented';
+import { Sheet } from '@/components/sheet';
+import { TextSizeControl } from '@/components/text-size-control';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { VerseSheet } from '@/components/verse-sheet';
@@ -35,6 +37,7 @@ type Mode = 'read' | 'interlinear';
 type Active =
   | { kind: 'none' }
   | { kind: 'chapters' }
+  | { kind: 'textsize' }
   | { kind: 'verse'; verse: Verse }
   | { kind: 'word'; verse: Verse; word: Word; index: number }
   | { kind: 'note'; verse: number }
@@ -112,17 +115,29 @@ export default function ReaderScreen() {
             DAS EVANGELIUM NACH
           </ThemedText>
           <ThemedText type="title">
-            {BOOK.name} {chapterNo} <ThemedText type="heading" themeColor="accent">▾</ThemedText>
+            {BOOK.name} {chapterNo}{' '}
+            <ThemedText type="heading" themeColor="accent" inline>
+              ▾
+            </ThemedText>
           </ThemedText>
         </Pressable>
-        <Segmented<Mode>
-          value={mode}
-          onChange={setMode}
-          options={[
-            { value: 'read', label: 'Text' },
-            { value: 'interlinear', label: 'Urtext' },
-          ]}
-        />
+        <View style={styles.headerActions}>
+          <Pressable
+            onPress={() => setActive({ kind: 'textsize' })}
+            style={[styles.sizeButton, { borderColor: theme.border, backgroundColor: theme.backgroundElement }]}
+            accessibilityRole="button"
+            accessibilityLabel="Schriftgröße">
+            <ThemedText type="smallBold">Aa</ThemedText>
+          </Pressable>
+          <Segmented<Mode>
+            value={mode}
+            onChange={setMode}
+            options={[
+              { value: 'read', label: 'Text' },
+              { value: 'interlinear', label: 'Urtext' },
+            ]}
+          />
+        </View>
       </View>
       {studyStatus !== 'reviewed' ? (
         <View style={[styles.banner, { backgroundColor: theme.accentSoft }]}>
@@ -196,7 +211,7 @@ export default function ReaderScreen() {
   const verseNumber = (v: Verse) => {
     const hasNote = Boolean(notes[verseKey(chapterNo, v.v)]);
     return (
-      <ThemedText type="caption" themeColor="accent" style={styles.verseNo}>
+      <ThemedText type="caption" themeColor="accent" style={styles.verseNo} inline scale>
         {v.v}
         {hasNote ? '•' : ''}{' '}
       </ThemedText>
@@ -223,7 +238,11 @@ export default function ReaderScreen() {
             <ThemedText type="scripture" style={v.v === highlight && { backgroundColor: theme.accentSoft }}>
               {verseNumber(v)}
               {mainText(chapterNo, v)}
-              {hasNotes(v) ? <ThemedText type="caption" themeColor="accent">*</ThemedText> : null}
+              {hasNotes(v) ? (
+              <ThemedText type="caption" themeColor="accent" inline scale>
+                *
+              </ThemedText>
+            ) : null}
             </ThemedText>
             <ThemedText type="small" themeColor="textSecondary">
               {COMPARE_TRANSLATIONS[compare].short}: {v.cmp[compare] ?? '–'}
@@ -241,7 +260,11 @@ export default function ReaderScreen() {
             style={v.v === highlight && { backgroundColor: theme.accentSoft }}>
             {verseNumber(v)}
             {mainText(chapterNo, v)}
-            {hasNotes(v) ? <ThemedText type="caption" themeColor="accent">*</ThemedText> : null}{' '}
+            {hasNotes(v) ? (
+              <ThemedText type="caption" themeColor="accent" inline scale>
+                *
+              </ThemedText>
+            ) : null}{' '}
           </ThemedText>
         ))}
       </ThemedText>
@@ -302,6 +325,11 @@ export default function ReaderScreen() {
         )}
       </SafeAreaView>
 
+      {active.kind === 'textsize' ? (
+        <Sheet visible onClose={() => setActive({ kind: 'none' })} title="Schriftgröße">
+          <TextSizeControl />
+        </Sheet>
+      ) : null}
       <ChapterPicker visible={active.kind === 'chapters'} current={chapterNo} onSelect={goTo} onClose={() => setActive({ kind: 'none' })} />
       {active.kind === 'verse' ? (
         <VerseSheet
@@ -353,6 +381,19 @@ const styles = StyleSheet.create({
     gap: Spacing.three,
     marginBottom: Spacing.two,
   },
+  headerActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.two,
+  },
+  sizeButton: {
+    width: 40,
+    height: 36,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: Radius.medium,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   titleRow: {
     flexDirection: 'row',
     alignItems: 'flex-end',
@@ -382,6 +423,7 @@ const styles = StyleSheet.create({
   },
   verseNo: {
     fontSize: 12,
+    fontWeight: 600,
   },
   ilVerse: {
     gap: Spacing.three,

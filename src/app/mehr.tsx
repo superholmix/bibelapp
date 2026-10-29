@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { AccountSheet } from '@/components/account-sheet';
 import { Segmented } from '@/components/segmented';
+import { TextSizeControl } from '@/components/text-size-control';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { BottomTabInset, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
@@ -101,6 +102,10 @@ export default function MoreScreen() {
           </ThemedText>
 
           <Section title="Lesen">
+            <View style={styles.rowStack}>
+              <ThemedText type="default">Schriftgröße</ThemedText>
+              <TextSizeControl />
+            </View>
             <View style={styles.rowStack}>
               <ThemedText type="default">Vergleichsübersetzung</ThemedText>
               <View style={styles.chips}>

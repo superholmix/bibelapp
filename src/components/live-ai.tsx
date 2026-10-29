@@ -125,7 +125,7 @@ export function ExplainWordPanel({ chapter, verse, index, onOpenAccount }: { cha
         <GateBox {...gate} onOpenAccount={onOpenAccount} />
       ) : status.kind === 'idle' ? (
         <Pressable onPress={run} style={[styles.button, { backgroundColor: theme.accent }]} accessibilityRole="button">
-          <ThemedText type="smallBold" style={styles.buttonText}>
+          <ThemedText type="smallBold" style={{ color: theme.onAccent }}>
             Was ändert diese Form am Sinn?
           </ThemedText>
         </Pressable>
@@ -177,14 +177,14 @@ export function AskTextPanel({ chapter, verse, onOpenAccount }: { chapter: numbe
             maxLength={500}
             multiline
             onSubmitEditing={run}
-            style={[styles.input, { color: theme.text, borderColor: theme.border, backgroundColor: theme.background, fontFamily: Fonts.sans }]}
+            style={[styles.input, { color: theme.text, borderColor: theme.border, backgroundColor: theme.background, fontFamily: Fonts.regular }]}
           />
           <Pressable
             onPress={run}
             disabled={!question.trim() || status.kind === 'loading'}
             style={[styles.button, { backgroundColor: theme.accent, opacity: question.trim() && status.kind !== 'loading' ? 1 : 0.5 }]}
             accessibilityRole="button">
-            <ThemedText type="smallBold" style={styles.buttonText}>
+            <ThemedText type="smallBold" style={{ color: theme.onAccent }}>
               Fragen
             </ThemedText>
           </Pressable>
@@ -214,9 +214,6 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.two + 2,
     paddingHorizontal: Spacing.three,
     alignItems: 'center',
-  },
-  buttonText: {
-    color: '#FFFFFF',
   },
   loading: {
     flexDirection: 'row',

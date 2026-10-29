@@ -9,6 +9,8 @@ export default function AppTabs() {
     <NativeTabs
       backgroundColor={colors.background}
       indicatorColor={colors.backgroundSelected}
+      tintColor={colors.accent}
+      iconColor={{ default: colors.textSecondary, selected: colors.accent }}
       labelStyle={{ selected: { color: colors.accent } }}>
       <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>Lesen</NativeTabs.Trigger.Label>
