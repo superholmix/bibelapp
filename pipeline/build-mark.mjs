@@ -8,6 +8,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { buildServerData } from './build-server-data.mjs';
+
 const here = path.dirname(fileURLToPath(import.meta.url));
 const cacheDir = path.join(here, '.cache');
 const outDir = path.join(here, '..', 'assets', 'data');
@@ -180,6 +182,7 @@ async function main() {
   console.log(`Markus: ${chapters.size} Kapitel, ${verses.size} Verse, ${wordCount} Wörter`);
   console.log(`Lexikon: ${Object.keys(lexicon).length} Einträge, Grammatik-Codes: ${Object.keys(morph).length}`);
   console.log('Verse pro Kapitel:', verseCounts.join(' '));
+  console.log(`Backend-Daten: ${await buildServerData()} Verse`);
 }
 
 main().catch((err) => {

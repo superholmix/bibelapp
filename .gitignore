@@ -45,6 +45,7 @@ example
 # pipeline cache (downloaded source data, not redistributed)
 pipeline/.cache/
 
-# lokale Schlüssel für die KI-Pipeline
+# lokale Schlüssel (App-Konfiguration und KI-Pipeline)
 .env
 .env.*
+!.env.example

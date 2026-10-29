@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
+import { ExplainWordPanel } from '@/components/live-ai';
 import { Sheet } from '@/components/sheet';
 import { ThemedText } from '@/components/themed-text';
 import { Radius, Spacing } from '@/constants/theme';
@@ -8,7 +9,6 @@ import { formatRef, getLexiconEntry, type Word } from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
 import { glossFor, LANGUAGE_LABEL } from '@/lib/gloss';
 import { describeMorph } from '@/lib/grammar';
-import { useEntitlement } from '@/state/entitlement';
 import { useSettings } from '@/state/settings';
 
 type Props = {
@@ -18,13 +18,13 @@ type Props = {
   chapter: number;
   verse: number;
   onClose: () => void;
+  onOpenAccount: () => void;
 };
 
 /** Zweite Ebene: ein Wort mit Bedeutung, Grammatik in Alltagssprache und Lexikon. */
-export function WordSheet({ word, index, chapter, verse, onClose }: Props) {
+export function WordSheet({ word, index, chapter, verse, onClose, onOpenAccount }: Props) {
   const theme = useTheme();
   const { settings } = useSettings();
-  const { active } = useEntitlement();
   const [showLexicon, setShowLexicon] = useState(false);
 
   if (!word) return null;
@@ -123,14 +123,7 @@ export function WordSheet({ word, index, chapter, verse, onClose }: Props) {
         );
       })}
 
-      <View style={[styles.locked, { borderColor: theme.border }]}>
-        <ThemedText type="smallBold">KI-Erklärung: Was ändert diese Form am Sinn?</ThemedText>
-        <ThemedText type="small" themeColor="textSecondary">
-          {active
-            ? 'Die Live-Erklärung kommt mit dem Backend im nächsten Schritt.'
-            : 'Gehört zum Abo. Im Testlauf kannst du das Abo unter „Mehr“ simulieren.'}
-        </ThemedText>
-      </View>
+      <ExplainWordPanel chapter={chapter} verse={verse} index={index} onOpenAccount={onOpenAccount} />
     </Sheet>
   );
 }
@@ -172,12 +165,5 @@ const styles = StyleSheet.create({
   },
   lexicon: {
     marginTop: Spacing.two,
-  },
-  locked: {
-    borderWidth: 1,
-    borderStyle: 'dashed',
-    borderRadius: Radius.medium,
-    padding: Spacing.three,
-    gap: Spacing.one,
   },
 });

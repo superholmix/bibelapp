@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Sheet } from '@/components/sheet';
 import { ThemedText } from '@/components/themed-text';
@@ -10,6 +10,7 @@ import { useEntitlement } from '@/state/entitlement';
 type Props = {
   topic: ExegesisTopic | null;
   onClose: () => void;
+  onOpenAccount: () => void;
 };
 
 function rangeLabel(t: ExegesisTopic) {
@@ -17,7 +18,7 @@ function rangeLabel(t: ExegesisTopic) {
 }
 
 /** Dritte Ebene: Auslegungspositionen zu einer Streitstelle, ohne Urteil der App. */
-export function ExegesisSheet({ topic, onClose }: Props) {
+export function ExegesisSheet({ topic, onClose, onOpenAccount }: Props) {
   const theme = useTheme();
   const { active } = useEntitlement();
   if (!topic) return null;
@@ -38,8 +39,11 @@ export function ExegesisSheet({ topic, onClose }: Props) {
         <View style={[styles.card, { borderColor: theme.border }]}>
           <ThemedText type="smallBold">Auslegungsüberblicke gehören zum Abo.</ThemedText>
           <ThemedText type="small" themeColor="textSecondary">
-            Im Testlauf kannst du das Abo unter „Mehr“ simulieren.
+            Mit dem Abo siehst du zu jeder Streitstelle die Positionen der Forschung, ihre Argumente und Literatur.
           </ThemedText>
+          <Pressable onPress={onOpenAccount} accessibilityRole="button">
+            <ThemedText type="link">Abo ansehen</ThemedText>
+          </Pressable>
         </View>
       ) : (
         <>

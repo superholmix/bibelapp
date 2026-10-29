@@ -1,5 +1,5 @@
 import { type PropsWithChildren } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { KeyboardAvoidingView, Modal, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ThemedText } from '@/components/themed-text';
@@ -23,7 +23,7 @@ export function Sheet({ visible, onClose, title, header, scroll = true, children
 
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <View style={styles.root}>
+      <KeyboardAvoidingView style={styles.root} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
         <Pressable style={styles.backdrop} onPress={onClose} accessibilityLabel="Schließen" />
         <View
           style={[
@@ -44,7 +44,7 @@ export function Sheet({ visible, onClose, title, header, scroll = true, children
             {children}
           </Body>
         </View>
-      </View>
+      </KeyboardAvoidingView>
     </Modal>
   );
 }

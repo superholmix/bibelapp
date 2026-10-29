@@ -1,12 +1,17 @@
+import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useEffect, useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Switch, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { AccountSheet } from '@/components/account-sheet';
 import { Segmented } from '@/components/segmented';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { BottomTabInset, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { COMPARE_TRANSLATIONS, type CompareId } from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
+import { useAuth } from '@/state/auth';
+import { useEntitlement } from '@/state/entitlement';
 import { useSettings, type GlossLanguage } from '@/state/settings';
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -53,6 +58,33 @@ const SOURCES = [
 export default function MoreScreen() {
   const theme = useTheme();
   const { settings, update } = useSettings();
+  const auth = useAuth();
+  const ent = useEntitlement();
+  const router = useRouter();
+  const params = useLocalSearchParams<{ konto?: string }>();
+  const [accountOpen, setAccountOpen] = useState(false);
+
+  // Aus anderen Blättern heraus: „Konto und Abo“ direkt öffnen
+  useEffect(() => {
+    if (params.konto) {
+      setAccountOpen(true);
+      router.setParams({ konto: undefined });
+    }
+  }, [params.konto, router]);
+
+  const accountHint = !auth.available
+    ? 'Im Testlauf noch nicht eingerichtet. Notizen bleiben auf diesem Gerät.'
+    : auth.user
+      ? `${auth.user.email ?? 'Angemeldet'} · Notizen werden synchronisiert`
+      : 'Notizen sichern und auf allen Geräten nutzen';
+  const aboHint =
+    ent.source === 'server' || ent.source === 'store'
+      ? ent.manual
+        ? 'Testzugang freigeschaltet'
+        : 'Aktiv'
+      : ent.source === 'simulated'
+        ? 'Simuliert: Auslegungen frei, Live-Fragen brauchen ein echtes Abo'
+        : 'Auslegungen, Wort-Erklärungen und Fragen an den Text';
   const compareOptions: (CompareId | null)[] = [null, 'elb1905', 'bsb', 'kjv', 'rv1909'];
   const switchColors = {
     trackColor: { false: theme.backgroundSelected, true: theme.accent },
@@ -122,8 +154,17 @@ export default function MoreScreen() {
           </Section>
 
           <Section title="Konto und Abo">
-            <Row label="Anmelden" hint="Konto, Synchronisation der Notizen und echtes Abo folgen im nächsten Schritt des Testlaufs." />
-            <Row label="Abo simulieren" hint="Nur im Testlauf: schaltet Auslegungen und KI-Funktionen frei.">
+            <Pressable onPress={() => setAccountOpen(true)} accessibilityRole="button">
+              <Row label={auth.user ? 'Konto' : 'Anmelden'} hint={accountHint}>
+                <ThemedText type="link">›</ThemedText>
+              </Row>
+            </Pressable>
+            <Pressable onPress={() => setAccountOpen(true)} accessibilityRole="button">
+              <Row label="Abo" hint={aboHint}>
+                <ThemedText type="link">›</ThemedText>
+              </Row>
+            </Pressable>
+            <Row label="Abo simulieren" hint="Nur im Testlauf: schaltet die Auslegungen auf diesem Gerät frei.">
               <Switch value={settings.simulateSubscription} onValueChange={(v) => update({ simulateSubscription: v })} {...switchColors} />
             </Row>
           </Section>
@@ -142,6 +183,7 @@ export default function MoreScreen() {
           </Section>
         </ScrollView>
       </SafeAreaView>
+      <AccountSheet visible={accountOpen} onClose={() => setAccountOpen(false)} />
     </ThemedView>
   );
 }

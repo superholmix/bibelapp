@@ -6,6 +6,7 @@ import { ThemedText } from '@/components/themed-text';
 import { Fonts, Radius, Spacing } from '@/constants/theme';
 import { formatRef, verseKey } from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
+import { useAuth } from '@/state/auth';
 import { useNotes } from '@/state/notes';
 
 type Props = {
@@ -16,6 +17,7 @@ type Props = {
 export function NoteSheet({ target, onClose }: Props) {
   const theme = useTheme();
   const { getNote, saveNote, deleteNote } = useNotes();
+  const { user } = useAuth();
   const key = target ? verseKey(target.chapter, target.verse) : '';
   const existing = target ? getNote(key) : undefined;
   const [text, setText] = useState(existing?.text ?? '');
@@ -49,7 +51,7 @@ export function NoteSheet({ target, onClose }: Props) {
       />
       <View style={styles.row}>
         <ThemedText type="small" themeColor="textSecondary" style={styles.hint}>
-          Wird beim Schließen gespeichert, vorerst nur auf diesem Gerät.
+          {user ? 'Wird beim Schließen gespeichert und mit deinem Konto synchronisiert.' : 'Wird beim Schließen auf diesem Gerät gespeichert.'}
         </ThemedText>
         {existing ? (
           <Pressable

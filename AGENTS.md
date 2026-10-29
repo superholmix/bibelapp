@@ -46,4 +46,7 @@ Docs: https://docs.expo.dev/eas/index.md
 - `assets/data/` wird von `pipeline/` erzeugt. Nicht von Hand bearbeiten, sondern `npm run data:build`.
 - Rohdaten von STEPBible bleiben in `pipeline/.cache/` (gitignored); die Lizenz bittet darum, sie nicht weiterzuverteilen. Quellen und Pflichten: `docs/datenquellen.md`.
 - Der KI-Schlüssel gehört nie in die App, nur ins Backend bzw. in lokale Pipeline-Umgebungsvariablen.
+- Backend (Supabase): Schema und Zugriffsregeln nur über neue Dateien in `supabase/migrations/`, nie bestehende Migrationen ändern. Edge Functions in `supabase/functions/` sind Deno, nicht Teil von `tsc` (siehe `tsconfig.json`); prüfen mit `deno check`. Einrichtung: `docs/backend.md`.
+- Der Abo-Status in `entitlements` ist die Quelle für Freischaltungen im Backend; die App darf ihn nicht schreiben.
+- `supabase/functions/_shared/mark.json` wird von `npm run data:server` erzeugt.
 - Expo-Pakete mit `npx expo install` hinzufügen; ohne Netz zu api.expo.dev die Version aus `node_modules/expo/bundledNativeModules.json` nehmen.

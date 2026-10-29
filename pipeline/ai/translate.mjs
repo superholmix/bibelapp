@@ -8,6 +8,7 @@
 
 import path from 'node:path';
 
+import { buildServerData } from '../build-server-data.mjs';
 import { callJson, DATA, loadChapter, MODEL, parseArgs, pericopes, printTotals, readJson, writeJson } from './lib.mjs';
 
 export const PROMPT_VERSION = 'uebersetzung-v1';
@@ -156,6 +157,7 @@ async function main() {
       await writeJson(STUDY_FILE, study); // nach jedem Abschnitt speichern, damit ein Abbruch nichts kostet
     }
   }
+  if (!args.dryRun) await buildServerData(); // Backend bekommt die neue Übersetzung als Kontext
   printTotals();
 }
 
