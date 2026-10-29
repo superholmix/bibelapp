@@ -6,24 +6,29 @@ import { ThemedText } from '@/components/themed-text';
 import { Radius, Spacing } from '@/constants/theme';
 import { formatRef, getLexiconEntry, type Word } from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
+import { glossFor, LANGUAGE_LABEL } from '@/lib/gloss';
 import { describeMorph } from '@/lib/grammar';
+import { useEntitlement } from '@/state/entitlement';
 import { useSettings } from '@/state/settings';
 
 type Props = {
   word: Word | null;
+  /** Position des Wortes im Vers, für die deutschen Wortbedeutungen */
+  index: number;
   chapter: number;
   verse: number;
   onClose: () => void;
 };
 
 /** Zweite Ebene: ein Wort mit Bedeutung, Grammatik in Alltagssprache und Lexikon. */
-export function WordSheet({ word, chapter, verse, onClose }: Props) {
+export function WordSheet({ word, index, chapter, verse, onClose }: Props) {
   const theme = useTheme();
   const { settings } = useSettings();
+  const { active } = useEntitlement();
   const [showLexicon, setShowLexicon] = useState(false);
 
   if (!word) return null;
-  const context = settings.glossLanguage === 'es' ? word.es : word.en;
+  const gloss = glossFor(word, index, chapter, verse, settings.glossLanguage);
 
   return (
     <Sheet
@@ -47,12 +52,19 @@ export function WordSheet({ word, chapter, verse, onClose }: Props) {
       }>
       <View style={[styles.card, { backgroundColor: theme.accentSoft }]}>
         <ThemedText type="caption" themeColor="textSecondary">
-          HIER ÜBERSETZT ({settings.glossLanguage === 'es' ? 'SPANISCH' : 'ENGLISCH'})
+          HIER ÜBERSETZT ({LANGUAGE_LABEL[gloss.language].toUpperCase()})
         </ThemedText>
-        <ThemedText type="heading">{context || '–'}</ThemedText>
-        <ThemedText type="small" themeColor="textSecondary">
-          Deutsche Wortbedeutungen kommen mit der KI-Studienübersetzung.
-        </ThemedText>
+        <ThemedText type="heading">{gloss.text || '–'}</ThemedText>
+        {gloss.silent ? (
+          <ThemedText type="small" themeColor="textSecondary">
+            Steht im Griechischen, wird im Deutschen aber meist nicht eigens übersetzt.
+          </ThemedText>
+        ) : null}
+        {settings.glossLanguage === 'de' && gloss.language !== 'de' ? (
+          <ThemedText type="small" themeColor="textSecondary">
+            Deutsche Wortbedeutungen kommen mit der KI-Studienübersetzung.
+          </ThemedText>
+        ) : null}
       </View>
 
       {word.s.map((strong, i) => {
@@ -114,7 +126,9 @@ export function WordSheet({ word, chapter, verse, onClose }: Props) {
       <View style={[styles.locked, { borderColor: theme.border }]}>
         <ThemedText type="smallBold">KI-Erklärung: Was ändert diese Form am Sinn?</ThemedText>
         <ThemedText type="small" themeColor="textSecondary">
-          Kommt mit dem Abo im nächsten Schritt.
+          {active
+            ? 'Die Live-Erklärung kommt mit dem Backend im nächsten Schritt.'
+            : 'Gehört zum Abo. Im Testlauf kannst du das Abo unter „Mehr“ simulieren.'}
         </ThemedText>
       </View>
     </Sheet>

@@ -4,6 +4,7 @@ import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ChapterPicker } from '@/components/chapter-picker';
+import { ExegesisSheet } from '@/components/exegesis-sheet';
 import { InterlinearVerse } from '@/components/interlinear-verse';
 import { NoteSheet } from '@/components/note-sheet';
 import { Segmented } from '@/components/segmented';
@@ -16,9 +17,12 @@ import {
   BOOK,
   COMPARE_TRANSLATIONS,
   getChapter,
+  getSectionHeading,
   getStudyVerse,
+  getTopicsForChapter,
   studyStatus,
   verseKey,
+  type ExegesisTopic,
   type Verse,
   type Word,
 } from '@/data/mark';
@@ -32,8 +36,9 @@ type Active =
   | { kind: 'none' }
   | { kind: 'chapters' }
   | { kind: 'verse'; verse: Verse }
-  | { kind: 'word'; verse: Verse; word: Word }
-  | { kind: 'note'; verse: number };
+  | { kind: 'word'; verse: Verse; word: Word; index: number }
+  | { kind: 'note'; verse: number }
+  | { kind: 'topic'; topic: ExegesisTopic };
 
 function mainText(chapter: number, verse: Verse) {
   return getStudyVerse(chapter, verse.v)?.text ?? verse.cmp.elb1905 ?? '';
@@ -81,6 +86,7 @@ export default function ReaderScreen() {
 
   const chapter = useMemo(() => getChapter(chapterNo), [chapterNo]);
   const paras = useMemo(() => paragraphs(chapter.verses), [chapter]);
+  const topics = useMemo(() => getTopicsForChapter(chapterNo), [chapterNo]);
 
   const goTo = (c: number) => {
     setActive({ kind: 'none' });
@@ -112,11 +118,32 @@ export default function ReaderScreen() {
           ]}
         />
       </View>
-      {studyStatus === 'pending' ? (
+      {studyStatus !== 'reviewed' ? (
         <View style={[styles.banner, { backgroundColor: theme.accentSoft }]}>
           <ThemedText type="small">
-            Vorläufiger Haupttext: Elberfelder 1905. Die eigene KI-Studienübersetzung wird als Nächstes erzeugt.
+            {studyStatus === 'pending'
+              ? 'Vorläufiger Haupttext: Elberfelder 1905. Die eigene KI-Studienübersetzung wird als Nächstes erzeugt.'
+              : 'Haupttext: KI-Studienübersetzung aus dem Griechischen, Entwurf, noch nicht fachlich geprüft.'}
           </ThemedText>
+        </View>
+      ) : null}
+      {topics.length ? (
+        <View style={styles.topics}>
+          <ThemedText type="caption" themeColor="textSecondary">
+            AUSLEGUNGEN IN DIESEM KAPITEL
+          </ThemedText>
+          {topics.map((t) => (
+            <Pressable
+              key={t.id}
+              onPress={() => setActive({ kind: 'topic', topic: t })}
+              style={[styles.topicChip, { borderColor: theme.border, backgroundColor: theme.backgroundElement }]}
+              accessibilityRole="button">
+              <ThemedText type="caption" themeColor="accent">
+                {chapterNo},{t.from === t.to ? t.from : `${t.from}–${t.to}`}
+              </ThemedText>
+              <ThemedText type="smallBold">{t.title}</ThemedText>
+            </Pressable>
+          ))}
         </View>
       ) : null}
       {mode === 'read' ? (
@@ -170,7 +197,19 @@ export default function ReaderScreen() {
     );
   };
 
-  const renderParagraph = ({ item }: { item: Verse[] }) =>
+  const renderParagraph = ({ item }: { item: Verse[] }) => {
+    const heading = getSectionHeading(chapterNo, item[0].v);
+    return (
+      <View style={styles.paragraph}>
+        {heading ? <ThemedText type="heading">{heading}</ThemedText> : null}
+        {renderParagraphBody(item)}
+      </View>
+    );
+  };
+
+  const hasNotes = (v: Verse) => Boolean(getStudyVerse(chapterNo, v.v)?.notes?.length);
+
+  const renderParagraphBody = (item: Verse[]) =>
     compare ? (
       <View style={styles.paragraph}>
         {item.map((v) => (
@@ -178,6 +217,7 @@ export default function ReaderScreen() {
             <ThemedText type="scripture" style={v.v === highlight && { backgroundColor: theme.accentSoft }}>
               {verseNumber(v)}
               {mainText(chapterNo, v)}
+              {hasNotes(v) ? <ThemedText type="caption" themeColor="accent">*</ThemedText> : null}
             </ThemedText>
             <ThemedText type="small" themeColor="textSecondary">
               {COMPARE_TRANSLATIONS[compare].short}: {v.cmp[compare] ?? '–'}
@@ -186,7 +226,7 @@ export default function ReaderScreen() {
         ))}
       </View>
     ) : (
-      <ThemedText type="scripture" style={styles.paragraph}>
+      <ThemedText type="scripture">
         {item.map((v) => (
           <ThemedText
             key={v.v}
@@ -194,7 +234,8 @@ export default function ReaderScreen() {
             onPress={() => setActive({ kind: 'verse', verse: v })}
             style={v.v === highlight && { backgroundColor: theme.accentSoft }}>
             {verseNumber(v)}
-            {mainText(chapterNo, v)}{' '}
+            {mainText(chapterNo, v)}
+            {hasNotes(v) ? <ThemedText type="caption" themeColor="accent">*</ThemedText> : null}{' '}
           </ThemedText>
         ))}
       </ThemedText>
@@ -211,7 +252,12 @@ export default function ReaderScreen() {
           {mainText(chapterNo, item)}
         </ThemedText>
       </Pressable>
-      <InterlinearVerse verse={item} settings={settings} onWordPress={(word) => setActive({ kind: 'word', verse: item, word })} />
+      <InterlinearVerse
+        chapter={chapterNo}
+        verse={item}
+        settings={settings}
+        onWordPress={(word, index) => setActive({ kind: 'word', verse: item, word, index })}
+      />
       {compare && item.cmp[compare] ? (
         <ThemedText type="small" themeColor="textSecondary">
           {COMPARE_TRANSLATIONS[compare].short}: {item.cmp[compare]}
@@ -257,16 +303,24 @@ export default function ReaderScreen() {
           verse={active.verse}
           mainText={mainText(chapterNo, active.verse)}
           onClose={() => setActive({ kind: 'none' })}
-          onWordPress={(word) => setActive({ kind: 'word', verse: active.verse, word })}
+          onWordPress={(word, index) => setActive({ kind: 'word', verse: active.verse, word, index })}
           onNotePress={() => setActive({ kind: 'note', verse: active.verse.v })}
+          onTopicPress={(topic) => setActive({ kind: 'topic', topic })}
         />
       ) : null}
       {active.kind === 'word' ? (
-        <WordSheet word={active.word} chapter={chapterNo} verse={active.verse.v} onClose={() => setActive({ kind: 'none' })} />
+        <WordSheet
+          word={active.word}
+          index={active.index}
+          chapter={chapterNo}
+          verse={active.verse.v}
+          onClose={() => setActive({ kind: 'none' })}
+        />
       ) : null}
       {active.kind === 'note' ? (
         <NoteSheet target={{ chapter: chapterNo, verse: active.verse }} onClose={() => setActive({ kind: 'none' })} />
       ) : null}
+      {active.kind === 'topic' ? <ExegesisSheet topic={active.topic} onClose={() => setActive({ kind: 'none' })} /> : null}
     </ThemedView>
   );
 }
@@ -301,6 +355,16 @@ const styles = StyleSheet.create({
   banner: {
     borderRadius: Radius.medium,
     padding: Spacing.three,
+  },
+  topics: {
+    gap: Spacing.two,
+  },
+  topicChip: {
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: Radius.medium,
+    paddingHorizontal: Spacing.three,
+    paddingVertical: Spacing.two,
+    gap: Spacing.half,
   },
   paragraph: {
     gap: Spacing.three,

@@ -4,7 +4,17 @@ import { InterlinearVerse } from '@/components/interlinear-verse';
 import { Sheet } from '@/components/sheet';
 import { ThemedText } from '@/components/themed-text';
 import { Radius, Spacing } from '@/constants/theme';
-import { COMPARE_TRANSLATIONS, formatRef, verseKey, type CompareId, type Verse, type Word } from '@/data/mark';
+import {
+  COMPARE_TRANSLATIONS,
+  formatRef,
+  getStudyVerse,
+  getTopicsForVerse,
+  verseKey,
+  type CompareId,
+  type ExegesisTopic,
+  type Verse,
+  type Word,
+} from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
 import { useNotes } from '@/state/notes';
 import { useSettings } from '@/state/settings';
@@ -14,27 +24,56 @@ type Props = {
   verse: Verse | null;
   mainText: string;
   onClose: () => void;
-  onWordPress: (word: Word) => void;
+  onWordPress: (word: Word, index: number) => void;
   onNotePress: () => void;
+  onTopicPress: (topic: ExegesisTopic) => void;
 };
 
-/** Zweite Ebene beim Lesen: ein Vers im Urtext, im Vergleich und mit Notiz. */
-export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onNotePress }: Props) {
+/** Zweite Ebene beim Lesen: ein Vers im Urtext, im Vergleich, mit Fußnoten, Auslegungen und Notiz. */
+export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onNotePress, onTopicPress }: Props) {
   const theme = useTheme();
   const { settings } = useSettings();
   const { getNote } = useNotes();
   if (!verse) return null;
   const note = getNote(verseKey(chapter, verse.v));
+  const footnotes = getStudyVerse(chapter, verse.v)?.notes ?? [];
+  const topics = getTopicsForVerse(chapter, verse.v);
 
   return (
     <Sheet visible onClose={onClose} title={formatRef(chapter, verse.v)}>
       <ThemedText type="scripture">{mainText}</ThemedText>
 
+      {footnotes.length ? (
+        <View style={styles.block}>
+          {footnotes.map((n, i) => (
+            <ThemedText key={i} type="small" themeColor="textSecondary">
+              <ThemedText type="smallBold" themeColor="accent">
+                {n.anchor}:{' '}
+              </ThemedText>
+              {n.text}
+            </ThemedText>
+          ))}
+        </View>
+      ) : null}
+
+      {topics.map((t) => (
+        <Pressable
+          key={t.id}
+          onPress={() => onTopicPress(t)}
+          style={[styles.topic, { backgroundColor: theme.accentSoft }]}
+          accessibilityRole="button">
+          <ThemedText type="caption" themeColor="accent">
+            AUSLEGUNGEN · {t.positions.length} POSITIONEN
+          </ThemedText>
+          <ThemedText type="smallBold">{t.title}</ThemedText>
+        </Pressable>
+      ))}
+
       <View style={styles.block}>
         <ThemedText type="caption" themeColor="textSecondary">
           URTEXT · WORT ANTIPPEN FÜR DETAILS
         </ThemedText>
-        <InterlinearVerse verse={verse} settings={settings} onWordPress={onWordPress} />
+        <InterlinearVerse chapter={chapter} verse={verse} settings={settings} onWordPress={onWordPress} />
       </View>
 
       <View style={styles.block}>
@@ -73,6 +112,11 @@ export function VerseSheet({ chapter, verse, mainText, onClose, onWordPress, onN
 const styles = StyleSheet.create({
   block: {
     gap: Spacing.two,
+  },
+  topic: {
+    borderRadius: Radius.medium,
+    padding: Spacing.three,
+    gap: Spacing.half,
   },
   compareRow: {
     flexDirection: 'row',

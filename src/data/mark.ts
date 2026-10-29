@@ -5,6 +5,7 @@
 
 import lexiconData from '@/assets/data/lexicon.json';
 import morphData from '@/assets/data/morph.json';
+import exegesisDe from '@/assets/data/exegesis-de.json';
 import studyDe from '@/assets/data/study-de.json';
 
 export type Word = {
@@ -53,6 +54,8 @@ export type LexiconEntry = {
 export type StudyVerse = {
   text: string;
   notes?: { anchor: string; text: string }[];
+  /** Deutsche Wortbedeutungen, parallel zu Verse.words */
+  glosses?: string[];
 };
 
 type StudyFile = {
@@ -60,6 +63,37 @@ type StudyFile = {
   model?: string;
   promptVersion?: string;
   verses: Record<string, StudyVerse>;
+  /** Abschnittsüberschriften, Schlüssel ist der erste Vers ("1.1") */
+  sections?: Record<string, string>;
+};
+
+export type ExegesisPosition = {
+  name: string;
+  claim: string;
+  arguments: string[];
+  textBasis: string;
+  standing: string;
+  proponents: string[];
+  literature: { author: string; title: string; year: string; sure: boolean }[];
+};
+
+export type ExegesisTopic = {
+  id: string;
+  chapter: number;
+  from: number;
+  to: number;
+  title: string;
+  question: string;
+  summary: string;
+  hinges: string[];
+  positions: ExegesisPosition[];
+  reviewed: boolean;
+};
+
+type ExegesisFile = {
+  status: 'pending' | 'draft' | 'reviewed';
+  model?: string;
+  topics: Record<string, ExegesisTopic>;
 };
 
 const chapters: Record<number, () => Chapter> = {
@@ -116,6 +150,22 @@ const study = studyDe as StudyFile;
 export const studyStatus = study.status;
 export function getStudyVerse(chapter: number, verse: number): StudyVerse | undefined {
   return study.verses[`${chapter}.${verse}`];
+}
+
+export function getSectionHeading(chapter: number, verse: number): string | undefined {
+  return study.sections?.[`${chapter}.${verse}`];
+}
+
+const exegesis = exegesisDe as ExegesisFile;
+export const exegesisStatus = exegesis.status;
+const topics = Object.values(exegesis.topics).sort((a, b) => a.chapter - b.chapter || a.from - b.from);
+
+export function getTopicsForChapter(chapter: number): ExegesisTopic[] {
+  return topics.filter((t) => t.chapter === chapter);
+}
+
+export function getTopicsForVerse(chapter: number, verse: number): ExegesisTopic[] {
+  return topics.filter((t) => t.chapter === chapter && verse >= t.from && verse <= t.to);
 }
 
 export function verseKey(chapter: number, verse: number) {

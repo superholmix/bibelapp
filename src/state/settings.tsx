@@ -3,12 +3,12 @@ import { createContext, useContext, useMemo, type PropsWithChildren } from 'reac
 import type { CompareId } from '@/data/mark';
 import { usePersistedState } from '@/state/persisted';
 
-export type GlossLanguage = 'en' | 'es';
+export type GlossLanguage = 'de' | 'en' | 'es';
 
 export type Settings = {
   /** Vergleichsübersetzung unter jedem Vers, oder keine */
   compare: CompareId | null;
-  /** Sprache der Wortbedeutungen in der Interlinear-Zeile, bis die deutschen KI-Glossen da sind */
+  /** Sprache der Wortbedeutungen in der Interlinear-Zeile; ohne deutsche KI-Glossen gilt Englisch */
   glossLanguage: GlossLanguage;
   /** Interlinear beim Öffnen eines Kapitels sofort zeigen */
   interlinear: boolean;
@@ -18,15 +18,18 @@ export type Settings = {
   showGrammar: boolean;
   /** Zuletzt gelesenes Kapitel */
   lastChapter: number;
+  /** Nur im Testlauf: Abo simulieren, solange RevenueCat noch nicht eingebunden ist */
+  simulateSubscription: boolean;
 };
 
 const DEFAULTS: Settings = {
   compare: null,
-  glossLanguage: 'en',
+  glossLanguage: 'de',
   interlinear: false,
   showTranslit: true,
   showGrammar: true,
   lastChapter: 1,
+  simulateSubscription: true,
 };
 
 type SettingsContextValue = {

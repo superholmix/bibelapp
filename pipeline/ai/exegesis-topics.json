@@ -1,0 +1,11 @@
+[
+  { "id": "mk-1-1", "chapter": 1, "from": 1, "to": 1, "title": "„Sohn Gottes“ im ersten Satz", "question": "Gehört „Sohn Gottes“ ursprünglich zu Mk 1,1, und was sagt der Satz über das ganze Buch?" },
+  { "id": "mk-1-15", "chapter": 1, "from": 14, "to": 15, "title": "Das Reich Gottes ist nahe", "question": "Meint ἤγγικεν, dass das Reich Gottes schon angebrochen ist oder dass es unmittelbar bevorsteht?" },
+  { "id": "mk-4-11", "chapter": 4, "from": 10, "to": 12, "title": "Warum Jesus in Gleichnissen redet", "question": "Sollen die Gleichnisse verhüllen („damit sie sehen und doch nicht erkennen“), oder beschreibt der Satz nur die Folge?" },
+  { "id": "mk-7-19", "chapter": 7, "from": 17, "to": 23, "title": "„So erklärte er alle Speisen für rein“", "question": "Wer spricht in 7,19b, und erklärt Jesus hier die Speisegebote für aufgehoben?" },
+  { "id": "mk-9-1", "chapter": 9, "from": 1, "to": 1, "title": "„Einige werden den Tod nicht schmecken“", "question": "Worauf bezieht sich die Ankündigung, einige würden das Reich Gottes mit Macht kommen sehen?" },
+  { "id": "mk-10-45", "chapter": 10, "from": 42, "to": 45, "title": "Sein Leben als Lösegeld für viele", "question": "Wie ist λύτρον ἀντὶ πολλῶν zu verstehen, und steht Jesaja 53 im Hintergrund?" },
+  { "id": "mk-13-30", "chapter": 13, "from": 28, "to": 32, "title": "„Diese Generation wird nicht vergehen“", "question": "Wen meint „diese Generation“ (γενεά), und worauf bezieht sich „bis dies alles geschieht“?" },
+  { "id": "mk-15-39", "chapter": 15, "from": 37, "to": 39, "title": "Das Bekenntnis des Hauptmanns", "question": "Sagt der Hauptmann „Gottes Sohn“ im vollen christlichen Sinn oder „ein Sohn Gottes“ im heidnischen Sinn?" },
+  { "id": "mk-16-8", "chapter": 16, "from": 8, "to": 8, "title": "Das offene Ende in 16,8", "question": "Endete das Markusevangelium ursprünglich mit 16,8, und was bedeutet dieser Schluss?" }
+]

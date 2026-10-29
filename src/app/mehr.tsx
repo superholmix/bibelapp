@@ -107,12 +107,13 @@ export default function MoreScreen() {
             <View style={styles.rowStack}>
               <ThemedText type="default">Sprache der Wortbedeutungen</ThemedText>
               <ThemedText type="small" themeColor="textSecondary">
-                Deutsche Wortbedeutungen erzeugt die KI im nächsten Schritt.
+                Deutsch stammt aus der KI-Studienübersetzung; wo sie noch fehlt, erscheint Englisch.
               </ThemedText>
               <Segmented<GlossLanguage>
                 value={settings.glossLanguage}
                 onChange={(v) => update({ glossLanguage: v })}
                 options={[
+                  { value: 'de', label: 'Deutsch' },
                   { value: 'en', label: 'Englisch' },
                   { value: 'es', label: 'Spanisch' },
                 ]}
@@ -121,7 +122,10 @@ export default function MoreScreen() {
           </Section>
 
           <Section title="Konto und Abo">
-            <Row label="Anmelden" hint="Konto, Synchronisation der Notizen und Abo folgen im nächsten Schritt des Testlaufs." />
+            <Row label="Anmelden" hint="Konto, Synchronisation der Notizen und echtes Abo folgen im nächsten Schritt des Testlaufs." />
+            <Row label="Abo simulieren" hint="Nur im Testlauf: schaltet Auslegungen und KI-Funktionen frei.">
+              <Switch value={settings.simulateSubscription} onValueChange={(v) => update({ simulateSubscription: v })} {...switchColors} />
+            </Row>
           </Section>
 
           <Section title="Quellen und Lizenzen">

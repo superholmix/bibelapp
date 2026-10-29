@@ -9,7 +9,7 @@ Vor dem großen Ausbau entsteht eine App nur mit dem Markusevangelium, aber mit 
 | Schritt | Inhalt | Stand |
 | --- | --- | --- |
 | 1 | App-Gerüst, Markus-Daten, Lesen, Urtext, Wort-Blatt, Vergleich, Notizen (lokal) | erledigt |
-| 2 | KI-Pipeline: deutsche Studienübersetzung, deutsche Wortbedeutungen, Auslegungsüberblick für 5 bis 10 Streitstellen | offen |
+| 2 | KI-Pipeline: deutsche Studienübersetzung, deutsche Wortbedeutungen, Auslegungsüberblick für 9 Streitstellen | Pipeline und App-Anzeige fertig, Lauf mit API-Schlüssel steht aus |
 | 3 | Konto (Supabase), Notizen synchronisieren, Abo-Sperre (RevenueCat), Live-Frage an den Text über das Backend | offen |
 
 ## Technik

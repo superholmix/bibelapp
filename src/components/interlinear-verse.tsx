@@ -5,23 +5,18 @@ import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import type { Verse, Word } from '@/data/mark';
 import { useTheme } from '@/hooks/use-theme';
+import { glossFor } from '@/lib/gloss';
 import { describeMorph } from '@/lib/grammar';
 import type { Settings } from '@/state/settings';
 
 type Props = {
+  chapter: number;
   verse: Verse;
   settings: Settings;
-  onWordPress: (word: Word) => void;
+  onWordPress: (word: Word, index: number) => void;
 };
 
-/** Wörter, die im Original stehen, aber üblicherweise nicht übersetzt werden, sind in <…> gesetzt. */
-function glossFor(word: Word, language: Settings['glossLanguage']) {
-  const raw = language === 'es' ? word.es : word.en;
-  const silent = /^<.*>$/.test(raw.trim());
-  return { text: raw.replace(/[<>]/g, ''), silent };
-}
-
-function InterlinearVerseImpl({ verse, settings, onWordPress }: Props) {
+function InterlinearVerseImpl({ chapter, verse, settings, onWordPress }: Props) {
   const theme = useTheme();
   const kindColor = { verb: theme.verb, noun: theme.noun, function: theme.function, other: theme.textSecondary };
 
@@ -29,11 +24,11 @@ function InterlinearVerseImpl({ verse, settings, onWordPress }: Props) {
     <View style={styles.words}>
       {verse.words.map((word, i) => {
         const grammar = describeMorph(word.m[0] ?? '');
-        const gloss = glossFor(word, settings.glossLanguage);
+        const gloss = glossFor(word, i, chapter, verse.v, settings.glossLanguage);
         return (
           <Pressable
             key={i}
-            onPress={() => onWordPress(word)}
+            onPress={() => onWordPress(word, i)}
             style={({ pressed }) => [styles.word, pressed && { backgroundColor: theme.backgroundSelected }]}
             accessibilityRole="button"
             accessibilityLabel={`${word.g}, ${gloss.text}, ${grammar.summary}`}>
