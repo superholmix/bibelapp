@@ -55,7 +55,7 @@ Nach Kapitel 1 die echte Summe aus der Ausgabe nehmen und hochrechnen.
 
 ### Stand der Daten
 
-Die Studienübersetzung in `assets/data/study-de.json` (alle 83 Abschnitte) ist nicht über die API entstanden, sondern Abschnitt für Abschnitt in einer Claude-Code-Sitzung, nach denselben Regeln wie im Auftrag von `ai/translate.mjs`. Sie trägt deshalb das Modellfeld „Claude (Claude-Code-Sitzung)“. Weil alle Abschnitte fertig sind, überspringt `npm run ai:translate` sie; `--force` würde sie über die API neu erzeugen und überschreiben.
+Die Studienübersetzung in `assets/data/study-de.json` (alle 83 Abschnitte) ist nicht über die API entstanden, sondern Abschnitt für Abschnitt in einer Claude-Code-Sitzung, nach denselben Regeln wie im Auftrag von `ai/translate.mjs`. Sie trägt deshalb das Modellfeld „Claude (Claude-Code-Sitzung)“. Dasselbe gilt für die neun Auslegungsüberblicke in `assets/data/exegesis-de.json`. Weil alles fertig ist, überspringen `npm run ai:translate` und `npm run ai:exegesis` die vorhandenen Einträge; `--force` würde sie über die API neu erzeugen und überschreiben.
 
 ### Qualität prüfen
 
