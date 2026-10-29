@@ -9,7 +9,7 @@ Vor dem großen Ausbau entsteht eine App nur mit dem Markusevangelium, aber mit 
 | Schritt | Inhalt | Stand |
 | --- | --- | --- |
 | 1 | App-Gerüst, Markus-Daten, Lesen, Urtext, Wort-Blatt, Vergleich, Notizen (lokal) | erledigt |
-| 2 | KI-Pipeline: deutsche Studienübersetzung, deutsche Wortbedeutungen, Auslegungsüberblick für 9 Streitstellen | Pipeline und App-Anzeige fertig, Lauf mit API-Schlüssel steht aus |
+| 2 | KI-Pipeline: deutsche Studienübersetzung, deutsche Wortbedeutungen, Auslegungsüberblick für 9 Streitstellen | Pipeline und App-Anzeige fertig; Studienübersetzung als Entwurf fertig (in einer Claude-Code-Sitzung erstellt), Auslegungsüberblicke stehen aus |
 | 3 | Konto (Supabase), Notizen synchronisieren, Abo-Sperre (RevenueCat), Live-Frage an den Text über das Backend | gebaut und gegen ein nachgebautes Backend getestet; Einrichtung des echten Supabase-Projekts steht aus |
 
 ## Technik
