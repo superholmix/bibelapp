@@ -1,4 +1,1067 @@
 {
- "status": "pending",
- "topics": {}
+ "status": "draft",
+ "model": "Claude (Claude-Code-Sitzung)",
+ "promptVersion": "auslegung-v1",
+ "topics": {
+  "mk-1-1": {
+   "id": "mk-1-1",
+   "chapter": 1,
+   "from": 1,
+   "to": 1,
+   "title": "„Sohn Gottes“ im ersten Satz",
+   "question": "Hat Markus sein Buch mit „Sohn Gottes“ begonnen, und ist der erste Satz die Überschrift des ganzen Buches?",
+   "summary": "Einige alte Handschriften lassen „Sohn Gottes“ in 1,1 weg. Ob die Worte ursprünglich sind, betrifft den Rahmen des Buches: „Sohn Gottes“ steht dann am Anfang und im Bekenntnis des Hauptmanns (15,39). Daneben ist offen, ob 1,1 das ganze Buch überschreibt oder nur den Anfang mit Johannes dem Täufer.",
+   "hinges": [
+    "Textvariante: υἱοῦ θεοῦ (hyiou theou, „Sohn Gottes“) fehlt im Codex Sinaiticus in der ersten Hand, in wenigen weiteren Zeugen und bei Origenes. Die meisten Handschriften, darunter Vaticanus, haben die Worte.",
+    "Schreibweise: Heilige Namen wurden abgekürzt (ΙΥ ΧΥ ΥΥ ΘΥ). Bei vier gleich endenden Kurzformen hintereinander konnte ein Schreiber leicht zwei überspringen.",
+    "ἀρχή (archē, „Anfang“) ohne Artikel und ohne Verb: wie ein Buchtitel, oder als Anfang des Satzes, der mit „wie geschrieben steht“ (1,2) weitergeht."
+   ],
+   "positions": [
+    {
+     "name": "„Sohn Gottes“ ist ursprünglich",
+     "claim": "Markus hat die Worte geschrieben; sie fielen in wenigen Handschriften durch ein Schreibversehen aus.",
+     "arguments": [
+      "Die Bezeugung ist breit, alt und geografisch gestreut.",
+      "Das Überspringen gleich endender Abkürzungen erklärt die Lücke leicht.",
+      "Der Titel passt zum Aufbau des Buches: Taufe (1,11), Verklärung (9,7), Hauptmann (15,39)."
+     ],
+     "textBasis": "Die Kette der Genitive Ἰησοῦ Χριστοῦ υἱοῦ θεοῦ mit gleichen Endungen in der Abkürzung.",
+     "standing": "verbreitet, wohl Mehrheit",
+     "proponents": [
+      "Tommy Wasserman",
+      "Robert H. Gundry",
+      "R. T. France"
+     ],
+     "literature": [
+      {
+       "author": "Tommy Wasserman",
+       "title": "The „Son of God“ Was in the Beginning (Mark 1:1), in: Journal of Theological Studies 62",
+       "year": "2011",
+       "sure": true
+      },
+      {
+       "author": "Robert H. Gundry",
+       "title": "Mark: A Commentary on His Apology for the Cross",
+       "year": "1993",
+       "sure": true
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "„Sohn Gottes“ ist später ergänzt",
+     "claim": "Der kürzere Text ist ursprünglich; Schreiber haben den Titel ergänzt, um die Würde Jesu zu betonen.",
+     "arguments": [
+      "Die kürzere Lesart steht in einem der wichtigsten Zeugen und bei Origenes.",
+      "Abschreiber erweitern heilige Namen eher, als sie zu kürzen.",
+      "Ein Fehler gerade im ersten Satz eines Buches wäre auffällig und leicht zu bemerken."
+     ],
+     "textBasis": "Codex Sinaiticus (erste Hand) und Origenes lesen nur Ἰησοῦ Χριστοῦ.",
+     "standing": "verbreitet, starke Minderheit",
+     "proponents": [
+      "Bart D. Ehrman",
+      "Peter M. Head",
+      "Adela Yarbro Collins"
+     ],
+     "literature": [
+      {
+       "author": "Bart D. Ehrman",
+       "title": "The Orthodox Corruption of Scripture",
+       "year": "1993",
+       "sure": true
+      },
+      {
+       "author": "Peter M. Head",
+       "title": "A Text-Critical Study of Mark 1.1, in: New Testament Studies 37",
+       "year": "1991",
+       "sure": false
+      },
+      {
+       "author": "Adela Yarbro Collins",
+       "title": "Mark: A Commentary (Hermeneia)",
+       "year": "2007",
+       "sure": false
+      }
+     ]
+    },
+    {
+     "name": "Überschrift des ganzen Buches oder Anfang der Täufererzählung",
+     "claim": "Unabhängig von der Textfrage ist umstritten, wie weit der „Anfang“ reicht.",
+     "arguments": [
+      "Als Titel: Das ganze Buch ist erst der Anfang des Evangeliums, das nach Ostern weiter verkündet wird.",
+      "Als Einleitung: „Anfang“ meint das Auftreten des Täufers, das in 1,2–8 erzählt wird.",
+      "Beide Lesarten sind sprachlich möglich; die Kommentare entscheiden unterschiedlich."
+     ],
+     "textBasis": "ἀρχή ohne Artikel und die Anknüpfung mit καθώς (kathōs, „wie“) in 1,2.",
+     "standing": "offen, beide Lesarten verbreitet",
+     "proponents": [
+      "Joel Marcus",
+      "Morna D. Hooker"
+     ],
+     "literature": [
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 1–8 (Anchor Bible 27)",
+       "year": "2000",
+       "sure": true
+      },
+      {
+       "author": "Morna D. Hooker",
+       "title": "The Gospel According to St Mark (BNTC)",
+       "year": "1991",
+       "sure": true
+      },
+      {
+       "author": "Bruce M. Metzger",
+       "title": "A Textual Commentary on the Greek New Testament",
+       "year": "1994",
+       "sure": true
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-1-15": {
+   "id": "mk-1-15",
+   "chapter": 1,
+   "from": 14,
+   "to": 15,
+   "title": "Das Reich Gottes ist nahe",
+   "question": "Ist das Reich Gottes mit Jesus schon da, oder steht es kurz bevor?",
+   "summary": "Jesu erste Botschaft lautet: „Das Reich Gottes ist nahe gekommen.“ Das griechische Perfekt kann ein Ankommen oder ein Herannahen bezeichnen. Davon hängt ab, wie man Jesu Wirken versteht: als Anbruch der Gottesherrschaft oder als letzte Ankündigung vor ihr.",
+   "hinges": [
+    "ἤγγικεν (ēngiken), Perfekt von ἐγγίζω (engizō, „sich nähern“): „ist nahe gekommen“ und damit da, oder „ist nahe“ und noch nicht da.",
+    "πεπλήρωται ὁ καιρός (peplērōtai ho kairos, „die Zeit ist erfüllt“) im selben Vers: Die Wartezeit ist abgelaufen.",
+    "Kontext: Heilungen und Austreibungen zeigen schon Gottes Macht (3,27), zugleich wird das Kommen „in Macht“ noch erwartet (9,1; 13,26)."
+   ],
+   "positions": [
+    {
+     "name": "Schon angebrochen und noch nicht vollendet",
+     "claim": "Mit Jesus hat die Gottesherrschaft begonnen; ihre volle Durchsetzung steht noch aus.",
+     "arguments": [
+      "Das Perfekt betont einen erreichten Zustand: Die Nähe ist jetzt wirksam.",
+      "Jesu Taten werden als Zeichen der gegenwärtigen Herrschaft Gottes erzählt.",
+      "Andere Worte (9,1; 14,25) blicken klar in die Zukunft."
+     ],
+     "textBasis": "Das Nebeneinander von „die Zeit ist erfüllt“ und „ist nahe gekommen“.",
+     "standing": "Mehrheitsmeinung",
+     "proponents": [
+      "Werner Georg Kümmel",
+      "George R. Beasley-Murray",
+      "Joel Marcus"
+     ],
+     "literature": [
+      {
+       "author": "Werner Georg Kümmel",
+       "title": "Verheißung und Erfüllung",
+       "year": "1945",
+       "sure": true
+      },
+      {
+       "author": "George R. Beasley-Murray",
+       "title": "Jesus and the Kingdom of God",
+       "year": "1986",
+       "sure": true
+      },
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 1–8 (Anchor Bible 27)",
+       "year": "2000",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Schon da („realisierte Eschatologie“)",
+     "claim": "Das Reich Gottes ist in Jesus bereits gekommen; ἤγγικεν bedeutet hier „ist angekommen“.",
+     "arguments": [
+      "In der griechischen Bibel kann ἐγγίζω das Ankommen bezeichnen.",
+      "Die Wendung entspricht in der Sache Lk 11,20 („ist zu euch gekommen“)."
+     ],
+     "textBasis": "Die Deutung von ἤγγικεν als Gleichwert von ἔφθακεν (ephthaken, „ist gekommen“).",
+     "standing": "einflussreich, heute Minderheit",
+     "proponents": [
+      "C. H. Dodd"
+     ],
+     "literature": [
+      {
+       "author": "C. H. Dodd",
+       "title": "The Parables of the Kingdom",
+       "year": "1935",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Unmittelbar bevorstehend",
+     "claim": "Jesus kündigt das baldige Kommen des Reiches an; es ist nahe, aber noch nicht da.",
+     "arguments": [
+      "Die Grundbedeutung von ἐγγίζω ist „sich nähern“, nicht „ankommen“.",
+      "Der Ruf zur Umkehr setzt eine Frist voraus.",
+      "Das passt zu Johannes dem Täufer und zur jüdischen Endzeiterwartung."
+     ],
+     "textBasis": "Die Parallele zu „nahe“ in 13,29 für noch Bevorstehendes.",
+     "standing": "verbreitet in der historischen Jesusforschung",
+     "proponents": [
+      "Johannes Weiß",
+      "Albert Schweitzer",
+      "Dale C. Allison"
+     ],
+     "literature": [
+      {
+       "author": "Johannes Weiß",
+       "title": "Die Predigt Jesu vom Reiche Gottes",
+       "year": "1892",
+       "sure": true
+      },
+      {
+       "author": "Dale C. Allison",
+       "title": "Jesus of Nazareth: Millenarian Prophet",
+       "year": "1998",
+       "sure": true
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-4-11": {
+   "id": "mk-4-11",
+   "chapter": 4,
+   "from": 10,
+   "to": 12,
+   "title": "Warum Jesus in Gleichnissen redet",
+   "question": "Redet Jesus in Gleichnissen, damit Außenstehende nicht verstehen, oder beschreibt der Satz nur, was tatsächlich geschieht?",
+   "summary": "Nach 4,11–12 bekommen „die draußen“ alles in Gleichnissen, „damit sie sehen und doch nicht erkennen“. Wörtlich klingt das, als wolle Jesus Umkehr verhindern. Die Frage betrifft das Bild Jesu und das Verständnis von Verstockung.",
+   "hinges": [
+    "ἵνα (hina): meist „damit“ (Absicht), im späteren Griechisch auch „sodass“ (Folge) oder als Kurzform von „damit sich die Schrift erfüllt“.",
+    "μήποτε (mēpote): „damit nicht“, aber auch „ob nicht vielleicht“ oder nach aramäischem Sprachgebrauch „es sei denn, dass“.",
+    "Das Zitat aus Jes 6,9–10 endet wie im aramäischen Targum mit „und ihnen vergeben werde“ statt „und ich sie heile“."
+   ],
+   "positions": [
+    {
+     "name": "Absicht: Gleichnisse verhüllen",
+     "claim": "Markus meint wirklich „damit“: Gottes Geheimnis bleibt den Außenstehenden absichtlich verborgen.",
+     "arguments": [
+      "ἵνα hat bei Markus sonst meist Zielsinn.",
+      "Das passt zum Thema Geheimnis und Verstockung im ganzen Buch (vgl. 8,17–18).",
+      "Auch Jesaja 6 versteht die Verstockung als Gottes Gericht."
+     ],
+     "textBasis": "Der ἵνα-Satz mit anschließendem μήποτε.",
+     "standing": "verbreitet in den Kommentaren",
+     "proponents": [
+      "Joel Marcus",
+      "Joachim Gnilka",
+      "Adela Yarbro Collins"
+     ],
+     "literature": [
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 1–8 (Anchor Bible 27)",
+       "year": "2000",
+       "sure": true
+      },
+      {
+       "author": "Joachim Gnilka",
+       "title": "Das Evangelium nach Markus, Teilband 1 (EKK II/1)",
+       "year": "1978",
+       "sure": false
+      },
+      {
+       "author": "Adela Yarbro Collins",
+       "title": "Mark: A Commentary (Hermeneia)",
+       "year": "2007",
+       "sure": false
+      }
+     ]
+    },
+    {
+     "name": "Schrifterfüllung",
+     "claim": "ἵνα steht abgekürzt für „damit die Schrift erfüllt werde“: Das Unverständnis entspricht dem, was Jesaja angekündigt hat.",
+     "arguments": [
+      "Lukas und Matthäus deuten die Stelle in diese Richtung, Matthäus mit ausdrücklichem Erfüllungszitat (Mt 13,13–15).",
+      "Der Satz begründet dann nicht Jesu Absicht, sondern deutet die Erfahrung von Ablehnung."
+     ],
+     "textBasis": "Das Jesaja-Zitat als Schriftbeweis.",
+     "standing": "verbreitet",
+     "proponents": [
+      "Joachim Jeremias"
+     ],
+     "literature": [
+      {
+       "author": "Joachim Jeremias",
+       "title": "Die Gleichnisse Jesu",
+       "year": "1947",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Aramäischer Hintergrund",
+     "claim": "Hinter dem Griechischen steht ein aramäischer Satz, der „die sehen und nicht erkennen“ bedeutet und mit „es sei denn, sie kehren um“ endet.",
+     "arguments": [
+      "Das aramäische Bindewort dĕ kann „damit“ oder „welche“ bedeuten.",
+      "Der Wortlaut folgt dem Targum, also der aramäischen Übersetzung.",
+      "So wird die Umkehr offengehalten statt ausgeschlossen."
+     ],
+     "textBasis": "Die Nähe des Zitats zum Targum zu Jes 6,10.",
+     "standing": "Minderheit, oft diskutiert",
+     "proponents": [
+      "T. W. Manson",
+      "Joachim Jeremias"
+     ],
+     "literature": [
+      {
+       "author": "T. W. Manson",
+       "title": "The Teaching of Jesus",
+       "year": "1931",
+       "sure": true
+      },
+      {
+       "author": "Craig A. Evans",
+       "title": "To See and Not Perceive: Isaiah 6.9–10 in Early Jewish and Christian Interpretation",
+       "year": "1989",
+       "sure": true
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-7-19": {
+   "id": "mk-7-19",
+   "chapter": 7,
+   "from": 17,
+   "to": 23,
+   "title": "„So erklärte er alle Speisen für rein“",
+   "question": "Kommentiert in 7,19 der Erzähler, und hebt Jesus hier die jüdischen Speisegebote auf?",
+   "summary": "Am Ende von 7,19 steht: „So erklärte er alle Speisen für rein.“ Die meisten lesen das als Kommentar des Markus für nichtjüdische Leser. Ob Jesus damit die Speisegebote der Tora für ungültig erklärt, ist eine Kernfrage zum Verhältnis von Jesus und jüdischem Gesetz.",
+   "hinges": [
+    "καθαρίζων (katharizōn), ein männliches Partizip: Es passt nicht zum vorigen Satz, sondern zum Sprecher von „er sagt“ in 7,18, also zu Jesus.",
+    "Spätere Handschriften lesen καθαρίζον (sächlich). Dann bezieht es sich auf den Verdauungsvorgang: „was alle Speisen reinigt“.",
+    "Der Anlass ist das Essen mit ungewaschenen Händen (7,2–5), nicht die Frage erlaubter und verbotener Tiere (Lev 11)."
+   ],
+   "positions": [
+    {
+     "name": "Erzählerkommentar: Speisegebote aufgehoben",
+     "claim": "Markus erklärt seinen Lesern: Mit diesem Wort hat Jesus alle Speisen für rein erklärt.",
+     "arguments": [
+      "Die Grammatik verweist auf Jesus als Sprecher in 7,18.",
+      "Markus erklärt jüdische Bräuche auch sonst für nichtjüdische Leser (7,3–4).",
+      "Das frühe Christentum stritt um Speisegebote (Apg 10; Röm 14)."
+     ],
+     "textBasis": "Das männliche Partizip καθαρίζων.",
+     "standing": "Mehrheitsmeinung",
+     "proponents": [
+      "Joel Marcus",
+      "R. T. France",
+      "Adela Yarbro Collins"
+     ],
+     "literature": [
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 1–8 (Anchor Bible 27)",
+       "year": "2000",
+       "sure": true
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      },
+      {
+       "author": "Adela Yarbro Collins",
+       "title": "Mark: A Commentary (Hermeneia)",
+       "year": "2007",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Spätere Deutung eines älteren Wortes",
+     "claim": "Jesu Wort in 7,15 war ursprünglich vergleichend gemeint: Unreinheit von innen wiegt schwerer. Erst die nichtjüdische Gemeinde hat daraus eine Aufhebung gemacht.",
+     "arguments": [
+      "Semitische Gegenüberstellungen wie „nicht A, sondern B“ meinen oft „mehr B als A“.",
+      "Hätte Jesus die Speisegebote aufgehoben, wäre der spätere Streit darum schwer erklärbar."
+     ],
+     "textBasis": "Die zugespitzte Form von 7,15 und der Zusatz in 7,19b.",
+     "standing": "verbreitet",
+     "proponents": [
+      "Heikki Räisänen",
+      "James D. G. Dunn"
+     ],
+     "literature": [
+      {
+       "author": "Heikki Räisänen",
+       "title": "Jesus and the Food Laws, in: Journal for the Study of the New Testament 16",
+       "year": "1982",
+       "sure": false
+      }
+     ]
+    },
+    {
+     "name": "Innerjüdische Reinheitsfrage",
+     "claim": "Es geht um die Übertragung von Unreinheit durch ungewaschene Hände. Markus sagt nur, dass erlaubte Speisen dadurch nicht unrein werden.",
+     "arguments": [
+      "„Speisen“ (brōmata) meint für jüdische Hörer ohnehin erlaubte Nahrung.",
+      "Die Debatte entspricht Diskussionen der Pharisäer über Händewaschen.",
+      "Das Kapitel kritisiert menschliche Überlieferungen im Namen der Tora (7,8–13)."
+     ],
+     "textBasis": "Der Anlass in 7,2–5 und das Gebot über die Eltern in 7,10.",
+     "standing": "Minderheit, in neuerer Forschung zunehmend vertreten",
+     "proponents": [
+      "James G. Crossley",
+      "Daniel Boyarin",
+      "Yair Furstenberg"
+     ],
+     "literature": [
+      {
+       "author": "James G. Crossley",
+       "title": "The Date of Mark’s Gospel",
+       "year": "2004",
+       "sure": true
+      },
+      {
+       "author": "Daniel Boyarin",
+       "title": "The Jewish Gospels",
+       "year": "2012",
+       "sure": true
+      },
+      {
+       "author": "Yair Furstenberg",
+       "title": "Defilement Penetrating the Body: A New Understanding of Contamination in Mark 7.15, in: New Testament Studies 54",
+       "year": "2008",
+       "sure": false
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-9-1": {
+   "id": "mk-9-1",
+   "chapter": 9,
+   "from": 1,
+   "to": 1,
+   "title": "„Einige werden den Tod nicht schmecken“",
+   "question": "Welches Ereignis meint Jesus, wenn er sagt, einige würden das Reich Gottes in Macht kommen sehen, bevor sie sterben?",
+   "summary": "Das Wort folgt auf die Ankündigung des kommenden Menschensohns (8,38). Wörtlich genommen kündigt es ein Ereignis zu Lebzeiten der Zuhörer an. Die Deutungen reichen von der Verklärung bis zur unerfüllten Naherwartung.",
+   "hinges": [
+    "ἐληλυθυῖαν ἐν δυνάμει (elēlythyian en dynamei), Perfekt: „gekommen in Macht“, also als vollendete Tatsache gesehen.",
+    "Der unmittelbare Anschluss: „nach sechs Tagen“ (9,2) nimmt Jesus drei Jünger mit auf den Berg der Verklärung.",
+    "Die Nähe zu 13,30 („diese Generation wird nicht vergehen“) und zu 8,38."
+   ],
+   "positions": [
+    {
+     "name": "Die Verklärung",
+     "claim": "Die „einigen“ sind Petrus, Jakobus und Johannes; in der Verklärung sehen sie die Herrlichkeit des Reiches vorweg.",
+     "arguments": [
+      "Markus stellt die Verklärung mit genauer Zeitangabe direkt dahinter.",
+      "Schon viele Kirchenväter lesen die Stelle so.",
+      "„Sehen“ passt zu einer Schau."
+     ],
+     "textBasis": "Die Verknüpfung von 9,1 mit 9,2–8.",
+     "standing": "verbreitet, besonders in älteren und konservativen Kommentaren",
+     "proponents": [
+      "C. E. B. Cranfield",
+      "William L. Lane"
+     ],
+     "literature": [
+      {
+       "author": "C. E. B. Cranfield",
+       "title": "The Gospel According to Saint Mark",
+       "year": "1959",
+       "sure": true
+      },
+      {
+       "author": "William L. Lane",
+       "title": "The Gospel According to Mark (NICNT)",
+       "year": "1974",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Schon gekommen: Ostern und die Zeit danach",
+     "claim": "Einige werden erkennen, dass das Reich schon gekommen ist: in Jesu Wirken, seinem Tod und seiner Auferstehung.",
+     "arguments": [
+      "„Einige“ setzt voraus, dass andere bis dahin sterben; das passt schlecht zu sechs Tagen.",
+      "Das Perfekt „gekommen“ beschreibt einen Zustand, der nach Ostern gilt."
+     ],
+     "textBasis": "Die Formulierung „einige von denen, die hier stehen“.",
+     "standing": "Minderheit",
+     "proponents": [
+      "C. H. Dodd"
+     ],
+     "literature": [
+      {
+       "author": "C. H. Dodd",
+       "title": "The Parables of the Kingdom",
+       "year": "1935",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Zerstörung Jerusalems",
+     "claim": "Das Kommen „in Macht“ zeigt sich im Gericht über den Tempel im Jahr 70.",
+     "arguments": [
+      "Markus 13 verbindet das Kommen des Menschensohns mit dem Ende des Tempels.",
+      "Viele Zuhörer konnten das Jahr 70 erleben."
+     ],
+     "textBasis": "Die Parallele zu 13,26 und 13,30.",
+     "standing": "Minderheit",
+     "proponents": [
+      "N. T. Wright"
+     ],
+     "literature": [
+      {
+       "author": "N. T. Wright",
+       "title": "Jesus and the Victory of God",
+       "year": "1996",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Naherwartung des Weltendes",
+     "claim": "Jesus oder die frühe Gemeinde erwarteten das Ende noch zu Lebzeiten der ersten Generation; diese Erwartung erfüllte sich so nicht.",
+     "arguments": [
+      "Der unmittelbare Kontext (8,38) spricht vom Kommen des Menschensohns in Herrlichkeit.",
+      "„Einige“ deutet schon auf eine Verzögerung, die die Gemeinde beschäftigte.",
+      "Ähnliche Worte stehen in 13,30 und Mt 10,23."
+     ],
+     "textBasis": "Die Verbindung von 8,38 und 9,1 durch „und er sagte zu ihnen“.",
+     "standing": "verbreitet in der historisch-kritischen Forschung",
+     "proponents": [
+      "Albert Schweitzer",
+      "Dale C. Allison"
+     ],
+     "literature": [
+      {
+       "author": "Albert Schweitzer",
+       "title": "Geschichte der Leben-Jesu-Forschung",
+       "year": "1913",
+       "sure": true
+      },
+      {
+       "author": "Martin Künzi",
+       "title": "Das Naherwartungslogion Markus 9,1 par.",
+       "year": "1977",
+       "sure": false
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-10-45": {
+   "id": "mk-10-45",
+   "chapter": 10,
+   "from": 42,
+   "to": 45,
+   "title": "Sein Leben als Lösegeld für viele",
+   "question": "Was bedeutet es, dass Jesus sein Leben als „Lösegeld für viele“ gibt, und steht Jesaja 53 dahinter?",
+   "summary": "Der Vers ist die einzige Deutung des Todes Jesu im Wortlaut Jesu vor dem Abendmahl. Umstritten ist, ob er auf das Lied vom leidenden Gottesknecht (Jes 53) zurückgeht und ob er eine Stellvertretung meint. Die Frage betrifft das Verständnis von Versöhnung.",
+   "hinges": [
+    "λύτρον (lytron): Preis für den Freikauf von Gefangenen oder Sklaven, in der griechischen Bibel auch Auslösung des Lebens.",
+    "ἀντί (anti): „anstelle von“ oder allgemeiner „für, zugunsten von“.",
+    "πολλῶν (pollōn, „viele“): im Semitischen oft „die Vielen“ im Sinn von „alle“, wie in Jes 53,11–12."
+   ],
+   "positions": [
+    {
+     "name": "Jesaja 53 im Hintergrund, Stellvertretung",
+     "claim": "Jesus deutet seinen Tod mit dem leidenden Gottesknecht: Er gibt sein Leben an Stelle der Vielen.",
+     "arguments": [
+      "„Dienen“, „sein Leben geben“ und „die Vielen“ entsprechen Jes 53,10–12.",
+      "ἀντί betont den Tausch.",
+      "Das Abendmahlswort „für viele“ (14,24) stützt die Deutung."
+     ],
+     "textBasis": "Die Wortgruppe δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.",
+     "standing": "verbreitet, wohl Mehrheit",
+     "proponents": [
+      "Joachim Jeremias",
+      "Peter Stuhlmacher",
+      "Martin Hengel",
+      "Rikki E. Watts"
+     ],
+     "literature": [
+      {
+       "author": "Martin Hengel",
+       "title": "The Atonement: The Origins of the Doctrine in the New Testament",
+       "year": "1981",
+       "sure": true
+      },
+      {
+       "author": "Bernd Janowski, Peter Stuhlmacher (Hg.)",
+       "title": "Der leidende Gottesknecht: Jesaja 53 und seine Wirkungsgeschichte",
+       "year": "1996",
+       "sure": true
+      },
+      {
+       "author": "Rikki E. Watts",
+       "title": "Jesus’ Death, Isaiah 53, and Mark 10:45: A Crux Revisited, in: Jesus and the Suffering Servant",
+       "year": "1998",
+       "sure": false
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Kein eindeutiger Bezug auf Jesaja 53",
+     "claim": "Die Wortanklänge reichen nicht für einen sicheren Bezug; das Wort steht in breiterer jüdischer Tradition von Freikauf und Martyrium.",
+     "arguments": [
+      "Das Schlüsselwort λύτρον kommt in Jes 53 der griechischen Bibel nicht vor.",
+      "Freikauf ist ein Motiv des Exodus; Gott „löst“ sein Volk aus.",
+      "Jüdische Märtyrertexte (4 Makk 6; 17) deuten den Tod Gerechter ähnlich."
+     ],
+     "textBasis": "Der Vergleich mit dem Wortlaut von Jes 53 in der griechischen Bibel.",
+     "standing": "verbreitet",
+     "proponents": [
+      "Morna D. Hooker",
+      "C. K. Barrett"
+     ],
+     "literature": [
+      {
+       "author": "Morna D. Hooker",
+       "title": "Jesus and the Servant",
+       "year": "1959",
+       "sure": true
+      },
+      {
+       "author": "Morna D. Hooker",
+       "title": "The Gospel According to St Mark (BNTC)",
+       "year": "1991",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Deutung der frühen Gemeinde",
+     "claim": "Der Lösegeldsatz ist eine nachösterliche Erweiterung des Dienstwortes; Jesus selbst sprach nur vom Dienen.",
+     "arguments": [
+      "Lukas hat das Dienstwort ohne Lösegeldsatz (Lk 22,27).",
+      "Die Formel ähnelt frühchristlichen Bekenntnissen (1 Tim 2,6)."
+     ],
+     "textBasis": "Der Vergleich mit Lk 22,24–27.",
+     "standing": "verbreitet in der historisch-kritischen Forschung",
+     "proponents": [
+      "Rudolf Bultmann",
+      "Joachim Gnilka"
+     ],
+     "literature": [
+      {
+       "author": "Rudolf Bultmann",
+       "title": "Die Geschichte der synoptischen Tradition",
+       "year": "1921",
+       "sure": true
+      },
+      {
+       "author": "Joachim Gnilka",
+       "title": "Das Evangelium nach Markus, Teilband 2 (EKK II/2)",
+       "year": "1979",
+       "sure": false
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-13-30": {
+   "id": "mk-13-30",
+   "chapter": 13,
+   "from": 28,
+   "to": 32,
+   "title": "„Diese Generation wird nicht vergehen“",
+   "question": "Wen meint Jesus mit „diese Generation“, und was soll geschehen sein, bevor sie vergeht?",
+   "summary": "In der Endzeitrede kündigt Jesus an, „diese Generation“ werde nicht vergehen, bis „das alles“ geschieht. Unmittelbar danach heißt es, den Tag kenne niemand (13,32). Die Deutungen hängen davon ab, worauf „das alles“ zielt.",
+   "hinges": [
+    "γενεά (genea): „Generation“ der Zeitgenossen, in den Evangelien oft abwertend „dieses Geschlecht“ (8,12.38; 9,19).",
+    "ταῦτα πάντα (tauta panta, „dies alles“) greift die Frage der Jünger in 13,4 auf, die nach der Zerstörung des Tempels fragt.",
+    "Der Wechsel zu „jener Tag oder die Stunde“ in 13,32 könnte ein neues Thema einleiten."
+   ],
+   "positions": [
+    {
+     "name": "Tempel jetzt, Wiederkunft ohne Datum",
+     "claim": "„Dies alles“ meint die Ereignisse bis zur Tempelzerstörung; die Wiederkunft in 13,32 bleibt bewusst ohne Datum.",
+     "arguments": [
+      "Die Rede antwortet auf die Frage nach dem Tempel (13,1–4).",
+      "„Jener Tag“ in 13,32 ist ein fester Ausdruck für das Ende.",
+      "So stehen 13,30 und 13,32 nicht im Widerspruch."
+     ],
+     "textBasis": "Die Gegenüberstellung von ταῦτα πάντα (13,30) und ἐκείνης τῆς ἡμέρας (13,32).",
+     "standing": "verbreitet",
+     "proponents": [
+      "C. E. B. Cranfield",
+      "William L. Lane"
+     ],
+     "literature": [
+      {
+       "author": "C. E. B. Cranfield",
+       "title": "The Gospel According to Saint Mark",
+       "year": "1959",
+       "sure": true
+      },
+      {
+       "author": "William L. Lane",
+       "title": "The Gospel According to Mark (NICNT)",
+       "year": "1974",
+       "sure": false
+      }
+     ]
+    },
+    {
+     "name": "Alles bezieht sich auf das Jahr 70",
+     "claim": "Auch das „Kommen des Menschensohns auf den Wolken“ (13,26) ist Bildsprache für Gottes Gericht über Jerusalem und die Rechtfertigung Jesu.",
+     "arguments": [
+      "Die Bilder von verfinsterten Gestirnen stammen aus prophetischen Gerichtsworten über Städte (Jes 13,10).",
+      "Dan 7,13 zeigt den Menschensohn auf dem Weg zu Gott, nicht zur Erde."
+     ],
+     "textBasis": "Die prophetische Sprache in 13,24–27.",
+     "standing": "Minderheit, vor allem im englischsprachigen Raum",
+     "proponents": [
+      "N. T. Wright",
+      "R. T. France"
+     ],
+     "literature": [
+      {
+       "author": "N. T. Wright",
+       "title": "Jesus and the Victory of God",
+       "year": "1996",
+       "sure": true
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Naherwartung des Endes",
+     "claim": "Markus oder Jesus erwarteten Tempelende und Weltende innerhalb einer Generation; 13,32 schließt nur eine genaue Berechnung aus.",
+     "arguments": [
+      "„Dies alles“ steht nach dem Kommen des Menschensohns (13,26) und schließt es ein.",
+      "Ähnlich sprechen 9,1 und 1 Thess 4,15–17.",
+      "Die Rede ruft durchgehend zur Wachsamkeit in naher Zukunft auf."
+     ],
+     "textBasis": "Die Stellung von 13,30 unmittelbar nach dem Feigenbaumgleichnis (13,28–29).",
+     "standing": "verbreitet in der historisch-kritischen Forschung",
+     "proponents": [
+      "Dale C. Allison",
+      "Adela Yarbro Collins",
+      "Egon Brandenburger"
+     ],
+     "literature": [
+      {
+       "author": "Dale C. Allison",
+       "title": "Jesus of Nazareth: Millenarian Prophet",
+       "year": "1998",
+       "sure": true
+      },
+      {
+       "author": "Egon Brandenburger",
+       "title": "Markus 13 und die Apokalyptik",
+       "year": "1984",
+       "sure": true
+      },
+      {
+       "author": "Adela Yarbro Collins",
+       "title": "Mark: A Commentary (Hermeneia)",
+       "year": "2007",
+       "sure": false
+      }
+     ]
+    },
+    {
+     "name": "„Generation“ als Art von Menschen",
+     "claim": "γενεά meint nicht die Zeitgenossen, sondern eine Menschengruppe wie das ungläubige Geschlecht oder das jüdische Volk, die bis zum Ende besteht.",
+     "arguments": [
+      "Markus gebraucht γενεά oft wertend statt zeitlich.",
+      "So entfällt die zeitliche Grenze."
+     ],
+     "textBasis": "Der Sprachgebrauch in 8,12.38 und 9,19.",
+     "standing": "Minderheit",
+     "proponents": [
+      "Evald Lövestam"
+     ],
+     "literature": [
+      {
+       "author": "Evald Lövestam",
+       "title": "Jesus and „this Generation“: A New Testament Study",
+       "year": "1995",
+       "sure": false
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-15-39": {
+   "id": "mk-15-39",
+   "chapter": 15,
+   "from": 37,
+   "to": 39,
+   "title": "Das Bekenntnis des Hauptmanns",
+   "question": "Bekennt der römische Hauptmann Jesus als „den Sohn Gottes“, oder meint er „einen Gottessohn“ in heidnischem Sinn?",
+   "summary": "Unter dem Kreuz sagt ein Heide: „Dieser Mensch war wirklich Gottes Sohn!“ Für viele ist das der Höhepunkt des Buches. Umstritten ist, was der Satz im Mund eines römischen Soldaten bedeutet und wie Markus ihn verstanden wissen will.",
+   "hinges": [
+    "υἱὸς θεοῦ (hyios theou) ohne Artikel: „ein Sohn Gottes“ oder „der Sohn Gottes“. Ein vorangestelltes Prädikatsnomen kann auch ohne Artikel bestimmt sein (Regel von Colwell).",
+    "ἦν (ēn, „war“), Vergangenheit: Der Satz blickt auf den Toten zurück.",
+    "Der Rahmen des Buches: 1,1 und 1,11 sowie der zerrissene Vorhang unmittelbar davor (15,38)."
+   ],
+   "positions": [
+    {
+     "name": "Volles Bekenntnis",
+     "claim": "Markus lässt einen Heiden das Bekenntnis aussprechen, auf das das Buch zuläuft: Jesus ist der Sohn Gottes.",
+     "arguments": [
+      "Erst beim Kreuz erkennt ein Mensch, was bisher nur Gott und Dämonen sagten.",
+      "Der Artikel fehlt oft bei vorangestellten Prädikatsnomen, ohne dass sie unbestimmt werden.",
+      "Die Stellung nach dem Tod Jesu macht das Kreuz zum Ort der Erkenntnis."
+     ],
+     "textBasis": "Die Wortstellung υἱὸς θεοῦ ἦν und die Verbindung zu 1,1 und 1,11.",
+     "standing": "Mehrheitsmeinung",
+     "proponents": [
+      "Joel Marcus",
+      "R. T. France",
+      "Robert H. Gundry"
+     ],
+     "literature": [
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 8–16 (Anchor Yale Bible 27A)",
+       "year": "2009",
+       "sure": true
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      },
+      {
+       "author": "Robert H. Gundry",
+       "title": "Mark: A Commentary on His Apology for the Cross",
+       "year": "1993",
+       "sure": true
+      },
+      {
+       "author": "E. C. Colwell",
+       "title": "A Definite Rule for the Use of the Article in the Greek New Testament, in: Journal of Biblical Literature 52",
+       "year": "1933",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Doppelsinn",
+     "claim": "Der Hauptmann sagt, was ein Römer sagen konnte, etwa wie vom vergöttlichten Kaiser; die Leser hören mehr.",
+     "arguments": [
+      "„Sohn Gottes“ (divi filius) war ein Titel des Kaisers Augustus.",
+      "Ein Soldat hätte kaum ein christliches Bekenntnis formuliert.",
+      "Markus spielt den Titel bewusst gegen den Kaiser aus."
+     ],
+     "textBasis": "Die artikellose Form im Licht römischer Kaisertitel.",
+     "standing": "verbreitet",
+     "proponents": [
+      "Adela Yarbro Collins",
+      "Tae Hun Kim",
+      "Michael Peppard"
+     ],
+     "literature": [
+      {
+       "author": "Adela Yarbro Collins",
+       "title": "Mark: A Commentary (Hermeneia)",
+       "year": "2007",
+       "sure": true
+      },
+      {
+       "author": "Tae Hun Kim",
+       "title": "The Anarthrous υἱὸς θεοῦ in Mark 15,39 and the Roman Imperial Cult, in: Biblica 79",
+       "year": "1998",
+       "sure": false
+      },
+      {
+       "author": "Michael Peppard",
+       "title": "The Son of God in the Roman World",
+       "year": "2011",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Kein Bekenntnis: Ironie oder bloße Bewunderung",
+     "claim": "Der Hauptmann bekennt keinen Glauben; er bewundert einen Sterbenden oder spottet sogar. Die Wahrheit liegt in der Ironie für die Leser.",
+     "arguments": [
+      "Auch die Spötter sagen unbewusst Wahres (15,18.32).",
+      "Der Hauptmann bleibt Teil der Hinrichtung und bestätigt kurz danach nur den Tod (15,44–45)."
+     ],
+     "textBasis": "Die Reihe der Spottworte in 15,16–32.",
+     "standing": "Minderheit",
+     "proponents": [
+      "Earl S. Johnson"
+     ],
+     "literature": [
+      {
+       "author": "Earl S. Johnson",
+       "title": "Is Mark 15.39 the Key to Mark’s Christology?, in: Journal for the Study of the New Testament 31",
+       "year": "1987",
+       "sure": false
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  },
+  "mk-16-8": {
+   "id": "mk-16-8",
+   "chapter": 16,
+   "from": 8,
+   "to": 8,
+   "title": "Das offene Ende in 16,8",
+   "question": "Hat Markus sein Evangelium mit 16,8 beendet, und was bedeutet ein Schluss mit schweigenden, sich fürchtenden Frauen?",
+   "summary": "Die ältesten Handschriften enden mit „denn sie fürchteten sich“. Der kürzere und der längere Schluss gelten weithin als spätere Ergänzungen. Offen ist, ob 16,8 das gewollte Ende ist oder ob ein Schluss verloren ging.",
+   "hinges": [
+    "Handschriften: Sinaiticus und Vaticanus enden mit 16,8; Eusebius und Hieronymus kennen viele Handschriften ohne 16,9–20.",
+    "ἐφοβοῦντο γάρ (ephobounto gar, „denn sie fürchteten sich“): ein Satz, der mit „denn“ endet, ist ungewöhnlich, aber möglich.",
+    "Die Ankündigung in 16,7 (und 14,28), dass die Jünger Jesus in Galiläa sehen werden, wird nicht erzählt."
+   ],
+   "positions": [
+    {
+     "name": "Bewusst offenes Ende",
+     "claim": "Markus endet absichtlich mit 16,8; die Leser sollen die verheißene Begegnung in Galiläa selbst ergreifen.",
+     "arguments": [
+      "Furcht und Schweigen ziehen sich als Thema durch das ganze Buch.",
+      "Die Verheißung von 16,7 ist für die Leser gewiss, auch ohne Erzählung.",
+      "Sätze und sogar Schriften, die mit γάρ enden, sind belegt."
+     ],
+     "textBasis": "Der Abschluss mit ἐφοβοῦντο γάρ nach der Verheißung in 16,7.",
+     "standing": "Mehrheitsmeinung",
+     "proponents": [
+      "Andrew T. Lincoln",
+      "Joel Marcus",
+      "Morna D. Hooker",
+      "R. H. Lightfoot"
+     ],
+     "literature": [
+      {
+       "author": "Andrew T. Lincoln",
+       "title": "The Promise and the Failure: Mark 16:7, 8, in: Journal of Biblical Literature 108",
+       "year": "1989",
+       "sure": true
+      },
+      {
+       "author": "P. W. van der Horst",
+       "title": "Can a Book End with ΓΑΡ? A Note on Mark XVI. 8, in: Journal of Theological Studies 23",
+       "year": "1972",
+       "sure": false
+      },
+      {
+       "author": "R. H. Lightfoot",
+       "title": "The Gospel Message of St. Mark",
+       "year": "1950",
+       "sure": true
+      },
+      {
+       "author": "Joel Marcus",
+       "title": "Mark 8–16 (Anchor Yale Bible 27A)",
+       "year": "2009",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Verlorener oder nicht geschriebener Schluss",
+     "claim": "Markus wollte von Erscheinungen in Galiläa erzählen; der Schluss ging verloren oder wurde nie geschrieben.",
+     "arguments": [
+      "Die Ankündigung in 16,7 verlangt nach einer Erfüllung, wie sie bei anderen Ankündigungen erzählt wird.",
+      "Ende und Anfang einer Buchrolle oder eines Kodex wurden leicht beschädigt.",
+      "Matthäus und Lukas erzählen beide weiter, vielleicht nach einem Schluss, den sie kannten."
+     ],
+     "textBasis": "Die Spannung zwischen 16,7 und 16,8.",
+     "standing": "Minderheit, ernsthaft vertreten",
+     "proponents": [
+      "N. Clayton Croy",
+      "Robert H. Gundry",
+      "R. T. France",
+      "N. T. Wright"
+     ],
+     "literature": [
+      {
+       "author": "N. Clayton Croy",
+       "title": "The Mutilation of Mark’s Gospel",
+       "year": "2003",
+       "sure": true
+      },
+      {
+       "author": "Robert H. Gundry",
+       "title": "Mark: A Commentary on His Apology for the Cross",
+       "year": "1993",
+       "sure": true
+      },
+      {
+       "author": "R. T. France",
+       "title": "The Gospel of Mark (NIGTC)",
+       "year": "2002",
+       "sure": true
+      }
+     ]
+    },
+    {
+     "name": "Der längere Schluss ist ursprünglich",
+     "claim": "Die Verse 16,9–20 gehören zum ursprünglichen Text, wie die Mehrheit der Handschriften bezeugt.",
+     "arguments": [
+      "Die große Mehrheit der Handschriften und frühe Zeugen wie Irenäus kennen den längeren Schluss.",
+      "Ein Buch ohne Erscheinungsbericht wäre im frühen Christentum ungewöhnlich."
+     ],
+     "textBasis": "Die Bezeugung von 16,9–20 seit dem 2. Jahrhundert.",
+     "standing": "Randmeinung in der Fachexegese",
+     "proponents": [
+      "William R. Farmer",
+      "Maurice A. Robinson"
+     ],
+     "literature": [
+      {
+       "author": "William R. Farmer",
+       "title": "The Last Twelve Verses of Mark",
+       "year": "1974",
+       "sure": true
+      },
+      {
+       "author": "David Alan Black (Hg.)",
+       "title": "Perspectives on the Ending of Mark: Four Views",
+       "year": "2008",
+       "sure": true
+      },
+      {
+       "author": "James A. Kelhoffer",
+       "title": "Miracle and Mission: The Authentication of Missionaries and Their Message in the Longer Ending of Mark",
+       "year": "2000",
+       "sure": true
+      },
+      {
+       "author": "Bruce M. Metzger",
+       "title": "A Textual Commentary on the Greek New Testament",
+       "year": "1994",
+       "sure": true
+      }
+     ]
+    }
+   ],
+   "reviewed": false
+  }
+ }
 }

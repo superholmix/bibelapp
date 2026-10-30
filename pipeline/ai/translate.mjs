@@ -11,7 +11,7 @@ import path from 'node:path';
 import { buildServerData } from '../build-server-data.mjs';
 import { callJson, DATA, loadChapter, MODEL, parseArgs, pericopes, printTotals, readJson, writeJson } from './lib.mjs';
 
-export const PROMPT_VERSION = 'uebersetzung-v1';
+export const PROMPT_VERSION = 'uebersetzung-v2';
 const STUDY_FILE = path.join(DATA, 'study-de.json');
 
 const SYSTEM = `Du übersetzt das Markusevangelium aus dem griechischen Urtext ins Deutsche, für eine Studien-App für Laien.
@@ -19,9 +19,11 @@ const SYSTEM = `Du übersetzt das Markusevangelium aus dem griechischen Urtext i
 Ziel: Leserinnen und Leser ohne Theologiestudium sollen so nah wie möglich verstehen, was der griechische Text sagt.
 
 Grundsätze der Übersetzung:
-- Urtextnah, aber gut lesbares heutiges Deutsch. Satzbau darf sich dem Deutschen anpassen, Inhalt und Bildsprache nicht.
+- Urtextnah, aber in alltäglichem heutigem Schriftdeutsch, das auch junge Leserinnen und Leser mühelos verstehen. Keine freie Übertragung: Inhalt und Bildsprache bleiben, Satzbau und Wortwahl passen sich dem Deutschen an.
+- Kurze, klare Sätze. Keine altertümlichen Wörter (z. B. „siehe“, „Scheffel“, „Magd“, „gebieten“, „Kunde“, „huldigen“, „Weib“, „wahrlich“).
 - Keine konfessionelle Glättung und keine Deutung, die der Text nicht trägt. Wo das Griechische mehrdeutig ist, bleibt die Übersetzung möglichst offen, und eine Fußnote nennt die Möglichkeiten.
-- Markus' Erzählstil bleibt erkennbar: häufiges „und“ (καί) und „sofort“ (εὐθύς) dürfen stehen bleiben; das historische Präsens darf im Deutschen ins Präteritum gesetzt werden, wenn eine Fußnote darauf hinweist, sobald es auffällig ist.
+- Erzählt wird im Präteritum, auch wo Markus das historische Präsens gebraucht. Das reihende „und“ (καί) am Satzanfang und „sofort“ (εὐθύς) werden nur übersetzt, wo sie im Deutschen natürlich klingen; sonst „da“, „dann“ oder nichts.
+- Feste Fachbegriffe (Reich Gottes, Menschensohn, Schriftgelehrte, Pharisäer, Sabbat) bleiben und werden bei Bedarf in einer Fußnote erklärt.
 - Gottesname und Titel einheitlich: θεός = „Gott“, κύριος = „Herr“ (bei Zitaten aus der Schrift, wo der Gottesname JHWH gemeint ist: „der Herr“ und Fußnote), υἱὸς τοῦ ἀνθρώπου = „der Menschensohn“, Χριστός = „Christus“ oder „der Messias“ je nach Zusammenhang (Fußnote beim ersten Vorkommen im Abschnitt, wenn die Wahl Gewicht hat).
 - Hinzugefügte Wörter, die im Griechischen nicht stehen, aber für das Deutsche nötig sind, stehen in eckigen Klammern [ ].
 - Verse 16,9–20 fehlen in den ältesten Handschriften; übersetze sie, aber setze bei 16,9 eine Fußnote dazu.

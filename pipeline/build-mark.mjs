@@ -16,7 +16,9 @@ const outDir = path.join(here, '..', 'assets', 'data');
 
 const BOOK = 'Mrk';
 const BOOK_INDEX = 40; // 0-basiert in den scrollmapper-Dateien (Genesis = 0)
-const BASE_EDITION = 'NA28'; // Wörter, die im Nestle-Aland-Text stehen
+// Wörter, die im Nestle-Aland-Text stehen. In den Evangelien ist NA28 wortgleich mit NA27, die
+// NA28-Spalte von TAGNT lässt aber eingeklammerte Wörter weg (z. B. 3,14) und vertauscht 1,2.
+const BASE_EDITION = 'NA27';
 
 async function readCache(name) {
   return readFile(path.join(cacheDir, name), 'utf8');
@@ -40,6 +42,17 @@ function cleanEnglish(s) {
   return s.replace(/[ˍ₊]/g, '').trim();
 }
 
+// "βλάψῃ (o=blapsē) it may hurt - G0984=V-AAS-3S in: NA28+NA27+…" → Wortform, Umschrift, Englisch, Grammatik
+function baseVariant(column = '') {
+  for (const part of column.split(/;\s*/)) {
+    const m = part.trim().match(/^(\S+) \((?:\w+=)?([^)]+)\) (.*?) - (\S+) in: (\S+)/);
+    if (m && m[5].split('+').includes(BASE_EDITION)) {
+      return { text: m[1], translit: m[2], en: m[3], grammar: m[4] };
+    }
+  }
+  return null;
+}
+
 function parseTagnt(text) {
   const verses = new Map(); // "1.1" -> words[]
   const refRe = /^Mrk\.(\d+)\.(\d+)(?:[([{][^)\]}]*[)\]}])?#(\d+)=(\S+)$/;
@@ -48,17 +61,24 @@ function parseTagnt(text) {
     const f = line.split('\t');
     const ref = f[0].match(refRe);
     if (!ref) throw new Error('Unbekannte Referenz: ' + f[0]);
-    if (!f[5].split('+').includes(BASE_EDITION)) continue;
+    // Einträge wie "NA27»1" markieren nur eine Verknüpfung, das Wort steht trotzdem im Text
+    const inBase = (eds) => eds.split('+').some((ed) => ed.replace(/[«»]\d+$/, '') === BASE_EDITION);
+    // Manche Zeilen führen die TR-Form und nennen die Nestle-Aland-Form nur in der Variantenspalte (16,18)
+    const variant = inBase(f[5]) ? null : baseVariant(f[6]);
+    if (!inBase(f[5]) && !variant) continue;
     const [, chapter, verse] = ref;
-    const greek = splitGreek(f[1]);
-    const grammar = splitPairs(f[3]);
+    // Satzzeichen und Absatzmarke stehen nur an der Hauptform
+    const tail = variant ? splitGreek(f[1]).text.match(/[^\p{L}\p{M}]*$/u)[0] : '';
+    const greek = variant ? { text: variant.text + tail, translit: variant.translit } : splitGreek(f[1]);
+    const grammar = variant ? splitPairs(variant.grammar) : splitPairs(f[3]);
     const lemmas = splitPairs(f[4]);
     const paragraph = greek.text.includes('¶');
     const word = {
       g: greek.text.replace('¶', ''),
       tr: greek.translit,
-      en: cleanEnglish(f[2]),
-      es: (f[8] ?? '').trim(),
+      en: cleanEnglish(variant ? variant.en : f[2]),
+      // Die spanische Spalte wiederholt die Doppelklammern der Markusschlüsse
+      es: (f[8] ?? '').replace(/\[\[|\]\]/g, '').trim(),
       s: grammar.map(([strong]) => strong),
       m: grammar.map(([, morph]) => morph),
       l: lemmas.map(([lemma]) => lemma).join(' + '),

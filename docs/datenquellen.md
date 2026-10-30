@@ -14,7 +14,7 @@ Stand: 29.10.2026. Vor einer Veröffentlichung im Store noch einmal juristisch p
 
 ## Welcher griechische Text?
 
-Die App zeigt die Wörter, die TAGNT als Teil von **NA28** (Nestle-Aland, 28. Auflage) markiert. Das ist der Wortbestand, dem fast alle modernen Übersetzungen folgen. Der NA28-Text selbst ist urheberrechtlich geschützt; TAGNT ist eine eigenständige, offen lizenzierte Zusammenstellung mit Rechtschreibung nach NA28. Deshalb fehlen die Verse Mk 7,16; 9,44; 9,46; 11,26 und 15,28, die nur in späteren Handschriften stehen (673 statt 678 Verse).
+Die App zeigt die Wörter, die TAGNT als Teil von **NA27/NA28** (Nestle-Aland) markiert. In den Evangelien sind beide Auflagen wortgleich; das Skript nimmt die NA27-Spalte, weil der NA28-Spalte von TAGNT in Markus eingeklammerte Wörter fehlen (z. B. 3,14) und sie in 1,2 „ich“ statt „siehe“ führt. Das ist der Wortbestand, dem fast alle modernen Übersetzungen folgen. Der NA28-Text selbst ist urheberrechtlich geschützt; TAGNT ist eine eigenständige, offen lizenzierte Zusammenstellung mit Rechtschreibung nach NA28. Deshalb fehlen die Verse Mk 7,16; 9,44; 9,46; 11,26 und 15,28, die nur in späteren Handschriften stehen (673 statt 678 Verse).
 
 ## Bewusst nicht verwendet
 
@@ -24,4 +24,4 @@ Die App zeigt die Wörter, die TAGNT als Teil von **NA28** (Nestle-Aland, 28. Au
 
 ## Änderungen an STEPBible-Daten
 
-`pipeline/build-mark.mjs` wählt nur Wörter mit NA28 aus, entfernt Absatzzeichen (¶) und Hilfszeichen (ˍ ₊) aus den Wortübersetzungen, entfernt HTML aus den Lexikoneinträgen und kürzt diese auf etwa 900 Zeichen. Inhaltlich wird nichts verändert.
+`pipeline/build-mark.mjs` wählt nur Wörter mit NA27 aus (auch solche mit Verweiszeichen wie „NA27»1“), entfernt Absatzzeichen (¶) und Hilfszeichen (ˍ ₊) aus den Wortübersetzungen, entfernt HTML aus den Lexikoneinträgen und kürzt diese auf etwa 900 Zeichen. Inhaltlich wird nichts verändert.
