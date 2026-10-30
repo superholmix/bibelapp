@@ -47,13 +47,21 @@ function mainText(chapter: number, verse: Verse) {
   return getStudyVerse(chapter, verse.v)?.text ?? verse.cmp.elb1905 ?? '';
 }
 
-/** Verse zu Absätzen bündeln; TAGNT markiert Absatzenden mit ¶. */
-function paragraphs(verses: Verse[]) {
+/**
+ * Verse zu Absätzen bündeln. Mit Studienübersetzung beginnt ein Absatz nur bei einer Zwischenüberschrift,
+ * sonst gelten die Absatzenden aus TAGNT (¶).
+ */
+function paragraphs(chapter: number, verses: Verse[]) {
+  const bySection = verses.some((v) => getSectionHeading(chapter, v.v));
   const out: Verse[][] = [];
   let current: Verse[] = [];
   for (const v of verses) {
+    if (bySection && current.length && getSectionHeading(chapter, v.v)) {
+      out.push(current);
+      current = [];
+    }
     current.push(v);
-    if (v.words.some((w) => w.p)) {
+    if (!bySection && v.words.some((w) => w.p)) {
       out.push(current);
       current = [];
     }
@@ -94,7 +102,7 @@ export default function ReaderScreen() {
   }, [params.chapter, params.verse]);
 
   const chapter = useMemo(() => getChapter(chapterNo), [chapterNo]);
-  const paras = useMemo(() => paragraphs(chapter.verses), [chapter]);
+  const paras = useMemo(() => paragraphs(chapterNo, chapter.verses), [chapterNo, chapter]);
   const topics = useMemo(() => getTopicsForChapter(chapterNo), [chapterNo]);
 
   const goTo = (c: number) => {
