@@ -1,10 +1,10 @@
 {
  "status": "draft",
  "model": "Claude (Claude-Code-Sitzung)",
- "promptVersion": "uebersetzung-v1",
+ "promptVersion": "uebersetzung-v2",
  "verses": {
   "1.1": {
-   "text": "Anfang des Evangeliums von Jesus Christus, [dem] Sohn Gottes.",
+   "text": "Anfang des Evangeliums von Jesus Christus, dem Sohn Gottes.",
    "notes": [
     {
      "anchor": "Evangeliums",
@@ -30,10 +30,10 @@
    ]
   },
   "1.2": {
-   "text": "Wie geschrieben steht bei Jesaja, dem Propheten: „Siehe, ich sende meinen Boten vor dir her, der deinen Weg bereiten wird.“",
+   "text": "Beim Propheten Jesaja steht geschrieben: „Ich sende meinen Boten vor dir her. Er wird deinen Weg bereiten.“",
    "notes": [
     {
-     "anchor": "bei Jesaja",
+     "anchor": "Beim Propheten Jesaja",
      "text": "Das Zitat verbindet Maleachi 3,1 (vgl. 2. Mose 23,20) mit Jesaja 40,3 (Vers 3). Markus nennt nur Jesaja, den bekannteren Propheten."
     },
     {
@@ -69,7 +69,7 @@
    ]
   },
   "1.3": {
-   "text": "„Stimme eines Rufenden in der Wüste: Bereitet den Weg des Herrn, macht seine Pfade gerade!“",
+   "text": "„Eine Stimme ruft in der Wüste: Bereitet dem Herrn den Weg, macht seine Pfade gerade!“",
    "notes": [
     {
      "anchor": "Herrn",
@@ -98,15 +98,15 @@
    ]
   },
   "1.4": {
-   "text": "Johannes trat auf, der in der Wüste taufte und eine Taufe der Umkehr zur Vergebung der Sünden verkündete.",
+   "text": "So trat Johannes der Täufer in der Wüste auf. Er rief die Menschen dazu auf, umzukehren und sich taufen zu lassen, damit ihnen ihre Sünden vergeben werden.",
    "notes": [
     {
-     "anchor": "der in der Wüste taufte",
-     "text": "Mit Artikel, wie in vielen Handschriften, kann man auch lesen: „Johannes der Täufer trat in der Wüste auf“."
+     "anchor": "Johannes der Täufer",
+     "text": "Wörtlich „Johannes, der Taufende“. Manche Handschriften lesen ohne Artikel: „Johannes trat auf, der in der Wüste taufte“."
     },
     {
-     "anchor": "Umkehr",
-     "text": "Griechisch metanoia: ein Umdenken, das das ganze Leben neu ausrichtet; oft mit „Buße“ übersetzt."
+     "anchor": "umzukehren",
+     "text": "Griechisch metanoia: ein Umdenken, das das ganze Leben neu ausrichtet; oft mit „Buße“ übersetzt. Wörtlich verkündete Johannes „eine Taufe der Umkehr zur Vergebung der Sünden“."
     }
    ],
    "glosses": [
@@ -127,7 +127,7 @@
    ]
   },
   "1.5": {
-   "text": "Und das ganze Land Judäa und alle Leute aus Jerusalem zogen zu ihm hinaus und ließen sich von ihm im Jordanfluss taufen und bekannten ihre Sünden.",
+   "text": "Das ganze Land Judäa und alle Bewohner Jerusalems zogen zu ihm hinaus. Sie bekannten ihre Sünden und ließen sich von ihm im Jordan taufen.",
    "notes": [],
    "glosses": [
     "und",
@@ -157,7 +157,7 @@
    ]
   },
   "1.6": {
-   "text": "Und Johannes war in Kamelhaar gekleidet und [trug] einen ledernen Gürtel um seine Hüften, und er aß Heuschrecken und wilden Honig.",
+   "text": "Johannes trug ein Gewand aus Kamelhaar und einen Ledergürtel um die Hüften. Er aß Heuschrecken und wilden Honig.",
    "notes": [
     {
      "anchor": "Kamelhaar",
@@ -188,7 +188,7 @@
    ]
   },
   "1.7": {
-   "text": "Und er verkündete: „Nach mir kommt der, der stärker ist als ich. Ich bin es nicht wert, mich zu bücken und den Riemen seiner Sandalen zu lösen.",
+   "text": "Er verkündete: „Nach mir kommt einer, der stärker ist als ich. Ich bin es nicht einmal wert, mich zu bücken und ihm die Riemen seiner Sandalen zu lösen.",
    "notes": [
     {
      "anchor": "Sandalen zu lösen",
@@ -241,7 +241,7 @@
    ]
   },
   "1.9": {
-   "text": "Und es geschah in jenen Tagen: Jesus kam aus Nazaret in Galiläa und wurde von Johannes im Jordan getauft.",
+   "text": "In dieser Zeit kam Jesus aus Nazaret in Galiläa und ließ sich von Johannes im Jordan taufen.",
    "notes": [
     {
      "anchor": "im Jordan",
@@ -271,14 +271,14 @@
    ]
   },
   "1.10": {
-   "text": "Und sofort, als er aus dem Wasser heraufstieg, sah er den Himmel aufreißen und den Geist wie eine Taube auf ihn herabkommen.",
+   "text": "Gleich als er aus dem Wasser stieg, sah er, wie der Himmel aufriss und der Geist wie eine Taube auf ihn herabkam.",
    "notes": [
     {
-     "anchor": "sofort",
+     "anchor": "Gleich",
      "text": "Griechisch euthys, ein Lieblingswort des Markus (über 40-mal). Es treibt die Erzählung voran und heißt oft einfach „gleich darauf“."
     },
     {
-     "anchor": "den Himmel aufreißen",
+     "anchor": "der Himmel aufriss",
      "text": "Wörtlich „die Himmel zerrissen werden“. Dasselbe Verb steht in 15,38 beim Vorhang des Tempels."
     }
    ],
@@ -304,11 +304,11 @@
    ]
   },
   "1.11": {
-   "text": "Und eine Stimme kam aus dem Himmel: „Du bist mein geliebter Sohn, an dir habe ich Gefallen gefunden.“",
+   "text": "Und aus dem Himmel sprach eine Stimme: „Du bist mein geliebter Sohn, an dir habe ich Freude.“",
    "notes": [
     {
-     "anchor": "Gefallen gefunden",
-     "text": "Anklang an Psalm 2,7 und Jesaja 42,1. Die Vergangenheitsform kann zeitlos gemeint sein: „an dir habe ich Freude“."
+     "anchor": "an dir habe ich Freude",
+     "text": "Anklang an Psalm 2,7 und Jesaja 42,1. Wörtlich „an dir habe ich Gefallen gefunden“; die Vergangenheitsform ist wohl zeitlos gemeint."
     }
    ],
    "glosses": [
@@ -331,11 +331,11 @@
    ]
   },
   "1.12": {
-   "text": "Und sofort trieb ihn der Geist in die Wüste hinaus.",
+   "text": "Gleich danach trieb ihn der Geist in die Wüste.",
    "notes": [
     {
      "anchor": "trieb",
-     "text": "Im Griechischen Gegenwart („treibt“): Markus erzählt oft im Präsens, um eine Szene lebendig zu machen. Das Verb ist kräftig: „hinauswerfen“, „hinaustreiben“."
+     "text": "Im Griechischen steht Gegenwart („treibt“). Markus erzählt oft im Präsens, die Übersetzung gibt das mit der Vergangenheit wieder. Das Verb ist kräftig: „hinauswerfen“, „hinaustreiben“."
     }
    ],
    "glosses": [
@@ -351,15 +351,15 @@
    ]
   },
   "1.13": {
-   "text": "Und er war vierzig Tage in der Wüste und wurde vom Satan versucht. Er war bei den wilden Tieren, und die Engel dienten ihm.",
+   "text": "Vierzig Tage blieb er in der Wüste und wurde vom Satan auf die Probe gestellt. Er lebte bei den wilden Tieren, und die Engel sorgten für ihn.",
    "notes": [
     {
-     "anchor": "vierzig Tage",
+     "anchor": "Vierzig Tage",
      "text": "Erinnert an Mose (2. Mose 34,28), Elia (1. Könige 19,8) und Israels vierzig Jahre in der Wüste."
     },
     {
-     "anchor": "versucht",
-     "text": "Griechisch peirazō heißt „prüfen“, „auf die Probe stellen“ oder „zum Bösen verleiten“."
+     "anchor": "auf die Probe gestellt",
+     "text": "Griechisch peirazō heißt „prüfen“, „auf die Probe stellen“ oder „zum Bösen verleiten“; oft mit „versuchen“ übersetzt."
     },
     {
      "anchor": "Satan",
@@ -391,11 +391,11 @@
    ]
   },
   "1.14": {
-   "text": "Nachdem aber Johannes ausgeliefert worden war, kam Jesus nach Galiläa und verkündete das Evangelium Gottes",
+   "text": "Nachdem Johannes gefangen genommen worden war, kam Jesus nach Galiläa. Er verkündete das Evangelium Gottes",
    "notes": [
     {
-     "anchor": "ausgeliefert",
-     "text": "Griechisch paradidōmi, „ausliefern“, „übergeben“. Dasselbe Wort verwendet Markus später für Jesus (z. B. 9,31; 14,41)."
+     "anchor": "gefangen genommen",
+     "text": "Wörtlich „ausgeliefert“ (paradidōmi). Dasselbe Wort verwendet Markus später für Jesus (z. B. 9,31; 14,41)."
     }
    ],
    "glosses": [
@@ -456,7 +456,7 @@
    ]
   },
   "1.16": {
-   "text": "Und als er am See von Galiläa entlangging, sah er Simon und Andreas, den Bruder Simons, wie sie [ihre Netze] im See auswarfen; sie waren nämlich Fischer.",
+   "text": "Als Jesus am See von Galiläa entlangging, sah er Simon und dessen Bruder Andreas. Sie warfen gerade ihre Netze im See aus, denn sie waren Fischer.",
    "notes": [
     {
      "anchor": "See",
@@ -488,7 +488,7 @@
    ]
   },
   "1.17": {
-   "text": "Und Jesus sagte zu ihnen: „Kommt, mir nach! Ich werde euch zu Menschenfischern machen.“",
+   "text": "Jesus sagte zu ihnen: „Kommt, folgt mir! Ich mache euch zu Menschenfischern.“",
    "notes": [
     {
      "anchor": "Menschenfischern",
@@ -513,7 +513,7 @@
    ]
   },
   "1.18": {
-   "text": "Und sofort ließen sie die Netze liegen und folgten ihm.",
+   "text": "Sofort ließen sie ihre Netze liegen und folgten ihm.",
    "notes": [],
    "glosses": [
     "und",
@@ -526,7 +526,7 @@
    ]
   },
   "1.19": {
-   "text": "Und als er ein wenig weitergegangen war, sah er Jakobus, den [Sohn] des Zebedäus, und seinen Bruder Johannes, wie sie im Boot die Netze in Ordnung brachten.",
+   "text": "Ein Stück weiter sah er Jakobus, den Sohn des Zebedäus, und dessen Bruder Johannes. Sie saßen im Boot und brachten die Netze in Ordnung.",
    "notes": [],
    "glosses": [
     "und",
@@ -553,7 +553,7 @@
    ]
   },
   "1.20": {
-   "text": "Und sofort rief er sie. Und sie ließen ihren Vater Zebedäus mit den Tagelöhnern im Boot zurück und gingen ihm nach.",
+   "text": "Gleich rief er sie. Da ließen sie ihren Vater Zebedäus mit den Tagelöhnern im Boot zurück und gingen mit ihm.",
    "notes": [],
    "glosses": [
     "und",
@@ -578,7 +578,7 @@
    ]
   },
   "1.21": {
-   "text": "Und sie gehen nach Kafarnaum hinein. Und gleich am Sabbat ging er in die Synagoge und lehrte.",
+   "text": "Sie kamen nach Kafarnaum. Gleich am Sabbat ging Jesus in die Synagoge und lehrte.",
    "notes": [
     {
      "anchor": "Sabbat",
@@ -602,7 +602,7 @@
    ]
   },
   "1.22": {
-   "text": "Und sie waren außer sich über seine Lehre, denn er lehrte sie wie einer, der Vollmacht hat, und nicht wie die Schriftgelehrten.",
+   "text": "Die Menschen waren außer sich über seine Lehre. Denn er lehrte wie einer, der Vollmacht hat, und nicht wie die Schriftgelehrten.",
    "notes": [
     {
      "anchor": "Vollmacht",
@@ -635,10 +635,10 @@
    ]
   },
   "1.23": {
-   "text": "Und sofort war in ihrer Synagoge ein Mensch mit einem unreinen Geist, und er schrie auf",
+   "text": "In ihrer Synagoge war gerade ein Mann, der von einem unreinen Geist besessen war. Der schrie auf:",
    "notes": [
     {
-     "anchor": "mit einem unreinen Geist",
+     "anchor": "von einem unreinen Geist besessen",
      "text": "Wörtlich „in einem unreinen Geist“: ganz in dessen Gewalt. „Unrein“ meint, was von Gott trennt und nicht vor ihn treten kann."
     }
    ],
@@ -659,10 +659,10 @@
    ]
   },
   "1.24": {
-   "text": "und sagte: „Was haben wir mit dir zu tun, Jesus von Nazaret? Bist du gekommen, um uns zu vernichten? Ich weiß, wer du bist: der Heilige Gottes!“",
+   "text": "„Was willst du von uns, Jesus aus Nazaret? Bist du gekommen, um uns zu vernichten? Ich weiß, wer du bist: der Heilige Gottes!“",
    "notes": [
     {
-     "anchor": "Was haben wir mit dir zu tun",
+     "anchor": "Was willst du von uns",
      "text": "Wörtlich „Was [ist] uns und dir?“, eine Redewendung der Abwehr: „Lass uns in Ruhe!“"
     }
    ],
@@ -688,10 +688,10 @@
    ]
   },
   "1.25": {
-   "text": "Und Jesus fuhr ihn an: „Verstumme und fahr aus ihm aus!“",
+   "text": "Jesus fuhr ihn an: „Schweig und fahr aus ihm aus!“",
    "notes": [
     {
-     "anchor": "Verstumme",
+     "anchor": "Schweig",
      "text": "Wörtlich „Lass dir das Maul verbinden!“, ein scharfes Wort."
     }
    ],
@@ -710,7 +710,7 @@
    ]
   },
   "1.26": {
-   "text": "Und der unreine Geist riss ihn hin und her, schrie mit lauter Stimme und fuhr aus ihm aus.",
+   "text": "Da riss der unreine Geist den Mann hin und her, schrie laut auf und fuhr aus ihm aus.",
    "notes": [],
    "glosses": [
     "und",
@@ -730,11 +730,11 @@
    ]
   },
   "1.27": {
-   "text": "Und alle erschraken, sodass sie sich untereinander fragten: „Was ist das? Eine neue Lehre mit Vollmacht! Sogar den unreinen Geistern gebietet er, und sie gehorchen ihm.“",
+   "text": "Alle erschraken und fragten einander: „Was ist das? Eine neue Lehre mit Vollmacht! Sogar den unreinen Geistern befiehlt er, und sie gehorchen ihm.“",
    "notes": [
     {
      "anchor": "Eine neue Lehre mit Vollmacht",
-     "text": "Man kann auch verbinden: „Eine neue Lehre! Mit Vollmacht gebietet er sogar den unreinen Geistern.“"
+     "text": "Man kann auch verbinden: „Eine neue Lehre! Mit Vollmacht befiehlt er sogar den unreinen Geistern.“"
     }
    ],
    "glosses": [
@@ -765,7 +765,7 @@
    ]
   },
   "1.28": {
-   "text": "Und die Kunde von ihm verbreitete sich sofort überall in der ganzen Umgebung von Galiläa.",
+   "text": "Schnell verbreitete sich die Nachricht von ihm in der ganzen Gegend rings um Galiläa.",
    "notes": [],
    "glosses": [
     "und",
@@ -784,7 +784,7 @@
    ]
   },
   "1.29": {
-   "text": "Und sofort verließen sie die Synagoge und gingen mit Jakobus und Johannes in das Haus von Simon und Andreas.",
+   "text": "Gleich danach verließen sie die Synagoge und gingen mit Jakobus und Johannes in das Haus von Simon und Andreas.",
    "notes": [],
    "glosses": [
     "und",
@@ -807,7 +807,7 @@
    ]
   },
   "1.30": {
-   "text": "Die Schwiegermutter Simons aber lag mit Fieber im Bett, und sofort erzählen sie ihm von ihr.",
+   "text": "Simons Schwiegermutter lag mit Fieber im Bett. Gleich erzählten sie Jesus von ihr.",
    "notes": [],
    "glosses": [
     "die",
@@ -825,14 +825,14 @@
    ]
   },
   "1.31": {
-   "text": "Und er ging zu ihr, fasste sie bei der Hand und richtete sie auf. Und das Fieber verließ sie, und sie diente ihnen.",
+   "text": "Er ging zu ihr, fasste sie an der Hand und richtete sie auf. Da verließ sie das Fieber, und sie bewirtete ihre Gäste.",
    "notes": [
     {
      "anchor": "richtete sie auf",
      "text": "Griechisch egeirō, „aufrichten“, „aufwecken“; dasselbe Wort steht für die Auferweckung Jesu (16,6)."
     },
     {
-     "anchor": "diente",
+     "anchor": "bewirtete",
      "text": "Griechisch diakoneō, „dienen“, auch „bewirten“. Dasselbe Wort steht für die Engel in 1,13 und für Jesus selbst in 10,45."
     }
    ],
@@ -855,7 +855,7 @@
    ]
   },
   "1.32": {
-   "text": "Als es aber Abend geworden und die Sonne untergegangen war, brachte man alle Kranken und Besessenen zu ihm.",
+   "text": "Am Abend, als die Sonne untergegangen war, brachten die Leute alle Kranken und Besessenen zu ihm.",
    "notes": [
     {
      "anchor": "die Sonne untergegangen war",
@@ -883,7 +883,7 @@
    ]
   },
   "1.33": {
-   "text": "Und die ganze Stadt war vor der Tür versammelt.",
+   "text": "Die ganze Stadt war vor der Tür versammelt.",
    "notes": [],
    "glosses": [
     "und",
@@ -898,10 +898,10 @@
    ]
   },
   "1.34": {
-   "text": "Und er heilte viele, die an verschiedenen Krankheiten litten, und trieb viele Dämonen aus. Und er ließ die Dämonen nicht reden, weil sie ihn kannten.",
+   "text": "Er heilte viele, die an verschiedenen Krankheiten litten, und trieb viele Dämonen aus. Die Dämonen ließ er nicht reden, weil sie wussten, wer er war.",
    "notes": [
     {
-     "anchor": "ließ die Dämonen nicht reden",
+     "anchor": "ließ er nicht reden",
      "text": "Immer wieder verbietet Jesus, über ihn zu reden (1,44; 3,12; 8,30). Die Forschung spricht vom „Messiasgeheimnis“ bei Markus."
     }
    ],
@@ -929,7 +929,7 @@
    ]
   },
   "1.35": {
-   "text": "Und früh am Morgen, als es noch ganz dunkel war, stand er auf, ging hinaus an einen einsamen Ort und betete dort.",
+   "text": "Früh am Morgen, als es noch ganz dunkel war, stand Jesus auf. Er ging hinaus an einen einsamen Ort und betete dort.",
    "notes": [],
    "glosses": [
     "und",
@@ -948,7 +948,7 @@
    ]
   },
   "1.36": {
-   "text": "Und Simon und die, die bei ihm waren, eilten ihm nach",
+   "text": "Simon und seine Begleiter eilten ihm nach.",
    "notes": [],
    "glosses": [
     "und",
@@ -962,7 +962,7 @@
    ]
   },
   "1.37": {
-   "text": "und fanden ihn und sagen zu ihm: „Alle suchen dich.“",
+   "text": "Als sie ihn fanden, sagten sie zu ihm: „Alle suchen dich!“",
    "notes": [],
    "glosses": [
     "und",
@@ -978,15 +978,15 @@
    ]
   },
   "1.38": {
-   "text": "Und er sagt zu ihnen: „Lasst uns anderswohin gehen, in die nächsten Marktflecken, damit ich auch dort verkünde. Denn dazu bin ich ausgegangen.“",
+   "text": "Er antwortete: „Lasst uns woandershin gehen, in die Dörfer und Städtchen der Umgebung. Auch dort will ich verkünden. Denn dazu bin ich aufgebrochen.“",
    "notes": [
     {
-     "anchor": "Marktflecken",
+     "anchor": "Dörfer und Städtchen",
      "text": "Griechisch kōmopolis: ein größeres Dorf, eine Kleinstadt."
     },
     {
-     "anchor": "dazu bin ich ausgegangen",
-     "text": "Gemeint ist zunächst „dazu bin ich aus [Kafarnaum] weggegangen“; manche hören darin auch „dazu bin ich [von Gott] gekommen“."
+     "anchor": "dazu bin ich aufgebrochen",
+     "text": "Wörtlich „dazu bin ich ausgegangen“: zunächst aus Kafarnaum. Manche hören darin auch „dazu bin ich [von Gott] gekommen“."
     }
    ],
    "glosses": [
@@ -1010,7 +1010,7 @@
    ]
   },
   "1.39": {
-   "text": "Und er zog durch ganz Galiläa, verkündete in ihren Synagogen und trieb die Dämonen aus.",
+   "text": "So zog er durch ganz Galiläa, verkündete in ihren Synagogen und trieb die Dämonen aus.",
    "notes": [],
    "glosses": [
     "und",
@@ -1031,7 +1031,7 @@
    ]
   },
   "1.40": {
-   "text": "Und es kommt ein Aussätziger zu ihm, bittet ihn, fällt auf die Knie und sagt zu ihm: „Wenn du willst, kannst du mich rein machen.“",
+   "text": "Ein Aussätziger kam zu Jesus, fiel vor ihm auf die Knie und bat ihn: „Wenn du willst, kannst du mich rein machen.“",
    "notes": [
     {
      "anchor": "Aussätziger",
@@ -1060,7 +1060,7 @@
    ]
   },
   "1.41": {
-   "text": "Und er hatte Mitleid, streckte seine Hand aus, berührte ihn und sagt zu ihm: „Ich will, sei rein!“",
+   "text": "Jesus hatte Mitleid mit ihm. Er streckte die Hand aus, berührte ihn und sagte: „Ich will, sei rein!“",
    "notes": [
     {
      "anchor": "hatte Mitleid",
@@ -1087,7 +1087,7 @@
    ]
   },
   "1.42": {
-   "text": "Und sofort wich der Aussatz von ihm, und er wurde rein.",
+   "text": "Sofort verschwand der Aussatz, und er war rein.",
    "notes": [],
    "glosses": [
     "und",
@@ -1102,7 +1102,7 @@
    ]
   },
   "1.43": {
-   "text": "Und er fuhr ihn heftig an und schickte ihn sofort fort",
+   "text": "Jesus fuhr ihn heftig an und schickte ihn gleich weg.",
    "notes": [
     {
      "anchor": "fuhr ihn heftig an",
@@ -1119,15 +1119,15 @@
    ]
   },
   "1.44": {
-   "text": "und sagt zu ihm: „Sieh zu, dass du niemandem etwas sagst! Sondern geh, zeig dich dem Priester und bring für deine Reinigung dar, was Mose angeordnet hat, ihnen zum Zeugnis.“",
+   "text": "Er sagte zu ihm: „Pass auf, sag niemandem etwas! Geh vielmehr zum Priester, zeig dich ihm und bring für deine Reinigung das Opfer, das Mose angeordnet hat. Das soll ihnen ein Beweis sein.“",
    "notes": [
     {
-     "anchor": "was Mose angeordnet hat",
+     "anchor": "das Mose angeordnet hat",
      "text": "Die Opfer nach 3. Mose 14. Der Priester musste die Heilung bestätigen."
     },
     {
-     "anchor": "ihnen zum Zeugnis",
-     "text": "Entweder „als Beweis für sie“ (dass er rein ist) oder „als Zeugnis gegen sie“; das Griechische lässt beides zu."
+     "anchor": "Das soll ihnen ein Beweis sein",
+     "text": "Wörtlich „ihnen zum Zeugnis“: entweder als Beweis für sie (dass er rein ist) oder als Zeugnis gegen sie; das Griechische lässt beides zu."
     }
    ],
    "glosses": [
@@ -1159,7 +1159,7 @@
    ]
   },
   "1.45": {
-   "text": "Der aber ging hinaus und fing an, es überall zu verkünden und die Sache bekannt zu machen, sodass Jesus nicht mehr offen in eine Stadt gehen konnte. Er blieb vielmehr draußen an einsamen Orten, und sie kamen von überall her zu ihm.",
+   "text": "Doch der Mann ging weg, erzählte überall davon und machte die Sache bekannt. Deshalb konnte Jesus nicht mehr offen in eine Stadt gehen. Er blieb draußen an einsamen Orten, und doch kamen die Leute von überall her zu ihm.",
    "notes": [
     {
      "anchor": "die Sache",
@@ -1199,7 +1199,7 @@
    ]
   },
   "2.1": {
-   "text": "Und als er nach einigen Tagen wieder nach Kafarnaum kam, wurde bekannt, dass er zu Hause war.",
+   "text": "Einige Tage später kam Jesus wieder nach Kafarnaum. Bald sprach es sich herum, dass er zu Hause war.",
    "notes": [
     {
      "anchor": "zu Hause",
@@ -1222,7 +1222,7 @@
    ]
   },
   "2.2": {
-   "text": "Und es versammelten sich so viele, dass nicht einmal vor der Tür mehr Platz war. Und er sagte ihnen das Wort.",
+   "text": "Da kamen so viele Menschen zusammen, dass nicht einmal vor der Tür mehr Platz war. Und er verkündete ihnen das Wort.",
    "notes": [
     {
      "anchor": "das Wort",
@@ -1249,7 +1249,7 @@
    ]
   },
   "2.3": {
-   "text": "Und es kommen [Leute], die einen Gelähmten zu ihm bringen; vier Männer tragen ihn.",
+   "text": "Da brachten einige Leute einen Gelähmten zu ihm. Vier Männer trugen ihn.",
    "notes": [],
    "glosses": [
     "und",
@@ -1264,7 +1264,7 @@
    ]
   },
   "2.4": {
-   "text": "Und weil sie ihn wegen der Menge nicht zu ihm bringen konnten, deckten sie das Dach über der Stelle ab, wo er war. Sie rissen es auf und lassen die Matte herab, auf der der Gelähmte lag.",
+   "text": "Wegen der vielen Menschen kamen sie nicht zu ihm durch. Darum deckten sie das Dach über der Stelle ab, wo Jesus war. Durch das Loch ließen sie die Matte hinunter, auf der der Gelähmte lag.",
    "notes": [
     {
      "anchor": "deckten sie das Dach über der Stelle ab",
@@ -1301,7 +1301,7 @@
    ]
   },
   "2.5": {
-   "text": "Und als Jesus ihren Glauben sah, sagt er zu dem Gelähmten: „Kind, deine Sünden sind vergeben.“",
+   "text": "Als Jesus ihren Glauben sah, sagte er zu dem Gelähmten: „Mein Kind, deine Sünden sind vergeben.“",
    "notes": [
     {
      "anchor": "ihren Glauben",
@@ -1331,7 +1331,7 @@
    ]
   },
   "2.6": {
-   "text": "Es saßen dort aber einige von den Schriftgelehrten und überlegten in ihren Herzen:",
+   "text": "Dort saßen aber auch einige Schriftgelehrte. Sie dachten bei sich:",
    "notes": [],
    "glosses": [
     "es waren",
@@ -1350,7 +1350,7 @@
    ]
   },
   "2.7": {
-   "text": "„Was redet der so? Er lästert Gott! Wer kann Sünden vergeben außer Gott allein?“",
+   "text": "„Wie kann der so reden? Er lästert Gott! Wer kann Sünden vergeben außer Gott allein?“",
    "notes": [
     {
      "anchor": "Er lästert Gott",
@@ -1379,7 +1379,7 @@
    ]
   },
   "2.8": {
-   "text": "Und sofort erkannte Jesus in seinem Geist, dass sie so bei sich überlegten, und sagt zu ihnen: „Warum überlegt ihr das in euren Herzen?",
+   "text": "Jesus erkannte sofort in seinem Geist, was sie dachten. Er sagte zu ihnen: „Warum denkt ihr so etwas in euren Herzen?",
    "notes": [],
    "glosses": [
     "und",
@@ -1407,7 +1407,7 @@
    ]
   },
   "2.9": {
-   "text": "Was ist leichter: zu dem Gelähmten zu sagen: ‚Deine Sünden sind vergeben‘, oder zu sagen: ‚Steh auf, nimm deine Matte und geh umher‘?",
+   "text": "Was ist leichter? Zu dem Gelähmten zu sagen: ‚Deine Sünden sind vergeben‘, oder: ‚Steh auf, nimm deine Matte und geh umher‘?",
    "notes": [],
    "glosses": [
     "was",
@@ -1433,7 +1433,7 @@
    ]
   },
   "2.10": {
-   "text": "Damit ihr aber wisst, dass der Menschensohn Vollmacht hat, auf der Erde Sünden zu vergeben“ – sagt er zu dem Gelähmten:",
+   "text": "Ihr sollt aber sehen, dass der Menschensohn die Vollmacht hat, hier auf der Erde Sünden zu vergeben.“ Dann sagte er zu dem Gelähmten:",
    "notes": [
     {
      "anchor": "Menschensohn",
@@ -1481,7 +1481,7 @@
    ]
   },
   "2.12": {
-   "text": "Und er stand auf, nahm sofort die Matte und ging vor aller Augen hinaus, sodass alle außer sich gerieten, Gott priesen und sagten: „So etwas haben wir noch nie gesehen!“",
+   "text": "Da stand der Mann auf, nahm sofort seine Matte und ging vor aller Augen hinaus. Alle gerieten außer sich, lobten Gott und sagten: „So etwas haben wir noch nie gesehen!“",
    "notes": [],
    "glosses": [
     "und",
@@ -1509,7 +1509,7 @@
    ]
   },
   "2.13": {
-   "text": "Und er ging wieder hinaus an den See, und die ganze Menge kam zu ihm, und er lehrte sie.",
+   "text": "Dann ging Jesus wieder hinaus an den See. Die ganze Menschenmenge kam zu ihm, und er lehrte sie.",
    "notes": [],
    "glosses": [
     "und",
@@ -1531,11 +1531,11 @@
    ]
   },
   "2.14": {
-   "text": "Und als er vorüberging, sah er Levi, den [Sohn] des Alphäus, an der Zollstelle sitzen und sagt zu ihm: „Folge mir!“ Und er stand auf und folgte ihm.",
+   "text": "Als er weiterging, sah er Levi, den Sohn des Alphäus, an der Zollstelle sitzen. Jesus sagte zu ihm: „Folge mir!“ Da stand Levi auf und folgte ihm.",
    "notes": [
     {
      "anchor": "Zollstelle",
-     "text": "Hier wurden Abgaben auf Waren erhoben, die die Grenze oder die Straße passierten. Zöllner arbeiteten auf eigene Rechnung für die Herrschenden und galten als Betrüger und Kollaborateure."
+     "text": "Hier wurden Abgaben auf Waren erhoben. Zolleinnehmer arbeiteten auf eigene Rechnung für die Herrschenden und galten als Betrüger und Kollaborateure."
     }
    ],
    "glosses": [
@@ -1562,22 +1562,22 @@
    ]
   },
   "2.15": {
-   "text": "Und es geschieht, dass er in seinem Haus zu Tisch liegt, und viele Zöllner und Sünder lagen mit Jesus und seinen Jüngern zu Tisch; denn es waren viele, und sie folgten ihm.",
+   "text": "Später saß Jesus in seinem Haus beim Essen. Auch viele Zolleinnehmer und Sünder aßen mit Jesus und seinen Jüngern. Denn es waren viele, die ihm folgten.",
    "notes": [
     {
      "anchor": "in seinem Haus",
      "text": "Gemeint ist wohl das Haus des Levi; das Griechische lässt auch das Haus Jesu zu."
     },
     {
-     "anchor": "zu Tisch liegt",
-     "text": "Bei festlichen Mahlzeiten lag man auf Polstern um einen niedrigen Tisch."
+     "anchor": "beim Essen",
+     "text": "Wörtlich „lag zu Tisch“: Bei festlichen Mahlzeiten lag man auf Polstern um einen niedrigen Tisch."
     },
     {
      "anchor": "Sünder",
      "text": "Menschen, die das Gesetz offen nicht hielten oder wegen ihres Berufs als unrein galten."
     },
     {
-     "anchor": "sie folgten ihm",
+     "anchor": "die ihm folgten",
      "text": "Unklar ist, ob die Jünger gemeint sind oder die Zöllner und Sünder."
     }
    ],
@@ -1611,10 +1611,10 @@
    ]
   },
   "2.16": {
-   "text": "Und als die Schriftgelehrten der Pharisäer sahen, dass er mit den Sündern und Zöllnern aß, sagten sie zu seinen Jüngern: „Mit den Zöllnern und Sündern isst er?“",
+   "text": "Einige Schriftgelehrte, die zu den Pharisäern gehörten, sahen, dass er mit Sündern und Zolleinnehmern aß. Da sagten sie zu seinen Jüngern: „Mit Zolleinnehmern und Sündern isst er?“",
    "notes": [
     {
-     "anchor": "Pharisäer",
+     "anchor": "Pharisäern",
      "text": "Eine Bewegung frommer Laien, die das Gesetz bis in den Alltag genau halten wollten, besonders die Regeln über Reinheit, Zehnten und Sabbat."
     },
     {
@@ -1650,7 +1650,7 @@
    ]
   },
   "2.17": {
-   "text": "Und als Jesus das hörte, sagt er zu ihnen: „Nicht die Starken brauchen einen Arzt, sondern die Kranken. Ich bin nicht gekommen, Gerechte zu rufen, sondern Sünder.“",
+   "text": "Jesus hörte das und sagte zu ihnen: „Nicht die Gesunden brauchen einen Arzt, sondern die Kranken. Ich bin nicht gekommen, um Gerechte zu rufen, sondern Sünder.“",
    "notes": [],
    "glosses": [
     "und",
@@ -1679,10 +1679,10 @@
    ]
   },
   "2.18": {
-   "text": "Und die Jünger des Johannes und die Pharisäer pflegten zu fasten. Und sie kommen und sagen zu ihm: „Warum fasten die Jünger des Johannes und die Jünger der Pharisäer, deine Jünger aber fasten nicht?“",
+   "text": "Die Jünger des Johannes und die Pharisäer fasteten oft. Einige Leute kamen zu Jesus und fragten ihn: „Warum fasten die Jünger des Johannes und die Jünger der Pharisäer, aber deine Jünger fasten nicht?“",
    "notes": [
     {
-     "anchor": "pflegten zu fasten",
+     "anchor": "fasteten oft",
      "text": "Das Griechische kann auch heißen „fasteten gerade“. Fromme Juden fasteten oft zweimal in der Woche."
     }
    ],
@@ -1721,7 +1721,7 @@
    ]
   },
   "2.19": {
-   "text": "Und Jesus sagte zu ihnen: „Können denn die Hochzeitsgäste fasten, während der Bräutigam bei ihnen ist? Solange sie den Bräutigam bei sich haben, können sie nicht fasten.",
+   "text": "Jesus antwortete: „Können denn die Hochzeitsgäste fasten, während der Bräutigam bei ihnen ist? Solange der Bräutigam bei ihnen ist, können sie nicht fasten.",
    "notes": [
     {
      "anchor": "Hochzeitsgäste",
@@ -1761,7 +1761,7 @@
    ]
   },
   "2.20": {
-   "text": "Es werden aber Tage kommen, da wird ihnen der Bräutigam weggenommen sein, und dann werden sie fasten, an jenem Tag.",
+   "text": "Es kommt aber eine Zeit, da wird ihnen der Bräutigam weggenommen. Dann, an jenem Tag, werden sie fasten.",
    "notes": [
     {
      "anchor": "weggenommen",
@@ -1788,11 +1788,11 @@
    ]
   },
   "2.21": {
-   "text": "Niemand näht einen Flicken aus ungewalktem Tuch auf ein altes Kleid. Sonst reißt der Flicken davon ab, das Neue vom Alten, und der Riss wird schlimmer.",
+   "text": "Niemand näht einen Flicken aus neuem Stoff auf ein altes Kleidungsstück. Sonst reißt der neue Flicken vom alten Stoff ab, und der Riss wird noch größer.",
    "notes": [
     {
-     "anchor": "ungewalktem",
-     "text": "Neuer Wollstoff, der noch nicht durch Walken verdichtet ist und beim ersten Waschen einläuft."
+     "anchor": "neuem Stoff",
+     "text": "Wörtlich „ungewalktes Tuch“: neuer Wollstoff, der beim ersten Waschen einläuft."
     }
    ],
    "glosses": [
@@ -1823,7 +1823,7 @@
    ]
   },
   "2.22": {
-   "text": "Und niemand füllt jungen Wein in alte Schläuche. Sonst sprengt der Wein die Schläuche, und der Wein ist verloren und die Schläuche auch. Sondern: jungen Wein in neue Schläuche!“",
+   "text": "Und niemand füllt jungen Wein in alte Schläuche. Sonst bringt der Wein die Schläuche zum Platzen, und Wein und Schläuche sind verloren. Nein: Junger Wein gehört in neue Schläuche!“",
    "notes": [
     {
      "anchor": "Schläuche",
@@ -1863,10 +1863,10 @@
    ]
   },
   "2.23": {
-   "text": "Und es geschah, dass er am Sabbat durch die Kornfelder ging, und seine Jünger fingen an, im Gehen die Ähren abzurupfen.",
+   "text": "An einem Sabbat ging Jesus durch die Kornfelder. Unterwegs fingen seine Jünger an, Ähren abzurupfen.",
    "notes": [
     {
-     "anchor": "im Gehen",
+     "anchor": "Unterwegs",
      "text": "Wörtlich „einen Weg zu machen, rupfend“. Das Abrupfen fremder Ähren war erlaubt (5. Mose 23,26), aber am Sabbat galt es als verbotene Erntearbeit."
     }
    ],
@@ -1894,7 +1894,7 @@
    ]
   },
   "2.24": {
-   "text": "Und die Pharisäer sagten zu ihm: „Sieh doch, warum tun sie am Sabbat, was nicht erlaubt ist?“",
+   "text": "Da sagten die Pharisäer zu ihm: „Sieh dir das an! Warum tun sie etwas, das am Sabbat verboten ist?“",
    "notes": [],
    "glosses": [
     "und",
@@ -1913,7 +1913,7 @@
    ]
   },
   "2.25": {
-   "text": "Und er sagt zu ihnen: „Habt ihr nie gelesen, was David tat, als er in Not war und Hunger hatte, er und seine Begleiter?",
+   "text": "Jesus antwortete: „Habt ihr nie gelesen, was David tat, als er und seine Begleiter in Not waren und Hunger hatten?",
    "notes": [
     {
      "anchor": "was David tat",
@@ -1942,15 +1942,15 @@
    ]
   },
   "2.26": {
-   "text": "Wie er in das Haus Gottes ging, zur Zeit des Hohenpriesters Abjatar, und die Schaubrote aß, die niemand essen darf außer den Priestern, und auch seinen Begleitern davon gab?“",
+   "text": "Er ging in das Haus Gottes – damals war Abjatar Hoherpriester – und aß die geweihten Brote. Die dürfen nur die Priester essen. Doch er gab auch seinen Begleitern davon.“",
    "notes": [
     {
      "anchor": "Abjatar",
      "text": "Nach 1. Samuel 21 war Ahimelech, der Vater Abjatars, damals Priester. Matthäus und Lukas lassen den Namen weg; „zur Zeit des Abjatar“ kann auch den Abschnitt der Schrift meinen, der nach ihm benannt war."
     },
     {
-     "anchor": "Schaubrote",
-     "text": "Wörtlich „Brote der Darlegung“: zwölf Brote, die im Heiligtum vor Gott lagen und nur von Priestern gegessen werden durften (3. Mose 24,5–9)."
+     "anchor": "geweihten Brote",
+     "text": "Wörtlich „Brote der Darlegung“, oft „Schaubrote“: zwölf Brote, die im Heiligtum vor Gott lagen und nur von Priestern gegessen werden durften (3. Mose 24,5–9)."
     }
    ],
    "glosses": [
@@ -1988,10 +1988,10 @@
    ]
   },
   "2.27": {
-   "text": "Und er sagte zu ihnen: „Der Sabbat ist um des Menschen willen da und nicht der Mensch um des Sabbats willen.",
+   "text": "Und er fügte hinzu: „Der Sabbat ist für den Menschen da und nicht der Mensch für den Sabbat.",
    "notes": [
     {
-     "anchor": "ist um des Menschen willen da",
+     "anchor": "ist für den Menschen da",
      "text": "Wörtlich „wurde wegen des Menschen“: Gott hat den Sabbat für den Menschen geschaffen."
     }
    ],
@@ -2015,7 +2015,7 @@
    ]
   },
   "2.28": {
-   "text": "Also ist der Menschensohn Herr auch über den Sabbat.“",
+   "text": "Deshalb ist der Menschensohn Herr auch über den Sabbat.“",
    "notes": [
     {
      "anchor": "Menschensohn",
@@ -2036,11 +2036,11 @@
    ]
   },
   "3.1": {
-   "text": "Und er ging wieder in die Synagoge. Und dort war ein Mensch, der eine verdorrte Hand hatte.",
+   "text": "Wieder ging Jesus in die Synagoge. Dort war ein Mann mit einer verkrüppelten Hand.",
    "notes": [
     {
-     "anchor": "verdorrte",
-     "text": "Wörtlich „ausgetrocknet“: eine gelähmte oder verkümmerte Hand."
+     "anchor": "verkrüppelten",
+     "text": "Wörtlich „vertrocknet“: eine gelähmte oder verkümmerte Hand."
     }
    ],
    "glosses": [
@@ -2061,7 +2061,7 @@
    ]
   },
   "3.2": {
-   "text": "Und sie lauerten ihm auf, ob er ihn am Sabbat heilen würde, damit sie ihn anklagen könnten.",
+   "text": "Einige Leute beobachteten Jesus genau: Würde er ihn am Sabbat heilen? Dann könnten sie ihn anklagen.",
    "notes": [],
    "glosses": [
     "und",
@@ -2078,7 +2078,7 @@
    ]
   },
   "3.3": {
-   "text": "Und er sagt zu dem Menschen mit der verdorrten Hand: „Steh auf [und tritt] in die Mitte!“",
+   "text": "Jesus sagte zu dem Mann mit der verkrüppelten Hand: „Steh auf und stell dich in die Mitte!“",
    "notes": [],
    "glosses": [
     "und",
@@ -2097,10 +2097,10 @@
    ]
   },
   "3.4": {
-   "text": "Und er sagt zu ihnen: „Ist es erlaubt, am Sabbat Gutes zu tun oder Böses, ein Leben zu retten oder zu töten?“ Sie aber schwiegen.",
+   "text": "Dann fragte er die anderen: „Was ist am Sabbat erlaubt: Gutes tun oder Böses? Ein Leben retten oder töten?“ Sie aber schwiegen.",
    "notes": [
     {
-     "anchor": "ein Leben",
+     "anchor": "Ein Leben",
      "text": "Griechisch psychē: Leben, Seele, der ganze lebendige Mensch."
     }
    ],
@@ -2125,10 +2125,10 @@
    ]
   },
   "3.5": {
-   "text": "Und er sah sie ringsum voll Zorn an, betrübt über die Verhärtung ihres Herzens, und sagt zu dem Menschen: „Streck die Hand aus!“ Und er streckte [sie] aus, und seine Hand wurde wiederhergestellt.",
+   "text": "Da sah er sie der Reihe nach zornig an. Er war traurig, weil ihre Herzen so verhärtet waren. Dann sagte er zu dem Mann: „Streck deine Hand aus!“ Der streckte sie aus, und seine Hand wurde wieder gesund.",
    "notes": [
     {
-     "anchor": "Verhärtung ihres Herzens",
+     "anchor": "ihre Herzen so verhärtet waren",
      "text": "Das Herz ist in der Bibel der Ort des Denkens und Wollens. Gemeint ist eine Unfähigkeit oder Weigerung, zu verstehen."
     }
    ],
@@ -2161,11 +2161,11 @@
    ]
   },
   "3.6": {
-   "text": "Und die Pharisäer gingen hinaus und berieten sofort mit den Herodianern gegen ihn, wie sie ihn umbringen könnten.",
+   "text": "Da gingen die Pharisäer hinaus und berieten sich gleich mit den Anhängern des Herodes, wie sie Jesus umbringen könnten.",
    "notes": [
     {
-     "anchor": "Herodianern",
-     "text": "Anhänger oder Gefolgsleute des Herodes Antipas, des Landesherrn von Galiläa."
+     "anchor": "Anhängern des Herodes",
+     "text": "Griechisch Hērōdianoi: Anhänger oder Gefolgsleute des Herodes Antipas, des Landesherrn von Galiläa."
     }
    ],
    "glosses": [
@@ -2187,7 +2187,7 @@
    ]
   },
   "3.7": {
-   "text": "Und Jesus zog sich mit seinen Jüngern an den See zurück. Und eine große Menge aus Galiläa folgte [ihm], auch aus Judäa",
+   "text": "Jesus zog sich mit seinen Jüngern an den See zurück. Eine große Menschenmenge aus Galiläa folgte ihm, auch aus Judäa,",
    "notes": [],
    "glosses": [
     "und",
@@ -2215,7 +2215,7 @@
    ]
   },
   "3.8": {
-   "text": "und aus Jerusalem und aus Idumäa und von jenseits des Jordan und aus der Gegend um Tyrus und Sidon. Eine große Menge, die gehört hatte, was er alles tat, kam zu ihm.",
+   "text": "aus Jerusalem und Idumäa, von der anderen Seite des Jordan und aus der Gegend um Tyrus und Sidon. Sie hatten gehört, was er alles tat, und kamen in großen Scharen zu ihm.",
    "notes": [
     {
      "anchor": "Idumäa",
@@ -2250,7 +2250,7 @@
    ]
   },
   "3.9": {
-   "text": "Und er sagte zu seinen Jüngern, ein Boot solle für ihn bereitliegen wegen der Menge, damit sie ihn nicht erdrückten.",
+   "text": "Da sagte er zu seinen Jüngern, sie sollten ein Boot für ihn bereithalten. Denn die Menge sollte ihn nicht erdrücken.",
    "notes": [],
    "glosses": [
     "und",
@@ -2272,11 +2272,11 @@
    ]
   },
   "3.10": {
-   "text": "Denn er hatte viele geheilt, sodass alle, die Leiden hatten, sich auf ihn stürzten, um ihn zu berühren.",
+   "text": "Er hatte nämlich viele geheilt. Deshalb drängten sich alle Kranken an ihn heran, um ihn zu berühren.",
    "notes": [
     {
-     "anchor": "Leiden",
-     "text": "Wörtlich „Geißeln“, „Plagen“: Krankheiten als quälende Schläge."
+     "anchor": "Kranken",
+     "text": "Wörtlich „alle, die Plagen hatten“: Krankheiten als quälende Schläge."
     }
    ],
    "glosses": [
@@ -2295,7 +2295,7 @@
    ]
   },
   "3.11": {
-   "text": "Und wenn die unreinen Geister ihn sahen, fielen sie vor ihm nieder und schrien: „Du bist der Sohn Gottes!“",
+   "text": "Wenn die unreinen Geister ihn sahen, warfen sie sich vor ihm nieder und schrien: „Du bist der Sohn Gottes!“",
    "notes": [],
    "glosses": [
     "und",
@@ -2321,7 +2321,7 @@
    ]
   },
   "3.12": {
-   "text": "Und er fuhr sie scharf an, ihn nicht bekannt zu machen.",
+   "text": "Doch er verbot ihnen streng, ihn bekannt zu machen.",
    "notes": [],
    "glosses": [
     "und",
@@ -2336,7 +2336,7 @@
    ]
   },
   "3.13": {
-   "text": "Und er steigt auf den Berg und ruft zu sich, die er selbst wollte, und sie kamen zu ihm.",
+   "text": "Dann stieg Jesus auf den Berg und rief die zu sich, die er selbst ausgewählt hatte. Und sie kamen zu ihm.",
    "notes": [
     {
      "anchor": "den Berg",
@@ -2361,11 +2361,11 @@
    ]
   },
   "3.14": {
-   "text": "Und er setzte zwölf ein, die er auch Apostel nannte, damit sie bei ihm seien und damit er sie aussende zu verkünden",
+   "text": "Er bestimmte zwölf, die er auch Apostel nannte. Sie sollten bei ihm sein, und er wollte sie aussenden, damit sie verkünden",
    "notes": [
     {
      "anchor": "zwölf",
-     "text": "Die Zahl erinnert an die zwölf Stämme Israels: Jesus sammelt das Gottesvolk neu."
+     "text": "Die Zahl erinnert an die zwölf Stämme Israels: Jesus sammelt das Gottesvolk neu. Wörtlich „er machte zwölf“."
     },
     {
      "anchor": "die er auch Apostel nannte",
@@ -2392,7 +2392,7 @@
    ]
   },
   "3.15": {
-   "text": "und Vollmacht zu haben, die Dämonen auszutreiben.",
+   "text": "und die Vollmacht haben, Dämonen auszutreiben.",
    "notes": [],
    "glosses": [
     "und",
@@ -2404,7 +2404,7 @@
    ]
   },
   "3.16": {
-   "text": "Und er setzte die Zwölf ein: Und er gab dem Simon den Beinamen Petrus,",
+   "text": "Diese zwölf bestimmte er: Simon, dem er den Beinamen Petrus gab,",
    "notes": [
     {
      "anchor": "Petrus",
@@ -2425,7 +2425,7 @@
    ]
   },
   "3.17": {
-   "text": "und Jakobus, den [Sohn] des Zebedäus, und Johannes, den Bruder des Jakobus – und er gab ihnen den Beinamen Boanerges, das heißt Donnersöhne –,",
+   "text": "Jakobus, den Sohn des Zebedäus, und Johannes, den Bruder des Jakobus – ihnen gab er den Beinamen Boanerges, das heißt Donnersöhne –,",
    "notes": [
     {
      "anchor": "Boanerges",
@@ -2456,7 +2456,7 @@
    ]
   },
   "3.18": {
-   "text": "und Andreas und Philippus und Bartholomäus und Matthäus und Thomas und Jakobus, den [Sohn] des Alphäus, und Thaddäus und Simon den Kananäer",
+   "text": "Andreas, Philippus, Bartholomäus, Matthäus, Thomas, Jakobus, den Sohn des Alphäus, Thaddäus, Simon den Kananäer",
    "notes": [
     {
      "anchor": "Kananäer",
@@ -2488,15 +2488,15 @@
    ]
   },
   "3.19": {
-   "text": "und Judas Iskariot, der ihn dann auch auslieferte.",
+   "text": "und Judas Iskariot, der ihn später verriet.",
    "notes": [
     {
      "anchor": "Iskariot",
      "text": "Die Bedeutung ist umstritten: „Mann aus Kerijot“ (einem Ort in Judäa) ist die häufigste Deutung."
     },
     {
-     "anchor": "auslieferte",
-     "text": "Dasselbe Wort wie in 1,14 bei Johannes: „ausliefern“, „übergeben“, oft mit „verraten“ übersetzt."
+     "anchor": "verriet",
+     "text": "Wörtlich „auslieferte“ (paradidōmi), dasselbe Wort wie in 1,14 bei Johannes."
     }
    ],
    "glosses": [
@@ -2510,15 +2510,15 @@
    ]
   },
   "3.20": {
-   "text": "Und er kommt nach Hause. Und wieder kommt die Menge zusammen, sodass sie nicht einmal Brot essen konnten.",
+   "text": "Dann ging Jesus nach Hause. Wieder kamen so viele Menschen zusammen, dass sie nicht einmal essen konnten.",
    "notes": [
     {
      "anchor": "nach Hause",
      "text": "Wörtlich „in ein Haus“ oder „heim“."
     },
     {
-     "anchor": "Brot essen",
-     "text": "Hebräische Redeweise für „eine Mahlzeit halten“."
+     "anchor": "essen",
+     "text": "Wörtlich „Brot essen“, hebräische Redeweise für „eine Mahlzeit halten“."
     }
    ],
    "glosses": [
@@ -2541,14 +2541,14 @@
    ]
   },
   "3.21": {
-   "text": "Und als seine Angehörigen das hörten, machten sie sich auf, um ihn zu packen; denn sie sagten: „Er ist von Sinnen.“",
+   "text": "Als seine Angehörigen das hörten, machten sie sich auf, um ihn mit Gewalt zurückzuholen. Denn sie sagten: „Er ist verrückt geworden.“",
    "notes": [
     {
      "anchor": "seine Angehörigen",
      "text": "Wörtlich „die bei ihm“, „die Seinen“. Nach V. 31 ist die Familie gemeint."
     },
     {
-     "anchor": "sie sagten",
+     "anchor": "Denn sie sagten",
      "text": "Das Griechische lässt offen, ob die Familie das sagt oder ob „man“ es sagt."
     }
    ],
@@ -2568,7 +2568,7 @@
    ]
   },
   "3.22": {
-   "text": "Und die Schriftgelehrten, die von Jerusalem herabgekommen waren, sagten: „Er hat den Beelzebul!“ und: „Mit dem Obersten der Dämonen treibt er die Dämonen aus.“",
+   "text": "Die Schriftgelehrten, die aus Jerusalem herabgekommen waren, sagten: „Er ist von Beelzebul besessen!“ Und: „Mit Hilfe des Obersten der Dämonen treibt er die Dämonen aus.“",
    "notes": [
     {
      "anchor": "Beelzebul",
@@ -2604,7 +2604,7 @@
    ]
   },
   "3.23": {
-   "text": "Und er rief sie zu sich und redete in Gleichnissen zu ihnen: „Wie kann der Satan den Satan austreiben?",
+   "text": "Da rief Jesus sie zu sich und sprach in Gleichnissen zu ihnen: „Wie kann der Satan den Satan austreiben?",
    "notes": [
     {
      "anchor": "Gleichnissen",
@@ -2627,7 +2627,7 @@
    ]
   },
   "3.24": {
-   "text": "Und wenn ein Reich in sich selbst gespalten ist, kann dieses Reich nicht bestehen.",
+   "text": "Wenn ein Reich in sich gespalten ist, kann es nicht bestehen.",
    "notes": [],
    "glosses": [
     "und",
@@ -2645,11 +2645,11 @@
    ]
   },
   "3.25": {
-   "text": "Und wenn ein Haus in sich selbst gespalten ist, wird dieses Haus nicht bestehen können.",
+   "text": "Wenn eine Familie in sich gespalten ist, kann sie nicht bestehen.",
    "notes": [
     {
-     "anchor": "Haus",
-     "text": "Gemeint ist auch die Hausgemeinschaft, die Familie."
+     "anchor": "Familie",
+     "text": "Wörtlich „ein Haus“: das Gebäude und die Hausgemeinschaft."
     }
    ],
    "glosses": [
@@ -2668,7 +2668,7 @@
    ]
   },
   "3.26": {
-   "text": "Und wenn der Satan gegen sich selbst aufgestanden ist und gespalten ist, kann er nicht bestehen, sondern es ist aus mit ihm.",
+   "text": "Wenn also der Satan sich gegen sich selbst erhebt und in sich gespalten ist, kann er nicht bestehen. Dann ist es aus mit ihm.",
    "notes": [],
    "glosses": [
     "und",
@@ -2689,10 +2689,10 @@
    ]
   },
   "3.27": {
-   "text": "Aber niemand kann in das Haus des Starken eindringen und seinen Hausrat rauben, wenn er nicht zuerst den Starken fesselt. Dann wird er sein Haus ausrauben.",
+   "text": "Niemand kann in das Haus eines Starken eindringen und ihm seinen Besitz rauben, wenn er den Starken nicht vorher fesselt. Erst dann kann er sein Haus ausrauben.",
    "notes": [
     {
-     "anchor": "den Starken fesselt",
+     "anchor": "den Starken nicht vorher fesselt",
      "text": "Jesus deutet seine Austreibungen als Sieg über den „Starken“, den Satan. Vgl. 1,7, wo Johannes Jesus „den Stärkeren“ nennt, und Jesaja 49,24–25."
     }
    ],
@@ -2726,15 +2726,15 @@
    ]
   },
   "3.28": {
-   "text": "Amen, ich sage euch: Alles wird den Menschenkindern vergeben werden, die Sünden und die Lästerungen, so viele sie auch lästern mögen.",
+   "text": "Amen, das sage ich euch: Den Menschen wird alles vergeben werden, alle Sünden und alle Gotteslästerungen, so viel sie auch lästern.",
    "notes": [
     {
      "anchor": "Amen",
      "text": "Hebräisch „gewiss“, „so ist es“. Jesus stellt es ungewöhnlicherweise an den Anfang seiner Worte, um sie feierlich zu bekräftigen."
     },
     {
-     "anchor": "Menschenkindern",
-     "text": "Wörtlich „Söhnen der Menschen“, hebräische Redeweise für „Menschen“."
+     "anchor": "Den Menschen",
+     "text": "Wörtlich „den Söhnen der Menschen“, hebräische Redeweise für „den Menschen“."
     }
    ],
    "glosses": [
@@ -2759,15 +2759,15 @@
    ]
   },
   "3.29": {
-   "text": "Wer aber gegen den heiligen Geist lästert, hat in Ewigkeit keine Vergebung, sondern ist einer ewigen Sünde schuldig.“",
+   "text": "Wer aber den heiligen Geist lästert, der findet niemals Vergebung. Er ist für immer schuldig.“",
    "notes": [
     {
-     "anchor": "gegen den heiligen Geist lästert",
+     "anchor": "den heiligen Geist lästert",
      "text": "Nach V. 30 ist gemeint: Gottes Wirken durch Jesus für das Werk eines unreinen Geistes erklären."
     },
     {
-     "anchor": "in Ewigkeit",
-     "text": "Wörtlich „bis in das Zeitalter“, eine Redeweise für „niemals“."
+     "anchor": "niemals",
+     "text": "Wörtlich „nicht in Ewigkeit“; am Ende steht wörtlich „einer ewigen Sünde schuldig“."
     }
    ],
    "glosses": [
@@ -2794,7 +2794,7 @@
    ]
   },
   "3.30": {
-   "text": "Denn sie hatten gesagt: „Er hat einen unreinen Geist.“",
+   "text": "Das sagte er, weil sie behauptet hatten: „Er hat einen unreinen Geist.“",
    "notes": [],
    "glosses": [
     "weil",
@@ -2805,7 +2805,7 @@
    ]
   },
   "3.31": {
-   "text": "Und es kommen seine Mutter und seine Brüder. Und sie standen draußen, schickten zu ihm und ließen ihn rufen.",
+   "text": "Da kamen seine Mutter und seine Brüder. Sie blieben draußen stehen und ließen ihn rufen.",
    "notes": [
     {
      "anchor": "Brüder",
@@ -2833,10 +2833,10 @@
    ]
   },
   "3.32": {
-   "text": "Und eine Menge saß um ihn herum, und sie sagen zu ihm: „Sieh, deine Mutter und deine Brüder und deine Schwestern sind draußen und suchen dich.“",
+   "text": "Rings um ihn saßen viele Menschen. Sie sagten zu ihm: „Deine Mutter, deine Brüder und deine Schwestern sind draußen und fragen nach dir.“",
    "notes": [
     {
-     "anchor": "und deine Schwestern",
+     "anchor": "deine Schwestern",
      "text": "Diese Worte fehlen in vielen Handschriften."
     }
    ],
@@ -2867,7 +2867,7 @@
    ]
   },
   "3.33": {
-   "text": "Und er antwortet ihnen: „Wer ist meine Mutter und [wer sind] meine Brüder?“",
+   "text": "Er antwortete: „Wer ist meine Mutter, und wer sind meine Brüder?“",
    "notes": [],
    "glosses": [
     "und",
@@ -2886,7 +2886,7 @@
    ]
   },
   "3.34": {
-   "text": "Und er sah ringsum die an, die im Kreis um ihn saßen, und sagt: „Seht, [das sind] meine Mutter und meine Brüder.",
+   "text": "Er sah die Menschen an, die im Kreis um ihn saßen, und sagte: „Seht, das sind meine Mutter und meine Brüder!",
    "notes": [],
    "glosses": [
     "und",
@@ -2908,7 +2908,7 @@
    ]
   },
   "3.35": {
-   "text": "Denn wer den Willen Gottes tut, der ist mir Bruder und Schwester und Mutter.“",
+   "text": "Wer tut, was Gott will, der ist für mich Bruder, Schwester und Mutter.“",
    "notes": [],
    "glosses": [
     "wer",
@@ -2930,7 +2930,7 @@
    ]
   },
   "4.1": {
-   "text": "Und wieder fing er an, am See zu lehren. Und eine sehr große Menge versammelt sich bei ihm, sodass er in ein Boot stieg und sich auf dem See [hin]setzte; und die ganze Menge war am See an Land.",
+   "text": "Wieder fing Jesus an, am See zu lehren. Eine riesige Menschenmenge versammelte sich bei ihm. Deshalb stieg er in ein Boot auf dem See und setzte sich. Die ganze Menge stand am Ufer.",
    "notes": [],
    "glosses": [
     "und",
@@ -2969,7 +2969,7 @@
    ]
   },
   "4.2": {
-   "text": "Und er lehrte sie vieles in Gleichnissen und sagte zu ihnen in seiner Lehre:",
+   "text": "Er lehrte sie vieles in Gleichnissen. Dabei sagte er zu ihnen:",
    "notes": [],
    "glosses": [
     "und",
@@ -2988,8 +2988,13 @@
    ]
   },
   "4.3": {
-   "text": "„Hört! Siehe, der Sämann ging hinaus, um zu säen.",
-   "notes": [],
+   "text": "„Hört zu! Ein Bauer ging hinaus, um zu säen.",
+   "notes": [
+    {
+     "anchor": "Ein Bauer",
+     "text": "Wörtlich „der Säende“, oft mit „Sämann“ übersetzt."
+    }
+   ],
    "glosses": [
     "hört",
     "siehe",
@@ -3000,7 +3005,7 @@
    ]
   },
   "4.4": {
-   "text": "Und es geschah beim Säen: Einiges fiel auf den Weg, und die Vögel kamen und fraßen es auf.",
+   "text": "Beim Säen fiel einiges auf den Weg. Da kamen die Vögel und fraßen es auf.",
    "notes": [
     {
      "anchor": "auf den Weg",
@@ -3029,7 +3034,7 @@
    ]
   },
   "4.5": {
-   "text": "Und anderes fiel auf felsigen Boden, wo es nicht viel Erde hatte, und es ging sofort auf, weil es keine tiefe Erde hatte.",
+   "text": "Anderes fiel auf felsigen Boden, wo es nur wenig Erde gab. Es ging schnell auf, weil die Erde nicht tief war.",
    "notes": [
     {
      "anchor": "felsigen Boden",
@@ -3060,7 +3065,7 @@
    ]
   },
   "4.6": {
-   "text": "Und als die Sonne aufging, wurde es versengt, und weil es keine Wurzel hatte, verdorrte es.",
+   "text": "Doch als die Sonne höher stieg, wurde es versengt. Und weil es keine Wurzeln hatte, vertrocknete es.",
    "notes": [],
    "glosses": [
     "und",
@@ -3079,7 +3084,7 @@
    ]
   },
   "4.7": {
-   "text": "Und anderes fiel unter die Dornen, und die Dornen wuchsen auf und erstickten es, und es brachte keine Frucht.",
+   "text": "Anderes fiel zwischen die Disteln. Die Disteln wuchsen hoch und erstickten es, und es brachte keine Frucht.",
    "notes": [],
    "glosses": [
     "und",
@@ -3102,7 +3107,7 @@
    ]
   },
   "4.8": {
-   "text": "Und anderes fiel auf die gute Erde und brachte Frucht, die aufging und wuchs, und es trug dreißigfach und sechzigfach und hundertfach.“",
+   "text": "Wieder anderes fiel auf guten Boden. Es ging auf, wuchs und brachte Frucht: dreißigfach, sechzigfach und hundertfach.“",
    "notes": [
     {
      "anchor": "hundertfach",
@@ -3137,7 +3142,7 @@
    ]
   },
   "4.9": {
-   "text": "Und er sagte: „Wer Ohren hat zu hören, der höre!“",
+   "text": "Und er sagte: „Wer Ohren hat zum Hören, der soll gut zuhören!“",
    "notes": [],
    "glosses": [
     "und",
@@ -3150,7 +3155,7 @@
    ]
   },
   "4.10": {
-   "text": "Und als er allein war, fragten ihn die, die um ihn waren, zusammen mit den Zwölf nach den Gleichnissen.",
+   "text": "Als Jesus allein war, fragten ihn die Menschen, die bei ihm waren, zusammen mit den Zwölf nach den Gleichnissen.",
    "notes": [],
    "glosses": [
     "und",
@@ -3171,7 +3176,7 @@
    ]
   },
   "4.11": {
-   "text": "Und er sagte zu ihnen: „Euch ist das Geheimnis des Reiches Gottes gegeben. Denen aber draußen wird alles in Gleichnissen zuteil,",
+   "text": "Er sagte zu ihnen: „Euch ist das Geheimnis des Reiches Gottes anvertraut. Denen aber draußen wird alles nur in Gleichnissen gesagt,",
    "notes": [
     {
      "anchor": "Geheimnis",
@@ -3179,7 +3184,7 @@
     },
     {
      "anchor": "Denen aber draußen",
-     "text": "Gemeint sind die, die nicht zum Kreis um Jesus gehören (vgl. 3,31–35)."
+     "text": "Gemeint sind die, die nicht zum Kreis um Jesus gehören (vgl. 3,31–35). Wörtlich „wird alles in Gleichnissen zuteil“."
     }
    ],
    "glosses": [
@@ -3238,7 +3243,7 @@
    ]
   },
   "4.13": {
-   "text": "Und er sagt zu ihnen: „Ihr versteht dieses Gleichnis nicht? Wie wollt ihr dann alle Gleichnisse verstehen?",
+   "text": "Und er sagte zu ihnen: „Ihr versteht dieses Gleichnis nicht? Wie wollt ihr dann die anderen Gleichnisse verstehen?",
    "notes": [],
    "glosses": [
     "und",
@@ -3258,7 +3263,7 @@
    ]
   },
   "4.14": {
-   "text": "Der Sämann sät das Wort.",
+   "text": "Der Bauer sät das Wort.",
    "notes": [],
    "glosses": [
     "der",
@@ -3269,7 +3274,7 @@
    ]
   },
   "4.15": {
-   "text": "Die am Weg sind die, bei denen das Wort gesät wird; und wenn sie es gehört haben, kommt sofort der Satan und nimmt das Wort weg, das in sie gesät ist.",
+   "text": "Bei manchen fällt das Wort auf den Weg: Kaum haben sie es gehört, kommt der Satan und nimmt das Wort weg, das in sie gesät wurde.",
    "notes": [],
    "glosses": [
     "diese",
@@ -3301,7 +3306,7 @@
    ]
   },
   "4.16": {
-   "text": "Und die auf felsigen Boden gesät werden, sind die, die das Wort sofort mit Freude aufnehmen, wenn sie es hören.",
+   "text": "Bei anderen fällt es auf felsigen Boden: Sie hören das Wort und nehmen es gleich mit Freude auf.",
    "notes": [],
    "glosses": [
     "und",
@@ -3325,11 +3330,11 @@
    ]
   },
   "4.17": {
-   "text": "Aber sie haben keine Wurzel in sich, sondern sind unbeständig. Wenn dann Bedrängnis oder Verfolgung um des Wortes willen kommt, kommen sie sofort zu Fall.",
+   "text": "Aber sie haben keine Wurzeln und halten nicht durch. Wenn sie wegen des Wortes in Not geraten oder verfolgt werden, geben sie gleich auf.",
    "notes": [
     {
-     "anchor": "kommen sie sofort zu Fall",
-     "text": "Griechisch skandalizomai: „straucheln“, „sich abbringen lassen“, „vom Glauben abfallen“."
+     "anchor": "geben sie gleich auf",
+     "text": "Griechisch skandalizomai: „straucheln“, „zu Fall kommen“, „vom Glauben abfallen“."
     }
    ],
    "glosses": [
@@ -3355,7 +3360,7 @@
    ]
   },
   "4.18": {
-   "text": "Und andere sind die, die unter die Dornen gesät werden. Das sind die, die das Wort gehört haben,",
+   "text": "Bei wieder anderen fällt es zwischen die Disteln. Sie haben das Wort zwar gehört,",
    "notes": [],
    "glosses": [
     "und",
@@ -3375,11 +3380,11 @@
    ]
   },
   "4.19": {
-   "text": "aber die Sorgen dieser Welt und die Verführung des Reichtums und die Begierden nach allem anderen dringen ein und ersticken das Wort, und es bleibt ohne Frucht.",
+   "text": "aber dann kommen die Sorgen des Alltags, die Verlockung des Reichtums und die Gier nach allem anderen. Das erstickt das Wort, und es bringt keine Frucht.",
    "notes": [
     {
-     "anchor": "dieser Welt",
-     "text": "Wörtlich „des Zeitalters“: der gegenwärtigen Weltzeit."
+     "anchor": "des Alltags",
+     "text": "Wörtlich „die Sorgen des Zeitalters“: der gegenwärtigen Weltzeit."
     }
    ],
    "glosses": [
@@ -3409,7 +3414,7 @@
    ]
   },
   "4.20": {
-   "text": "Und die auf die gute Erde gesät sind, sind die, die das Wort hören und annehmen und Frucht bringen, dreißigfach und sechzigfach und hundertfach.“",
+   "text": "Bei anderen schließlich fällt es auf guten Boden: Sie hören das Wort, nehmen es an und bringen Frucht, dreißigfach, sechzigfach und hundertfach.“",
    "notes": [],
    "glosses": [
     "und",
@@ -3441,15 +3446,15 @@
    ]
   },
   "4.21": {
-   "text": "Und er sagte zu ihnen: „Kommt etwa die Lampe, damit man sie unter den Scheffel oder unter das Bett stellt? Nicht vielmehr, damit man sie auf den Leuchter stellt?",
+   "text": "Weiter sagte er zu ihnen: „Holt man etwa eine Lampe, um sie unter einen Eimer oder unters Bett zu stellen? Stellt man sie nicht auf den Leuchter?",
    "notes": [
     {
-     "anchor": "Kommt etwa die Lampe",
-     "text": "Ungewöhnlich: Die Lampe „kommt“. Manche hören darin einen Hinweis auf Jesus selbst, der gekommen ist."
+     "anchor": "Holt man etwa eine Lampe",
+     "text": "Wörtlich „Kommt etwa die Lampe …?“ Manche hören darin einen Hinweis auf Jesus selbst, der gekommen ist."
     },
     {
-     "anchor": "Scheffel",
-     "text": "Ein Hohlmaß für Getreide, etwa acht bis neun Liter, als Gefäß."
+     "anchor": "Eimer",
+     "text": "Griechisch modios, früher mit „Scheffel“ übersetzt: ein Messgefäß für Getreide, etwa acht bis neun Liter."
     },
     {
      "anchor": "Bett",
@@ -3482,7 +3487,7 @@
    ]
   },
   "4.22": {
-   "text": "Denn es gibt nichts Verborgenes, außer damit es offenbar wird, und nichts ist geheim geworden, außer damit es ans Licht kommt.",
+   "text": "Denn es gibt nichts Verborgenes, das nicht offenbar werden soll. Und nichts ist geheim, das nicht ans Licht kommen soll.",
    "notes": [],
    "glosses": [
     "nicht",
@@ -3504,7 +3509,7 @@
    ]
   },
   "4.23": {
-   "text": "Wenn jemand Ohren hat zu hören, der höre!“",
+   "text": "Wer Ohren hat zum Hören, der soll gut zuhören!“",
    "notes": [],
    "glosses": [
     "wenn",
@@ -3516,7 +3521,7 @@
    ]
   },
   "4.24": {
-   "text": "Und er sagte zu ihnen: „Achtet darauf, was ihr hört! Mit dem Maß, mit dem ihr messt, wird euch zugemessen werden, und es wird euch noch hinzugefügt werden.",
+   "text": "Und er sagte zu ihnen: „Achtet auf das, was ihr hört! Mit dem Maß, mit dem ihr messt, wird euch zugeteilt werden, und ihr bekommt noch mehr dazu.",
    "notes": [
     {
      "anchor": "Mit dem Maß, mit dem ihr messt",
@@ -3542,7 +3547,7 @@
    ]
   },
   "4.25": {
-   "text": "Denn wer hat, dem wird gegeben werden; und wer nicht hat, dem wird auch das genommen werden, was er hat.“",
+   "text": "Denn wer etwas hat, dem wird gegeben werden. Wer aber nichts hat, dem wird auch noch das genommen, was er hat.“",
    "notes": [],
    "glosses": [
     "wer",
@@ -3563,7 +3568,7 @@
    ]
   },
   "4.26": {
-   "text": "Und er sagte: „So ist es mit dem Reich Gottes: wie wenn ein Mensch den Samen auf die Erde wirft",
+   "text": "Und er sagte: „Mit dem Reich Gottes ist es wie mit einem Bauern, der Samen auf das Feld streut.",
    "notes": [],
    "glosses": [
     "und",
@@ -3585,7 +3590,7 @@
    ]
   },
   "4.27": {
-   "text": "und schläft und aufsteht, Nacht und Tag, und der Same sprießt und wächst – wie, weiß er selbst nicht.",
+   "text": "Er schläft und steht auf, Nacht für Nacht, Tag für Tag. Und der Same keimt und wächst, er weiß selbst nicht, wie.",
    "notes": [],
    "glosses": [
     "und",
@@ -3608,7 +3613,7 @@
    ]
   },
   "4.28": {
-   "text": "Von selbst bringt die Erde Frucht, zuerst den Halm, dann die Ähre, dann das volle Korn in der Ähre.",
+   "text": "Von selbst bringt die Erde Frucht: zuerst den Halm, dann die Ähre, dann das volle Korn in der Ähre.",
    "notes": [
     {
      "anchor": "Von selbst",
@@ -3633,11 +3638,11 @@
    ]
   },
   "4.29": {
-   "text": "Wenn aber die Frucht es zulässt, schickt er sofort die Sichel, denn die Ernte ist da.“",
+   "text": "Sobald das Korn reif ist, schickt er die Erntearbeiter mit der Sichel. Denn die Zeit der Ernte ist da.“",
    "notes": [
     {
-     "anchor": "schickt er sofort die Sichel",
-     "text": "Anklang an Joel 4,13, wo die Ernte ein Bild für Gottes Gericht am Ende ist."
+     "anchor": "schickt er die Erntearbeiter mit der Sichel",
+     "text": "Wörtlich „schickt er sofort die Sichel“. Anklang an Joel 4,13, wo die Ernte ein Bild für Gottes Gericht am Ende ist."
     }
    ],
    "glosses": [
@@ -3657,7 +3662,7 @@
    ]
   },
   "4.30": {
-   "text": "Und er sagte: „Wie sollen wir das Reich Gottes vergleichen, oder in welchem Gleichnis sollen wir es darstellen?",
+   "text": "Und er sagte: „Womit sollen wir das Reich Gottes vergleichen? Mit welchem Gleichnis sollen wir es beschreiben?",
    "notes": [],
    "glosses": [
     "und",
@@ -3677,7 +3682,7 @@
    ]
   },
   "4.31": {
-   "text": "Wie ein Senfkorn: Wenn es auf die Erde gesät wird, ist es kleiner als alle Samen auf der Erde.",
+   "text": "Es ist wie ein Senfkorn. Wenn man es in die Erde sät, ist es der kleinste von allen Samen.",
    "notes": [
     {
      "anchor": "Senfkorn",
@@ -3706,11 +3711,11 @@
    ]
   },
   "4.32": {
-   "text": "Und wenn es gesät ist, geht es auf und wird größer als alle Gartenkräuter und treibt große Zweige, sodass die Vögel des Himmels in seinem Schatten nisten können.“",
+   "text": "Doch wenn es gesät ist, geht es auf und wird größer als alle anderen Gartenpflanzen. Es treibt große Zweige, sodass die Vögel in seinem Schatten nisten können.“",
    "notes": [
     {
-     "anchor": "die Vögel des Himmels",
-     "text": "Anklang an Bilder vom Weltenbaum, unter dem die Völker Schutz finden (Ezechiel 17,23; 31,6; Daniel 4,9.18)."
+     "anchor": "die Vögel",
+     "text": "Wörtlich „die Vögel des Himmels“. Anklang an Bilder vom Weltenbaum, unter dem die Völker Schutz finden (Ezechiel 17,23; 31,6; Daniel 4,9.18)."
     }
    ],
    "glosses": [
@@ -3742,7 +3747,7 @@
    ]
   },
   "4.33": {
-   "text": "Und in vielen solchen Gleichnissen sagte er ihnen das Wort, so wie sie es hören konnten.",
+   "text": "Mit vielen solchen Gleichnissen verkündete er ihnen das Wort, so wie sie es verstehen konnten.",
    "notes": [],
    "glosses": [
     "und",
@@ -3759,7 +3764,7 @@
    ]
   },
   "4.34": {
-   "text": "Ohne Gleichnis aber redete er nicht zu ihnen; wenn er aber mit seinen Jüngern allein war, erklärte er ihnen alles.",
+   "text": "Er redete nur in Gleichnissen zu ihnen. Wenn er aber mit seinen Jüngern allein war, erklärte er ihnen alles.",
    "notes": [],
    "glosses": [
     "ohne",
@@ -3779,7 +3784,7 @@
    ]
   },
   "4.35": {
-   "text": "Und an jenem Tag, als es Abend geworden war, sagt er zu ihnen: „Lasst uns ans andere Ufer hinüberfahren!“",
+   "text": "Am Abend dieses Tages sagte Jesus zu seinen Jüngern: „Lasst uns ans andere Ufer fahren!“",
    "notes": [],
    "glosses": [
     "und",
@@ -3798,11 +3803,11 @@
    ]
   },
   "4.36": {
-   "text": "Und sie ließen die Menge [zurück] und nehmen ihn mit, wie er im Boot war; und andere Boote waren bei ihm.",
+   "text": "Sie schickten die Leute weg und nahmen ihn im Boot mit, so wie er war. Auch andere Boote fuhren mit.",
    "notes": [
     {
-     "anchor": "wie er im Boot war",
-     "text": "Er saß bereits im Boot, aus dem er gelehrt hatte (4,1)."
+     "anchor": "so wie er war",
+     "text": "Wörtlich „wie er im Boot war“: Er saß bereits im Boot, aus dem er gelehrt hatte (4,1)."
     }
    ],
    "glosses": [
@@ -3826,10 +3831,10 @@
    ]
   },
   "4.37": {
-   "text": "Und es kommt ein heftiger Sturmwind auf, und die Wellen schlugen in das Boot, sodass das Boot schon voll lief.",
+   "text": "Da kam ein heftiger Sturm auf. Die Wellen schlugen ins Boot, sodass es schon volllief.",
    "notes": [
     {
-     "anchor": "heftiger Sturmwind",
+     "anchor": "heftiger Sturm",
      "text": "Auf dem See Gennesaret, der etwa 200 Meter unter dem Meeresspiegel liegt, entstehen durch Fallwinde plötzlich schwere Stürme."
     }
    ],
@@ -3854,7 +3859,7 @@
    ]
   },
   "4.38": {
-   "text": "Und er war im Heck und schlief auf dem Kissen. Und sie wecken ihn und sagen zu ihm: „Lehrer, kümmert es dich nicht, dass wir untergehen?“",
+   "text": "Jesus lag hinten im Boot auf dem Kissen und schlief. Die Jünger weckten ihn und riefen: „Lehrer, ist es dir egal, dass wir untergehen?“",
    "notes": [],
    "glosses": [
     "und",
@@ -3882,11 +3887,11 @@
    ]
   },
   "4.39": {
-   "text": "Und er stand auf, fuhr den Wind an und sagte zum See: „Schweig, verstumme!“ Und der Wind legte sich, und es trat eine große Stille ein.",
+   "text": "Da stand er auf, drohte dem Wind und sagte zum See: „Schweig! Sei still!“ Der Wind legte sich, und es wurde ganz still.",
    "notes": [
     {
-     "anchor": "verstumme",
-     "text": "Dasselbe Wort wie bei der Austreibung in 1,25. Jesus spricht den Sturm an wie einen Dämon. In Psalm 107,29 ist es Gott, der den Sturm stillt."
+     "anchor": "Sei still",
+     "text": "Wörtlich „verstumme“, dasselbe Wort wie bei der Austreibung in 1,25. Jesus spricht den Sturm an wie einen Dämon. In Psalm 107,29 ist es Gott, der den Sturm stillt."
     }
    ],
    "glosses": [
@@ -3912,7 +3917,7 @@
    ]
   },
   "4.40": {
-   "text": "Und er sagte zu ihnen: „Warum seid ihr so feige? Habt ihr noch keinen Glauben?“",
+   "text": "Er sagte zu ihnen: „Warum habt ihr solche Angst? Habt ihr immer noch keinen Glauben?“",
    "notes": [],
    "glosses": [
     "und",
@@ -3927,10 +3932,10 @@
    ]
   },
   "4.41": {
-   "text": "Und sie gerieten in große Furcht und sagten zueinander: „Wer ist denn dieser, dass ihm sogar der Wind und der See gehorchen?“",
+   "text": "Da packte sie große Furcht, und sie sagten zueinander: „Wer ist dieser Mann, dass ihm sogar der Wind und der See gehorchen?“",
    "notes": [
     {
-     "anchor": "gerieten in große Furcht",
+     "anchor": "packte sie große Furcht",
      "text": "Wörtlich „sie fürchteten sich mit großer Furcht“. Die Furcht gilt jetzt nicht mehr dem Sturm, sondern Jesus."
     }
    ],
@@ -3959,7 +3964,7 @@
    ]
   },
   "5.1": {
-   "text": "Und sie kamen ans andere Ufer des Sees, in das Gebiet der Gerasener.",
+   "text": "Sie kamen ans andere Ufer des Sees, in das Gebiet der Gerasener.",
    "notes": [
     {
      "anchor": "Gerasener",
@@ -3982,7 +3987,7 @@
    ]
   },
   "5.2": {
-   "text": "Und als er aus dem Boot gestiegen war, lief ihm sofort aus den Grabhöhlen ein Mensch mit einem unreinen Geist entgegen.",
+   "text": "Kaum war Jesus aus dem Boot gestiegen, lief ihm aus den Grabhöhlen ein Mann entgegen, der von einem unreinen Geist besessen war.",
    "notes": [
     {
      "anchor": "Grabhöhlen",
@@ -4009,7 +4014,7 @@
    ]
   },
   "5.3": {
-   "text": "Er hauste in den Grabhöhlen, und nicht einmal mit einer Kette konnte ihn noch jemand fesseln.",
+   "text": "Er hauste in den Grabhöhlen. Niemand konnte ihn mehr bändigen, nicht einmal mit Ketten.",
    "notes": [],
    "glosses": [
     "der",
@@ -4030,7 +4035,7 @@
    ]
   },
   "5.4": {
-   "text": "Denn er war oft mit Fußfesseln und Ketten gefesselt worden, aber er hatte die Ketten zerrissen und die Fußfesseln zerrieben, und niemand konnte ihn bändigen.",
+   "text": "Man hatte ihn schon oft an Händen und Füßen gefesselt. Aber er hatte die Ketten zerrissen und die Fußfesseln zerrieben. Niemand wurde mit ihm fertig.",
    "notes": [],
    "glosses": [
     "weil",
@@ -4059,7 +4064,7 @@
    ]
   },
   "5.5": {
-   "text": "Und die ganze Zeit, Nacht und Tag, schrie er in den Grabhöhlen und auf den Bergen und schlug sich mit Steinen.",
+   "text": "Tag und Nacht schrie er in den Grabhöhlen und auf den Bergen und schlug sich mit Steinen.",
    "notes": [],
    "glosses": [
     "und",
@@ -4084,11 +4089,11 @@
    ]
   },
   "5.6": {
-   "text": "Und als er Jesus von Weitem sah, lief er hin und warf sich vor ihm nieder",
+   "text": "Als er Jesus von Weitem sah, lief er zu ihm und warf sich vor ihm nieder.",
    "notes": [
     {
      "anchor": "warf sich vor ihm nieder",
-     "text": "Griechisch proskyneō: sich ehrfürchtig niederwerfen, huldigen, anbeten."
+     "text": "Griechisch proskyneō: sich ehrfürchtig niederwerfen, verehren, anbeten."
     }
    ],
    "glosses": [
@@ -4105,7 +4110,7 @@
    ]
   },
   "5.7": {
-   "text": "und schrie mit lauter Stimme: „Was habe ich mit dir zu tun, Jesus, Sohn des höchsten Gottes? Ich beschwöre dich bei Gott: Quäle mich nicht!“",
+   "text": "Er schrie laut: „Was willst du von mir, Jesus, Sohn des höchsten Gottes? Ich beschwöre dich bei Gott: Quäl mich nicht!“",
    "notes": [
     {
      "anchor": "höchsten Gottes",
@@ -4142,7 +4147,7 @@
    ]
   },
   "5.8": {
-   "text": "Denn er hatte zu ihm gesagt: „Fahr aus, du unreiner Geist, aus dem Menschen!“",
+   "text": "Denn Jesus hatte zu ihm gesagt: „Du unreiner Geist, fahr aus dem Menschen aus!“",
    "notes": [],
    "glosses": [
     "er sagte",
@@ -4159,7 +4164,7 @@
    ]
   },
   "5.9": {
-   "text": "Und er fragte ihn: „Wie heißt du?“ Und er sagt zu ihm: „Legion heiße ich, denn wir sind viele.“",
+   "text": "Jesus fragte ihn: „Wie heißt du?“ Er antwortete: „Legion heiße ich, denn wir sind viele.“",
    "notes": [
     {
      "anchor": "Legion",
@@ -4185,7 +4190,7 @@
    ]
   },
   "5.10": {
-   "text": "Und er bat ihn inständig, sie nicht aus der Gegend zu vertreiben.",
+   "text": "Und er bat Jesus eindringlich, sie nicht aus der Gegend zu vertreiben.",
    "notes": [],
    "glosses": [
     "und",
@@ -4202,7 +4207,7 @@
    ]
   },
   "5.11": {
-   "text": "Es weidete aber dort am Berg eine große Herde Schweine.",
+   "text": "In der Nähe, am Berghang, weidete eine große Schweineherde.",
    "notes": [
     {
      "anchor": "Schweine",
@@ -4223,7 +4228,7 @@
    ]
   },
   "5.12": {
-   "text": "Und sie baten ihn: „Schick uns in die Schweine, damit wir in sie hineinfahren!“",
+   "text": "Da baten ihn die Geister: „Schick uns in die Schweine! Lass uns in sie hineinfahren!“",
    "notes": [],
    "glosses": [
     "und",
@@ -4242,7 +4247,7 @@
    ]
   },
   "5.13": {
-   "text": "Und er erlaubte es ihnen. Und die unreinen Geister fuhren aus und fuhren in die Schweine, und die Herde stürzte sich den Abhang hinunter in den See, etwa zweitausend, und sie ertranken im See.",
+   "text": "Jesus erlaubte es ihnen. Da fuhren die unreinen Geister aus dem Mann aus und in die Schweine. Die Herde stürzte sich den Abhang hinunter in den See. Es waren etwa zweitausend Tiere, und sie ertranken im See.",
    "notes": [],
    "glosses": [
     "und",
@@ -4278,10 +4283,10 @@
    ]
   },
   "5.14": {
-   "text": "Und ihre Hirten flohen und erzählten es in der Stadt und auf den Höfen. Und [die Leute] kamen, um zu sehen, was geschehen war.",
+   "text": "Die Hirten flohen und erzählten es in der Stadt und in den Dörfern. Da kamen die Leute, um zu sehen, was geschehen war.",
    "notes": [
     {
-     "anchor": "auf den Höfen",
+     "anchor": "in den Dörfern",
      "text": "Wörtlich „auf den Feldern“: in den Dörfern und Gehöften der Umgebung."
     }
    ],
@@ -4310,7 +4315,7 @@
    ]
   },
   "5.15": {
-   "text": "Und sie kommen zu Jesus und sehen den Besessenen dasitzen, bekleidet und bei klarem Verstand, ihn, der die Legion gehabt hatte. Und sie fürchteten sich.",
+   "text": "Sie kamen zu Jesus und sahen den Besessenen dasitzen, angezogen und bei klarem Verstand, ihn, der die Legion gehabt hatte. Da bekamen sie Angst.",
    "notes": [
     {
      "anchor": "bei klarem Verstand",
@@ -4340,7 +4345,7 @@
    ]
   },
   "5.16": {
-   "text": "Und die es gesehen hatten, erzählten ihnen, was mit dem Besessenen geschehen war, und von den Schweinen.",
+   "text": "Die Augenzeugen erzählten ihnen, was mit dem Besessenen und mit den Schweinen geschehen war.",
    "notes": [],
    "glosses": [
     "und",
@@ -4359,7 +4364,7 @@
    ]
   },
   "5.17": {
-   "text": "Und sie fingen an, ihn zu bitten, ihr Gebiet zu verlassen.",
+   "text": "Da baten sie Jesus, ihr Gebiet zu verlassen.",
    "notes": [],
    "glosses": [
     "und",
@@ -4374,7 +4379,7 @@
    ]
   },
   "5.18": {
-   "text": "Und als er ins Boot stieg, bat ihn der, der besessen gewesen war, bei ihm bleiben zu dürfen.",
+   "text": "Als Jesus ins Boot stieg, bat ihn der Mann, der besessen gewesen war, bei ihm bleiben zu dürfen.",
    "notes": [
     {
      "anchor": "bei ihm bleiben",
@@ -4399,14 +4404,14 @@
    ]
   },
   "5.19": {
-   "text": "Und er ließ es ihn nicht, sondern sagt zu ihm: „Geh nach Hause zu den Deinen und berichte ihnen, was der Herr dir getan hat und dass er sich über dich erbarmt hat.“",
+   "text": "Doch Jesus erlaubte es ihm nicht, sondern sagte zu ihm: „Geh nach Hause zu deinen Leuten! Erzähl ihnen, was der Herr für dich getan hat und wie er sich über dich erbarmt hat.“",
    "notes": [
     {
      "anchor": "der Herr",
      "text": "Gemeint ist Gott. Der Mann erzählt aber, was Jesus getan hat (V. 20); Markus lässt beides ineinander übergehen."
     },
     {
-     "anchor": "berichte ihnen",
+     "anchor": "Erzähl ihnen",
      "text": "Anders als sonst verbietet Jesus hier nicht, von ihm zu reden: Im nichtjüdischen Gebiet bestand keine Gefahr falscher Messiashoffnungen."
     }
    ],
@@ -4440,7 +4445,7 @@
    ]
   },
   "5.20": {
-   "text": "Und er ging weg und fing an, in der Dekapolis zu verkünden, wie viel Jesus für ihn getan hatte; und alle staunten.",
+   "text": "Da ging der Mann weg und fing an, in der Dekapolis zu verkünden, wie viel Jesus für ihn getan hatte. Und alle staunten.",
    "notes": [
     {
      "anchor": "Dekapolis",
@@ -4467,7 +4472,7 @@
    ]
   },
   "5.21": {
-   "text": "Und als Jesus im Boot wieder ans andere Ufer hinübergefahren war, versammelte sich eine große Menge bei ihm, und er war am See.",
+   "text": "Jesus fuhr mit dem Boot wieder ans andere Ufer. Dort versammelte sich eine große Menschenmenge bei ihm, während er noch am See war.",
    "notes": [],
    "glosses": [
     "und",
@@ -4494,7 +4499,7 @@
    ]
   },
   "5.22": {
-   "text": "Und es kommt einer der Synagogenvorsteher namens Jaïrus. Und als er ihn sieht, fällt er ihm zu Füßen",
+   "text": "Da kam einer der Synagogenvorsteher, der Jaïrus hieß. Als er Jesus sah, warf er sich ihm zu Füßen",
    "notes": [
     {
      "anchor": "Synagogenvorsteher",
@@ -4520,7 +4525,7 @@
    ]
   },
   "5.23": {
-   "text": "und bittet ihn inständig: „Mein Töchterchen liegt im Sterben. Komm und leg ihr die Hände auf, damit sie gerettet wird und lebt!“",
+   "text": "und flehte ihn an: „Meine kleine Tochter liegt im Sterben. Komm und leg ihr die Hände auf, damit sie gerettet wird und am Leben bleibt!“",
    "notes": [
     {
      "anchor": "gerettet wird",
@@ -4552,7 +4557,7 @@
    ]
   },
   "5.24": {
-   "text": "Und er ging mit ihm. Und eine große Menge folgte ihm und drängte sich um ihn.",
+   "text": "Da ging Jesus mit ihm. Eine große Menschenmenge folgte ihm und drängte sich um ihn.",
    "notes": [],
    "glosses": [
     "und",
@@ -4570,10 +4575,10 @@
    ]
   },
   "5.25": {
-   "text": "Und eine Frau, die seit zwölf Jahren an Blutfluss litt",
+   "text": "Unter ihnen war eine Frau, die seit zwölf Jahren an Blutungen litt.",
    "notes": [
     {
-     "anchor": "Blutfluss",
+     "anchor": "Blutungen",
      "text": "Wohl eine dauernde Blutung. Nach 3. Mose 15,25–27 machte sie die Frau unrein und jeden, den sie berührte."
     }
    ],
@@ -4589,7 +4594,7 @@
    ]
   },
   "5.26": {
-   "text": "und von vielen Ärzten viel erlitten und ihr ganzes Vermögen ausgegeben hatte, ohne dass es ihr geholfen hätte – es war vielmehr noch schlimmer mit ihr geworden –,",
+   "text": "Sie war bei vielen Ärzten gewesen und hatte viel durchgemacht. Ihr ganzes Vermögen hatte sie dafür ausgegeben. Aber es hatte nichts genützt, im Gegenteil: Es war immer schlimmer geworden.",
    "notes": [],
    "glosses": [
     "und",
@@ -4616,7 +4621,7 @@
    ]
   },
   "5.27": {
-   "text": "die hatte von Jesus gehört. Sie kam in der Menge von hinten heran und berührte sein Gewand.",
+   "text": "Diese Frau hatte von Jesus gehört. Sie drängte sich in der Menge von hinten heran und berührte seinen Mantel.",
    "notes": [],
    "glosses": [
     "gehört habend",
@@ -4635,7 +4640,7 @@
    ]
   },
   "5.28": {
-   "text": "Denn sie sagte sich: „Wenn ich auch nur seine Kleider berühre, werde ich gerettet.“",
+   "text": "Denn sie sagte sich: „Wenn ich nur seine Kleider berühre, werde ich gerettet.“",
    "notes": [],
    "glosses": [
     "sie sagte",
@@ -4651,7 +4656,7 @@
    ]
   },
   "5.29": {
-   "text": "Und sofort versiegte die Quelle ihres Blutes, und sie spürte an ihrem Leib, dass sie von ihrer Plage geheilt war.",
+   "text": "Sofort hörte die Blutung auf, und sie spürte an ihrem Körper, dass sie von ihrem Leiden geheilt war.",
    "notes": [],
    "glosses": [
     "und",
@@ -4674,7 +4679,7 @@
    ]
   },
   "5.30": {
-   "text": "Und sofort spürte Jesus an sich selbst, dass die Kraft von ihm ausgegangen war, wandte sich in der Menge um und sagte: „Wer hat meine Kleider berührt?“",
+   "text": "Im selben Augenblick spürte Jesus, dass eine Kraft von ihm ausgegangen war. Er drehte sich in der Menge um und fragte: „Wer hat meine Kleider berührt?“",
    "notes": [],
    "glosses": [
     "und",
@@ -4702,7 +4707,7 @@
    ]
   },
   "5.31": {
-   "text": "Und seine Jünger sagten zu ihm: „Du siehst, wie die Menge dich bedrängt, und sagst: Wer hat mich berührt?“",
+   "text": "Seine Jünger sagten zu ihm: „Du siehst doch, wie sich die Leute um dich drängen. Und da fragst du: Wer hat mich berührt?“",
    "notes": [],
    "glosses": [
     "und",
@@ -4724,7 +4729,7 @@
    ]
   },
   "5.32": {
-   "text": "Und er sah sich um, um die zu sehen, die das getan hatte.",
+   "text": "Aber Jesus blickte umher, um zu sehen, wer es getan hatte.",
    "notes": [],
    "glosses": [
     "und",
@@ -4736,7 +4741,7 @@
    ]
   },
   "5.33": {
-   "text": "Die Frau aber fürchtete sich und zitterte, denn sie wusste, was mit ihr geschehen war. Sie kam, fiel vor ihm nieder und sagte ihm die ganze Wahrheit.",
+   "text": "Die Frau zitterte vor Angst, denn sie wusste, was mit ihr geschehen war. Sie kam, warf sich vor ihm nieder und erzählte ihm die ganze Wahrheit.",
    "notes": [],
    "glosses": [
     "die",
@@ -4762,14 +4767,14 @@
    ]
   },
   "5.34": {
-   "text": "Er aber sagte zu ihr: „Tochter, dein Glaube hat dich gerettet. Geh hin in Frieden und sei gesund von deiner Plage!“",
+   "text": "Er aber sagte zu ihr: „Meine Tochter, dein Glaube hat dich gerettet. Geh in Frieden und sei von deinem Leiden geheilt!“",
    "notes": [
     {
      "anchor": "hat dich gerettet",
      "text": "Dasselbe Wort wie in V. 23 und 28: „gerettet“ und „geheilt“ zugleich."
     },
     {
-     "anchor": "Geh hin in Frieden",
+     "anchor": "Geh in Frieden",
      "text": "Hebräischer Abschiedsgruß. Frieden (schalom) meint umfassendes Heilsein."
     }
    ],
@@ -4797,7 +4802,7 @@
    ]
   },
   "5.35": {
-   "text": "Während er noch redet, kommen [Leute] vom Haus des Synagogenvorstehers und sagen: „Deine Tochter ist gestorben. Was bemühst du den Lehrer noch?“",
+   "text": "Während er noch redete, kamen Leute aus dem Haus des Synagogenvorstehers und sagten zu Jaïrus: „Deine Tochter ist gestorben. Warum bemühst du den Lehrer noch?“",
    "notes": [],
    "glosses": [
     "noch",
@@ -4821,10 +4826,10 @@
    ]
   },
   "5.36": {
-   "text": "Jesus aber hörte das Wort, das geredet wurde, nicht an und sagt zu dem Synagogenvorsteher: „Fürchte dich nicht, glaube nur!“",
+   "text": "Jesus hörte, was sie sagten, achtete aber nicht darauf. Er sagte zu dem Synagogenvorsteher: „Hab keine Angst, glaube nur!“",
    "notes": [
     {
-     "anchor": "hörte das Wort, das geredet wurde, nicht an",
+     "anchor": "achtete aber nicht darauf",
      "text": "Griechisch parakouō kann „überhören“, „nicht beachten“ oder „mithören“ heißen."
     }
    ],
@@ -4846,10 +4851,10 @@
    ]
   },
   "5.37": {
-   "text": "Und er ließ niemanden mitgehen außer Petrus und Jakobus und Johannes, den Bruder des Jakobus.",
+   "text": "Er ließ niemanden mitgehen außer Petrus, Jakobus und Johannes, den Bruder des Jakobus.",
    "notes": [
     {
-     "anchor": "Petrus und Jakobus und Johannes",
+     "anchor": "Petrus, Jakobus und Johannes",
      "text": "Diese drei nimmt Jesus auch bei der Verklärung (9,2) und in Getsemani (14,33) mit."
     }
    ],
@@ -4875,10 +4880,10 @@
    ]
   },
   "5.38": {
-   "text": "Und sie kommen in das Haus des Synagogenvorstehers, und er sieht ein Durcheinander und [Leute], die weinen und laut klagen.",
+   "text": "Sie kamen zum Haus des Synagogenvorstehers. Dort sah Jesus ein großes Durcheinander und Menschen, die weinten und laut klagten.",
    "notes": [
     {
-     "anchor": "laut klagen",
+     "anchor": "laut klagten",
      "text": "Zur Trauer gehörten laute Klagerufe, oft auch bezahlte Klageweiber und Flötenspieler."
     }
    ],
@@ -4901,7 +4906,7 @@
    ]
   },
   "5.39": {
-   "text": "Und er geht hinein und sagt zu ihnen: „Was lärmt und weint ihr? Das Kind ist nicht gestorben, sondern es schläft.“",
+   "text": "Er ging hinein und sagte zu ihnen: „Warum macht ihr solchen Lärm und weint? Das Kind ist nicht tot, es schläft nur.“",
    "notes": [],
    "glosses": [
     "und",
@@ -4921,7 +4926,7 @@
    ]
   },
   "5.40": {
-   "text": "Und sie lachten ihn aus. Er aber wirft sie alle hinaus, nimmt den Vater des Kindes und die Mutter und die, die bei ihm waren, mit und geht hinein, wo das Kind war.",
+   "text": "Da lachten sie ihn aus. Doch er schickte sie alle hinaus. Dann nahm er den Vater und die Mutter des Kindes und seine Begleiter mit und ging in den Raum, wo das Kind lag.",
    "notes": [],
    "glosses": [
     "und",
@@ -4952,7 +4957,7 @@
    ]
   },
   "5.41": {
-   "text": "Und er fasste das Kind bei der Hand und sagt zu ihm: „Talita kum!“ Das heißt übersetzt: „Mädchen, ich sage dir: Steh auf!“",
+   "text": "Er nahm das Kind bei der Hand und sagte zu ihm: „Talita kum!“ Das heißt übersetzt: „Mädchen, ich sage dir: Steh auf!“",
    "notes": [
     {
      "anchor": "Talita kum",
@@ -4985,7 +4990,7 @@
    ]
   },
   "5.42": {
-   "text": "Und sofort stand das Mädchen auf und ging umher; es war nämlich zwölf Jahre alt. Und sie gerieten sofort außer sich vor großem Staunen.",
+   "text": "Sofort stand das Mädchen auf und ging umher. Es war zwölf Jahre alt. Da gerieten alle vor Staunen außer sich.",
    "notes": [
     {
      "anchor": "zwölf Jahre",
@@ -5012,7 +5017,7 @@
    ]
   },
   "5.43": {
-   "text": "Und er schärfte ihnen nachdrücklich ein, dass niemand es erfahren solle, und sagte, man solle ihr zu essen geben.",
+   "text": "Jesus schärfte ihnen ein, dass niemand davon erfahren sollte. Und er sagte, man solle dem Mädchen etwas zu essen geben.",
    "notes": [],
    "glosses": [
     "und",
@@ -5031,7 +5036,7 @@
    ]
   },
   "6.1": {
-   "text": "Und er ging von dort weg und kommt in seine Heimatstadt, und seine Jünger folgen ihm.",
+   "text": "Jesus ging von dort weg und kam in seine Heimatstadt. Seine Jünger begleiteten ihn.",
    "notes": [
     {
      "anchor": "Heimatstadt",
@@ -5057,7 +5062,7 @@
    ]
   },
   "6.2": {
-   "text": "Und als es Sabbat geworden war, fing er an, in der Synagoge zu lehren. Und viele, die zuhörten, waren außer sich und sagten: „Woher hat er das? Und was ist das für eine Weisheit, die ihm gegeben ist? Und solche Wunder geschehen durch seine Hände?",
+   "text": "Am Sabbat lehrte er in der Synagoge. Viele, die ihm zuhörten, waren außer sich und sagten: „Woher hat er das? Was ist das für eine Weisheit, die ihm gegeben ist? Und was für Wunder geschehen durch seine Hände!",
    "notes": [
     {
      "anchor": "Wunder",
@@ -5100,7 +5105,7 @@
    ]
   },
   "6.3": {
-   "text": "Ist das nicht der Bauhandwerker, der Sohn der Maria und der Bruder von Jakobus und Joses und Judas und Simon? Und sind nicht seine Schwestern hier bei uns?“ Und sie nahmen Anstoß an ihm.",
+   "text": "Ist das nicht der Bauhandwerker, der Sohn der Maria und der Bruder von Jakobus, Joses, Judas und Simon? Leben nicht seine Schwestern hier bei uns?“ Und sie lehnten ihn ab.",
    "notes": [
     {
      "anchor": "Bauhandwerker",
@@ -5111,8 +5116,8 @@
      "text": "Ungewöhnlich, weil man einen Mann nach seinem Vater benannte. Ob das abschätzig gemeint ist oder nur zeigt, dass Josef nicht mehr lebte, ist umstritten."
     },
     {
-     "anchor": "nahmen Anstoß",
-     "text": "Griechisch skandalizomai, wie in 4,17: Sie stoßen sich an ihm und lehnen ihn ab."
+     "anchor": "lehnten ihn ab",
+     "text": "Wörtlich „sie nahmen Anstoß an ihm“ (skandalizomai, wie in 4,17)."
     }
    ],
    "glosses": [
@@ -5150,7 +5155,7 @@
    ]
   },
   "6.4": {
-   "text": "Und Jesus sagte zu ihnen: „Ein Prophet ist nirgends ohne Ehre außer in seiner Heimatstadt und bei seinen Verwandten und in seinem Haus.“",
+   "text": "Da sagte Jesus zu ihnen: „Ein Prophet gilt überall etwas, nur nicht in seiner Heimatstadt, bei seinen Verwandten und in seiner Familie.“",
    "notes": [],
    "glosses": [
     "und",
@@ -5182,7 +5187,7 @@
    ]
   },
   "6.5": {
-   "text": "Und er konnte dort kein Wunder tun, außer dass er wenigen Kranken die Hände auflegte und sie heilte.",
+   "text": "Er konnte dort kein einziges Wunder tun. Nur einigen Kranken legte er die Hände auf und heilte sie.",
    "notes": [
     {
      "anchor": "konnte",
@@ -5208,7 +5213,7 @@
    ]
   },
   "6.6": {
-   "text": "Und er wunderte sich über ihren Unglauben. Und er zog ringsum durch die Dörfer und lehrte.",
+   "text": "Er wunderte sich über ihren Unglauben. Dann zog er durch die umliegenden Dörfer und lehrte.",
    "notes": [],
    "glosses": [
     "und",
@@ -5226,7 +5231,7 @@
    ]
   },
   "6.7": {
-   "text": "Und er ruft die Zwölf zu sich und fing an, sie zu zweit auszusenden, und gab ihnen Vollmacht über die unreinen Geister.",
+   "text": "Jesus rief die Zwölf zu sich und sandte sie zu zweit aus. Er gab ihnen Vollmacht über die unreinen Geister.",
    "notes": [
     {
      "anchor": "zu zweit",
@@ -5255,7 +5260,7 @@
    ]
   },
   "6.8": {
-   "text": "Und er gebot ihnen, nichts auf den Weg mitzunehmen außer einem Stab: kein Brot, keine Tasche, kein Geld im Gürtel,",
+   "text": "Er befahl ihnen, nichts mitzunehmen außer einem Wanderstab: kein Brot, keine Vorratstasche, kein Geld im Gürtel.",
    "notes": [
     {
      "anchor": "Geld",
@@ -5287,7 +5292,7 @@
    ]
   },
   "6.9": {
-   "text": "sondern Sandalen an den Füßen; „und zieht nicht zwei Hemden an!“",
+   "text": "Sandalen durften sie tragen, aber: „Zieht nicht zwei Hemden an!“",
    "notes": [
     {
      "anchor": "Hemden",
@@ -5306,7 +5311,7 @@
    ]
   },
   "6.10": {
-   "text": "Und er sagte zu ihnen: „Wo ihr in ein Haus hineingeht, da bleibt, bis ihr von dort weiterzieht.",
+   "text": "Und er sagte zu ihnen: „Wenn ihr in ein Haus aufgenommen werdet, dann bleibt dort, bis ihr den Ort wieder verlasst.",
    "notes": [],
    "glosses": [
     "und",
@@ -5326,11 +5331,11 @@
    ]
   },
   "6.11": {
-   "text": "Und wo ein Ort euch nicht aufnimmt und man nicht auf euch hört, da zieht weiter und schüttelt den Staub unter euren Füßen ab, ihnen zum Zeugnis.“",
+   "text": "Wenn man euch aber irgendwo nicht aufnimmt und nicht auf euch hört, dann geht weiter und schüttelt den Staub von euren Füßen ab. Das soll ihnen ein Zeichen sein.“",
    "notes": [
     {
-     "anchor": "schüttelt den Staub unter euren Füßen ab",
-     "text": "Eine Zeichenhandlung: Man trennt sich von dem Ort und überlässt ihn seiner Verantwortung vor Gott."
+     "anchor": "schüttelt den Staub von euren Füßen ab",
+     "text": "Eine Zeichenhandlung: Man trennt sich von dem Ort und überlässt ihn seiner Verantwortung vor Gott. Wörtlich „ihnen zum Zeugnis“."
     }
    ],
    "glosses": [
@@ -5360,7 +5365,7 @@
    ]
   },
   "6.12": {
-   "text": "Und sie zogen aus und verkündeten, man solle umkehren.",
+   "text": "Da zogen sie los und riefen die Menschen dazu auf, umzukehren.",
    "notes": [],
    "glosses": [
     "und",
@@ -5371,7 +5376,7 @@
    ]
   },
   "6.13": {
-   "text": "Und sie trieben viele Dämonen aus und salbten viele Kranke mit Öl und heilten sie.",
+   "text": "Sie trieben viele Dämonen aus, salbten viele Kranke mit Öl und heilten sie.",
    "notes": [
     {
      "anchor": "salbten",
@@ -5393,14 +5398,14 @@
    ]
   },
   "6.14": {
-   "text": "Und König Herodes hörte davon, denn sein Name war bekannt geworden. Und man sagte: „Johannes der Täufer ist von den Toten auferweckt worden, und darum wirken die Kräfte in ihm.“",
+   "text": "König Herodes hörte davon, denn Jesus war inzwischen bekannt geworden. Die Leute sagten: „Johannes der Täufer ist von den Toten auferweckt worden. Darum wirken solche Kräfte in ihm.“",
    "notes": [
     {
      "anchor": "König Herodes",
      "text": "Herodes Antipas, ein Sohn Herodes’ des Großen. Er war nur Landesfürst (Tetrarch) von Galiläa und Peräa; Markus gibt ihm den volkstümlichen Königstitel."
     },
     {
-     "anchor": "man sagte",
+     "anchor": "Die Leute sagten",
      "text": "Einige Handschriften lesen „er sagte“, nämlich Herodes."
     }
    ],
@@ -5436,7 +5441,7 @@
    ]
   },
   "6.15": {
-   "text": "Andere aber sagten: „Er ist Elia.“ Wieder andere sagten: „Ein Prophet wie einer der Propheten.“",
+   "text": "Andere sagten: „Er ist Elia.“ Wieder andere meinten: „Er ist ein Prophet wie die Propheten früher.“",
    "notes": [
     {
      "anchor": "Elia",
@@ -5462,7 +5467,7 @@
    ]
   },
   "6.16": {
-   "text": "Als Herodes das hörte, sagte er: „Johannes, den ich enthaupten ließ, der ist auferweckt worden.“",
+   "text": "Als Herodes das hörte, sagte er: „Es ist Johannes, dem ich den Kopf abschlagen ließ. Er ist auferweckt worden.“",
    "notes": [],
    "glosses": [
     "hörend",
@@ -5479,7 +5484,7 @@
    ]
   },
   "6.17": {
-   "text": "Denn Herodes selbst hatte Johannes festnehmen und im Gefängnis in Fesseln legen lassen, wegen Herodias, der Frau seines Bruders Philippus, weil er sie geheiratet hatte.",
+   "text": "Herodes hatte nämlich Johannes festnehmen und gefesselt ins Gefängnis werfen lassen. Der Grund war Herodias, die Frau seines Bruders Philippus. Herodes hatte sie geheiratet.",
    "notes": [
     {
      "anchor": "Philippus",
@@ -5514,7 +5519,7 @@
    ]
   },
   "6.18": {
-   "text": "Denn Johannes hatte zu Herodes gesagt: „Du darfst die Frau deines Bruders nicht haben.“",
+   "text": "Johannes hatte ihm nämlich vorgehalten: „Du darfst die Frau deines Bruders nicht haben.“",
    "notes": [
     {
      "anchor": "Du darfst die Frau deines Bruders nicht haben",
@@ -5541,7 +5546,7 @@
    ]
   },
   "6.19": {
-   "text": "Herodias aber trug es ihm nach und wollte ihn töten, konnte es aber nicht.",
+   "text": "Herodias war deshalb wütend auf Johannes und wollte ihn töten. Aber sie konnte es nicht.",
    "notes": [],
    "glosses": [
     "die",
@@ -5559,10 +5564,10 @@
    ]
   },
   "6.20": {
-   "text": "Denn Herodes fürchtete Johannes, weil er wusste, dass er ein gerechter und heiliger Mann war, und er schützte ihn. Und wenn er ihn hörte, war er sehr ratlos, und doch hörte er ihn gern.",
+   "text": "Denn Herodes hatte Respekt vor Johannes. Er wusste, dass er ein gerechter und heiliger Mann war, und schützte ihn. Wenn er ihm zuhörte, war er jedes Mal ganz ratlos. Und doch hörte er ihm gern zu.",
    "notes": [
     {
-     "anchor": "war er sehr ratlos",
+     "anchor": "war er jedes Mal ganz ratlos",
      "text": "Viele Handschriften lesen „tat er vieles“, nämlich was Johannes sagte."
     }
    ],
@@ -5594,10 +5599,10 @@
    ]
   },
   "6.21": {
-   "text": "Und es kam ein günstiger Tag, als Herodes an seinem Geburtstag ein Festmahl gab für seine Großen, die Obersten und die führenden Männer von Galiläa.",
+   "text": "Dann aber kam eine günstige Gelegenheit: Herodes gab an seinem Geburtstag ein Festessen für seine hohen Beamten, die Offiziere und die angesehensten Männer von Galiläa.",
    "notes": [
     {
-     "anchor": "Obersten",
+     "anchor": "Offiziere",
      "text": "Griechisch chiliarchos, wörtlich „Befehlshaber über tausend“: hohe Offiziere."
     }
    ],
@@ -5627,7 +5632,7 @@
    ]
   },
   "6.22": {
-   "text": "Und als seine Tochter Herodias hereinkam und tanzte, gefiel sie Herodes und denen, die mit ihm zu Tisch lagen. Der König sagte zu dem Mädchen: „Bitte mich, was du willst, und ich werde es dir geben.“",
+   "text": "Da kam seine Tochter Herodias herein und tanzte. Sie gefiel Herodes und seinen Gästen. Der König sagte zu dem Mädchen: „Wünsch dir, was du willst, ich werde es dir geben.“",
    "notes": [
     {
      "anchor": "seine Tochter Herodias",
@@ -5665,7 +5670,7 @@
    ]
   },
   "6.23": {
-   "text": "Und er schwor ihr hoch und heilig: „Was du mich auch bittest, ich werde es dir geben, bis zur Hälfte meines Königreichs.“",
+   "text": "Er schwor ihr sogar: „Was du dir auch wünschst, ich werde es dir geben, bis zur Hälfte meines Königreichs.“",
    "notes": [
     {
      "anchor": "bis zur Hälfte meines Königreichs",
@@ -5692,7 +5697,7 @@
    ]
   },
   "6.24": {
-   "text": "Und sie ging hinaus und sagte zu ihrer Mutter: „Was soll ich mir erbitten?“ Die aber sagte: „Den Kopf Johannes des Täufers.“",
+   "text": "Sie ging hinaus und fragte ihre Mutter: „Was soll ich mir wünschen?“ Die antwortete: „Den Kopf von Johannes dem Täufer.“",
    "notes": [],
    "glosses": [
     "und",
@@ -5714,7 +5719,7 @@
    ]
   },
   "6.25": {
-   "text": "Und sie ging sofort eilig zum König hinein und bat: „Ich will, dass du mir sofort auf einer Schale den Kopf Johannes des Täufers gibst.“",
+   "text": "Sofort eilte das Mädchen zum König zurück und sagte: „Ich will, dass du mir jetzt gleich den Kopf von Johannes dem Täufer auf einem Teller gibst.“",
    "notes": [],
    "glosses": [
     "und",
@@ -5742,7 +5747,7 @@
    ]
   },
   "6.26": {
-   "text": "Und der König wurde sehr traurig; doch wegen der Schwüre und der Tischgäste wollte er sie nicht abweisen.",
+   "text": "Da wurde der König sehr traurig. Doch wegen seines Schwurs und wegen der Gäste wollte er sie nicht zurückweisen.",
    "notes": [],
    "glosses": [
     "und",
@@ -5763,10 +5768,10 @@
    ]
   },
   "6.27": {
-   "text": "Und sofort schickte der König einen Leibwächter und befahl, seinen Kopf zu bringen. Und der ging hin und enthauptete ihn im Gefängnis",
+   "text": "Sofort schickte er einen Soldaten seiner Leibwache und befahl ihm, den Kopf des Johannes zu bringen. Der Soldat ging ins Gefängnis und enthauptete Johannes.",
    "notes": [
     {
-     "anchor": "Leibwächter",
+     "anchor": "Soldaten seiner Leibwache",
      "text": "Griechisch spekulatōr, ein lateinisches Lehnwort: ein Soldat der Leibwache, der auch Hinrichtungen vollzog."
     }
    ],
@@ -5792,7 +5797,7 @@
    ]
   },
   "6.28": {
-   "text": "und brachte seinen Kopf auf einer Schale und gab ihn dem Mädchen, und das Mädchen gab ihn seiner Mutter.",
+   "text": "Dann brachte er den Kopf auf einem Teller und gab ihn dem Mädchen, und das Mädchen gab ihn seiner Mutter.",
    "notes": [],
    "glosses": [
     "und",
@@ -5818,7 +5823,7 @@
    ]
   },
   "6.29": {
-   "text": "Und als seine Jünger das hörten, kamen sie, holten seinen Leichnam und legten ihn in ein Grab.",
+   "text": "Als die Jünger des Johannes davon hörten, kamen sie, holten seinen Leichnam und legten ihn in ein Grab.",
    "notes": [],
    "glosses": [
     "und",
@@ -5840,7 +5845,7 @@
    ]
   },
   "6.30": {
-   "text": "Und die Apostel versammeln sich bei Jesus und berichteten ihm alles, was sie getan und was sie gelehrt hatten.",
+   "text": "Die Apostel kamen wieder bei Jesus zusammen. Sie berichteten ihm alles, was sie getan und gelehrt hatten.",
    "notes": [
     {
      "anchor": "Apostel",
@@ -5867,7 +5872,7 @@
    ]
   },
   "6.31": {
-   "text": "Und er sagt zu ihnen: „Kommt ihr allein mit an einen einsamen Ort und ruht ein wenig aus!“ Denn es waren viele, die kamen und gingen, und sie hatten nicht einmal Zeit zum Essen.",
+   "text": "Da sagte er zu ihnen: „Kommt mit, nur ihr allein, an einen einsamen Ort und ruht euch ein wenig aus!“ Denn es kamen und gingen so viele Leute, dass sie nicht einmal Zeit zum Essen hatten.",
    "notes": [],
    "glosses": [
     "und",
@@ -5899,7 +5904,7 @@
    ]
   },
   "6.32": {
-   "text": "Und sie fuhren im Boot weg an einen einsamen Ort, für sich allein.",
+   "text": "So fuhren sie mit dem Boot an einen einsamen Ort, um allein zu sein.",
    "notes": [],
    "glosses": [
     "und",
@@ -5915,7 +5920,7 @@
    ]
   },
   "6.33": {
-   "text": "Und man sah sie wegfahren, und viele erkannten [sie]. Und sie liefen zu Fuß aus allen Städten dort zusammen und kamen ihnen zuvor.",
+   "text": "Aber viele sahen sie wegfahren und erkannten sie. Aus allen Orten liefen die Menschen zu Fuß dorthin und kamen sogar vor ihnen an.",
    "notes": [],
    "glosses": [
     "und",
@@ -5939,7 +5944,7 @@
    ]
   },
   "6.34": {
-   "text": "Und als er ausstieg, sah er eine große Menge, und er hatte Mitleid mit ihnen, denn sie waren wie Schafe, die keinen Hirten haben. Und er fing an, sie vieles zu lehren.",
+   "text": "Als Jesus aus dem Boot stieg, sah er die vielen Menschen. Sie taten ihm leid, denn sie waren wie Schafe, die keinen Hirten haben. Und er lehrte sie lange.",
    "notes": [
     {
      "anchor": "Schafe, die keinen Hirten haben",
@@ -5971,7 +5976,7 @@
    ]
   },
   "6.35": {
-   "text": "Und als es schon spät geworden war, traten seine Jünger zu ihm und sagten: „Der Ort ist einsam, und es ist schon spät.",
+   "text": "Als es schon spät war, kamen seine Jünger zu ihm und sagten: „Die Gegend hier ist einsam, und es ist schon spät.",
    "notes": [],
    "glosses": [
     "und",
@@ -5997,7 +6002,7 @@
    ]
   },
   "6.36": {
-   "text": "Schick sie weg, damit sie in die Höfe und Dörfer ringsum gehen und sich etwas zu essen kaufen.“",
+   "text": "Schick die Leute weg, damit sie in die Dörfer und Höfe ringsum gehen und sich etwas zu essen kaufen.“",
    "notes": [],
    "glosses": [
     "schick weg",
@@ -6017,7 +6022,7 @@
    ]
   },
   "6.37": {
-   "text": "Er aber antwortete ihnen: „Gebt ihr ihnen zu essen!“ Und sie sagen zu ihm: „Sollen wir hingehen und für zweihundert Denare Brot kaufen und ihnen zu essen geben?“",
+   "text": "Doch er antwortete: „Gebt ihr ihnen zu essen!“ Sie sagten zu ihm: „Sollen wir etwa losgehen und für zweihundert Denare Brot kaufen, um ihnen zu essen zu geben?“",
    "notes": [
     {
      "anchor": "zweihundert Denare",
@@ -6049,7 +6054,7 @@
    ]
   },
   "6.38": {
-   "text": "Er aber sagt zu ihnen: „Wie viele Brote habt ihr? Geht und seht nach!“ Und als sie es erfahren hatten, sagen sie: „Fünf, und zwei Fische.“",
+   "text": "Er fragte sie: „Wie viele Brote habt ihr? Geht und seht nach!“ Sie sahen nach und sagten: „Fünf, und zwei Fische.“",
    "notes": [],
    "glosses": [
     "er",
@@ -6071,14 +6076,14 @@
    ]
   },
   "6.39": {
-   "text": "Und er befahl ihnen, alle in Tischgemeinschaften auf dem grünen Gras sich lagern zu lassen.",
+   "text": "Da ließ er alle sich in Tischgemeinschaften ins grüne Gras setzen.",
    "notes": [
     {
      "anchor": "Tischgemeinschaften",
-     "text": "Wörtlich „Trinkgelage, Trinkgelage“: Gruppe für Gruppe wie bei einem Festmahl."
+     "text": "Wörtlich „Trinkgelage, Trinkgelage“: Gruppe für Gruppe wie bei einem Festmahl, bei dem man lag."
     },
     {
-     "anchor": "grünen Gras",
+     "anchor": "grüne Gras",
      "text": "Ein Hinweis auf das Frühjahr; vielleicht auch Anklang an Psalm 23,2."
     }
    ],
@@ -6097,7 +6102,7 @@
    ]
   },
   "6.40": {
-   "text": "Und sie lagerten sich in Gruppen, zu hundert und zu fünfzig.",
+   "text": "Sie setzten sich in Gruppen zu hundert und zu fünfzig.",
    "notes": [
     {
      "anchor": "in Gruppen",
@@ -6117,10 +6122,10 @@
    ]
   },
   "6.41": {
-   "text": "Und er nahm die fünf Brote und die zwei Fische, blickte zum Himmel auf, sprach den Lobpreis und brach die Brote und gab sie seinen Jüngern, damit sie [sie] ihnen vorsetzten. Und die zwei Fische teilte er für alle.",
+   "text": "Dann nahm er die fünf Brote und die zwei Fische, blickte zum Himmel auf und sprach das Dankgebet. Er brach die Brote und gab sie seinen Jüngern, damit sie sie an die Leute verteilten. Auch die zwei Fische teilte er für alle.",
    "notes": [
     {
-     "anchor": "sprach den Lobpreis",
+     "anchor": "sprach das Dankgebet",
      "text": "Griechisch eulogeō: „segnen“, „Gott loben“. Gemeint ist das jüdische Tischgebet. Die Worte nehmen, segnen, brechen, geben kehren beim letzten Mahl wieder (14,22)."
     }
    ],
@@ -6160,7 +6165,7 @@
    ]
   },
   "6.42": {
-   "text": "Und alle aßen und wurden satt.",
+   "text": "Alle aßen und wurden satt.",
    "notes": [],
    "glosses": [
     "und",
@@ -6171,7 +6176,7 @@
    ]
   },
   "6.43": {
-   "text": "Und sie sammelten Brocken, zwölf Körbe voll, und von den Fischen.",
+   "text": "Danach sammelten sie die Reste ein: zwölf Körbe voll Brot und Fisch.",
    "notes": [
     {
      "anchor": "zwölf Körbe",
@@ -6192,7 +6197,7 @@
    ]
   },
   "6.44": {
-   "text": "Und es waren fünftausend Männer, die von den Broten gegessen hatten.",
+   "text": "Fünftausend Männer hatten von den Broten gegessen.",
    "notes": [
     {
      "anchor": "Männer",
@@ -6211,7 +6216,7 @@
    ]
   },
   "6.45": {
-   "text": "Und sofort drängte er seine Jünger, ins Boot zu steigen und ans andere Ufer nach Betsaida vorauszufahren, während er selbst die Menge entlässt.",
+   "text": "Gleich danach drängte Jesus seine Jünger, ins Boot zu steigen und ans andere Ufer nach Betsaida vorauszufahren. Er selbst wollte inzwischen die Leute verabschieden.",
    "notes": [],
    "glosses": [
     "und",
@@ -6239,7 +6244,7 @@
    ]
   },
   "6.46": {
-   "text": "Und nachdem er sich von ihnen verabschiedet hatte, ging er auf den Berg, um zu beten.",
+   "text": "Als er sich von ihnen verabschiedet hatte, stieg er auf den Berg, um zu beten.",
    "notes": [],
    "glosses": [
     "und",
@@ -6253,7 +6258,7 @@
    ]
   },
   "6.47": {
-   "text": "Und als es Abend geworden war, war das Boot mitten auf dem See und er allein an Land.",
+   "text": "Am Abend war das Boot mitten auf dem See und er allein an Land.",
    "notes": [],
    "glosses": [
     "und",
@@ -6275,11 +6280,11 @@
    ]
   },
   "6.48": {
-   "text": "Und er sah, wie sie sich beim Rudern abquälten, denn der Wind stand ihnen entgegen. Um die vierte Nachtwache kommt er zu ihnen, auf dem See gehend, und er wollte an ihnen vorübergehen.",
+   "text": "Er sah, wie sie sich beim Rudern abmühten, denn sie hatten Gegenwind. Gegen Ende der Nacht kam er zu ihnen. Er ging über den See und wollte an ihnen vorübergehen.",
    "notes": [
     {
-     "anchor": "vierte Nachtwache",
-     "text": "Nach römischer Zählung die Zeit von etwa 3 bis 6 Uhr morgens."
+     "anchor": "Gegen Ende der Nacht",
+     "text": "Wörtlich „um die vierte Nachtwache“: nach römischer Zählung die Zeit von etwa 3 bis 6 Uhr morgens."
     },
     {
      "anchor": "an ihnen vorübergehen",
@@ -6319,7 +6324,7 @@
    ]
   },
   "6.49": {
-   "text": "Als sie ihn aber auf dem See gehen sahen, meinten sie, es sei ein Gespenst, und schrien auf.",
+   "text": "Als sie ihn auf dem See gehen sahen, meinten sie, es sei ein Gespenst, und schrien auf.",
    "notes": [],
    "glosses": [
     "sie",
@@ -6339,7 +6344,7 @@
    ]
   },
   "6.50": {
-   "text": "Denn alle sahen ihn und erschraken. Er aber redete sofort mit ihnen und sagt zu ihnen: „Seid mutig, ich bin es, fürchtet euch nicht!“",
+   "text": "Denn alle sahen ihn und erschraken. Doch er sprach sie gleich an: „Nur Mut, ich bin es! Habt keine Angst!“",
    "notes": [
     {
      "anchor": "ich bin es",
@@ -6370,7 +6375,7 @@
    ]
   },
   "6.51": {
-   "text": "Und er stieg zu ihnen ins Boot, und der Wind legte sich. Und sie waren ganz und gar außer sich.",
+   "text": "Dann stieg er zu ihnen ins Boot, und der Wind legte sich. Da waren sie völlig fassungslos.",
    "notes": [],
    "glosses": [
     "und",
@@ -6394,7 +6399,7 @@
    ]
   },
   "6.52": {
-   "text": "Denn sie waren bei den Broten nicht zur Einsicht gekommen, sondern ihr Herz war verhärtet.",
+   "text": "Denn sie hatten bei den Broten nichts verstanden, ihr Herz war verhärtet.",
    "notes": [
     {
      "anchor": "ihr Herz war verhärtet",
@@ -6417,7 +6422,7 @@
    ]
   },
   "6.53": {
-   "text": "Und sie fuhren hinüber, kamen an Land bei Gennesaret und legten an.",
+   "text": "Sie fuhren hinüber, kamen bei Gennesaret an Land und legten dort an.",
    "notes": [
     {
      "anchor": "Gennesaret",
@@ -6438,7 +6443,7 @@
    ]
   },
   "6.54": {
-   "text": "Und als sie aus dem Boot stiegen, erkannte man ihn sofort.",
+   "text": "Kaum waren sie aus dem Boot gestiegen, erkannten die Leute Jesus.",
    "notes": [],
    "glosses": [
     "und",
@@ -6453,7 +6458,7 @@
    ]
   },
   "6.55": {
-   "text": "Sie liefen in jener ganzen Gegend umher und fingen an, die Kranken auf den Matten dorthin zu tragen, wo man hörte, dass er sei.",
+   "text": "Sie liefen in der ganzen Gegend umher und brachten die Kranken auf ihren Matten dorthin, wo er gerade sein sollte.",
    "notes": [],
    "glosses": [
     "sie liefen umher",
@@ -6477,7 +6482,7 @@
    ]
   },
   "6.56": {
-   "text": "Und wo er auch hinkam, in Dörfer oder Städte oder Gehöfte, legten sie die Kranken auf die Marktplätze und baten ihn, dass sie wenigstens die Quaste seines Gewandes berühren dürften. Und alle, die ihn berührten, wurden gerettet.",
+   "text": "Wohin er auch kam, in Dörfer, Städte oder Gehöfte, überall legten sie die Kranken auf die Plätze. Sie baten ihn, dass sie wenigstens die Quaste seines Mantels berühren dürften. Und alle, die ihn berührten, wurden gerettet.",
    "notes": [
     {
      "anchor": "Quaste",
@@ -6527,7 +6532,7 @@
    ]
   },
   "7.1": {
-   "text": "Und es versammeln sich bei ihm die Pharisäer und einige von den Schriftgelehrten, die aus Jerusalem gekommen waren.",
+   "text": "Die Pharisäer und einige Schriftgelehrte, die aus Jerusalem gekommen waren, versammelten sich bei Jesus.",
    "notes": [],
    "glosses": [
     "und",
@@ -6546,7 +6551,7 @@
    ]
   },
   "7.2": {
-   "text": "Und sie sahen, dass einige seiner Jünger mit unreinen, das heißt ungewaschenen Händen das Brot aßen.",
+   "text": "Sie sahen, dass einige seiner Jünger mit unreinen, das heißt ungewaschenen Händen aßen.",
    "notes": [
     {
      "anchor": "unreinen",
@@ -6572,10 +6577,10 @@
    ]
   },
   "7.3": {
-   "text": "Denn die Pharisäer und alle Juden essen nicht, wenn sie sich nicht die Hände mit einer Handvoll [Wasser] gewaschen haben; so halten sie an der Überlieferung der Ältesten fest.",
+   "text": "Denn die Pharisäer und alle Juden essen nur, wenn sie sich vorher gründlich die Hände gewaschen haben. So halten sie an der Überlieferung der Ältesten fest.",
    "notes": [
     {
-     "anchor": "mit einer Handvoll",
+     "anchor": "gründlich",
      "text": "Wörtlich „mit der Faust“. Die genaue Bedeutung ist unklar: vielleicht „gründlich“, „bis zum Handgelenk“ oder „mit einer Handvoll Wasser“."
     },
     {
@@ -6611,14 +6616,14 @@
    ]
   },
   "7.4": {
-   "text": "Und vom Markt [kommend] essen sie nicht, ohne sich zu waschen. Und es gibt vieles andere, das sie zu halten übernommen haben: Waschungen von Bechern, Krügen, Kupfergefäßen und Polstern.",
+   "text": "Wenn sie vom Markt kommen, essen sie nicht, ohne sich zu waschen. Es gibt noch viele andere Vorschriften, an die sie sich halten: das Waschen von Bechern, Krügen, Kupfergefäßen und Polstern.",
    "notes": [
     {
      "anchor": "ohne sich zu waschen",
      "text": "Wörtlich „wenn sie sich nicht taufen“: ein Tauchbad oder eine Waschung."
     },
     {
-     "anchor": "und Polstern",
+     "anchor": "Polstern",
      "text": "Diese Worte fehlen in einigen Handschriften. Gemeint sind die Liegen beim Essen."
     }
    ],
@@ -6649,11 +6654,11 @@
    ]
   },
   "7.5": {
-   "text": "Und die Pharisäer und die Schriftgelehrten fragen ihn: „Warum leben deine Jünger nicht nach der Überlieferung der Ältesten, sondern essen das Brot mit unreinen Händen?“",
+   "text": "Deshalb fragten die Pharisäer und die Schriftgelehrten Jesus: „Warum halten sich deine Jünger nicht an die Überlieferung der Ältesten? Warum essen sie mit unreinen Händen?“",
    "notes": [
     {
-     "anchor": "leben",
-     "text": "Wörtlich „wandeln“: den Lebensweg gehen, sich verhalten."
+     "anchor": "halten sich deine Jünger nicht",
+     "text": "Wörtlich „wandeln deine Jünger nicht“: den Lebensweg gehen, sich verhalten."
     }
    ],
    "glosses": [
@@ -6686,14 +6691,14 @@
    ]
   },
   "7.6": {
-   "text": "Er aber sagte zu ihnen: „Treffend hat Jesaja über euch Heuchler geweissagt, wie geschrieben steht: ‚Dieses Volk ehrt mich mit den Lippen, ihr Herz aber ist weit weg von mir.",
+   "text": "Er antwortete ihnen: „Ihr Heuchler! Wie treffend hat Jesaja über euch geweissagt. Bei ihm steht geschrieben: ‚Dieses Volk ehrt mich mit den Lippen, aber ihr Herz ist weit weg von mir.",
    "notes": [
     {
      "anchor": "Heuchler",
      "text": "Griechisch hypokritēs: ursprünglich „Schauspieler“. Jemand, der eine Rolle spielt, die nicht seinem Inneren entspricht."
     },
     {
-     "anchor": "geschrieben steht",
+     "anchor": "steht geschrieben",
      "text": "Jesaja 29,13 nach der griechischen Übersetzung."
     }
    ],
@@ -6730,7 +6735,7 @@
    ]
   },
   "7.7": {
-   "text": "Vergeblich verehren sie mich, da sie Lehren lehren, die Gebote von Menschen sind.‘",
+   "text": "Es ist sinnlos, wie sie mich verehren. Denn was sie lehren, sind Gebote von Menschen.‘",
    "notes": [],
    "glosses": [
     "vergeblich",
@@ -6744,7 +6749,7 @@
    ]
   },
   "7.8": {
-   "text": "Ihr lasst das Gebot Gottes fahren und haltet an der Überlieferung der Menschen fest.“",
+   "text": "Ihr gebt das Gebot Gottes auf und haltet an der Überlieferung von Menschen fest.“",
    "notes": [],
    "glosses": [
     "verlassend",
@@ -6760,15 +6765,15 @@
    ]
   },
   "7.9": {
-   "text": "Und er sagte zu ihnen: „Wie geschickt ihr das Gebot Gottes außer Kraft setzt, um eure Überlieferung aufzurichten!",
+   "text": "Und er sagte zu ihnen: „Wie geschickt ihr das Gebot Gottes außer Kraft setzt, um an eurer Überlieferung festzuhalten!",
    "notes": [
     {
      "anchor": "Wie geschickt",
      "text": "Wörtlich „schön“, „trefflich“: bittere Ironie."
     },
     {
-     "anchor": "aufzurichten",
-     "text": "Einige Handschriften lesen „zu halten“."
+     "anchor": "festzuhalten",
+     "text": "Einige Handschriften lesen „aufzurichten“ statt „zu halten“."
     }
    ],
    "glosses": [
@@ -6823,7 +6828,7 @@
    ]
   },
   "7.11": {
-   "text": "Ihr aber sagt: Wenn ein Mensch zu Vater oder Mutter sagt: ‚Korban – das heißt: Opfergabe – sei, was du von mir als Unterstützung bekommen würdest‘,",
+   "text": "Ihr aber sagt: Wenn jemand zu seinem Vater oder seiner Mutter sagt: ‚Was du von mir bekommen solltest, ist Korban‘ – das heißt: eine Opfergabe für Gott –,",
    "notes": [
     {
      "anchor": "Korban",
@@ -6854,7 +6859,7 @@
    ]
   },
   "7.12": {
-   "text": "dann lasst ihr ihn nichts mehr für Vater oder Mutter tun.",
+   "text": "dann erlaubt ihr ihm nicht mehr, etwas für Vater oder Mutter zu tun.",
    "notes": [],
    "glosses": [
     "nicht mehr",
@@ -6870,7 +6875,7 @@
    ]
   },
   "7.13": {
-   "text": "So macht ihr das Wort Gottes ungültig durch eure Überlieferung, die ihr weitergegeben habt. Und vieles dergleichen tut ihr.“",
+   "text": "So setzt ihr das Wort Gottes außer Kraft durch eure Überlieferung, die ihr weitergebt. Und so etwas tut ihr oft.“",
    "notes": [],
    "glosses": [
     "ungültig machend",
@@ -6891,7 +6896,7 @@
    ]
   },
   "7.14": {
-   "text": "Und er rief die Menge wieder zu sich und sagte zu ihnen: „Hört mir alle zu und versteht!",
+   "text": "Dann rief er die Menge wieder zu sich und sagte zu ihnen: „Hört mir alle zu und versteht!",
    "notes": [],
    "glosses": [
     "und",
@@ -6909,7 +6914,7 @@
    ]
   },
   "7.15": {
-   "text": "Nichts, was von außen in den Menschen hineingeht, kann ihn unrein machen; sondern was aus dem Menschen herauskommt, das ist es, was den Menschen unrein macht.“",
+   "text": "Nichts, was von außen in den Menschen hineinkommt, kann ihn unrein machen. Sondern was aus dem Menschen herauskommt, das macht ihn unrein.“",
    "notes": [
     {
      "anchor": "unrein machen",
@@ -6943,11 +6948,15 @@
    ]
   },
   "7.17": {
-   "text": "Und als er von der Menge weg in ein Haus gegangen war, fragten ihn seine Jünger nach dem Gleichnis.",
+   "text": "Als er die Menge verlassen hatte und in ein Haus gegangen war, fragten ihn seine Jünger nach diesem rätselhaften Wort.",
    "notes": [
     {
      "anchor": "in ein Haus",
      "text": "Vers 16 („Wer Ohren hat zu hören, der höre!“) fehlt in den ältesten Handschriften und wird darum hier nicht übersetzt."
+    },
+    {
+     "anchor": "rätselhaften Wort",
+     "text": "Wörtlich „nach dem Gleichnis“ (parabolē): Bildwort, Rätselrede."
     }
    ],
    "glosses": [
@@ -6969,7 +6978,7 @@
    ]
   },
   "7.18": {
-   "text": "Und er sagt zu ihnen: „Seid auch ihr so unverständig? Begreift ihr nicht, dass alles, was von außen in den Menschen hineingeht, ihn nicht unrein machen kann?",
+   "text": "Er sagte zu ihnen: „Versteht ihr das auch nicht? Begreift ihr nicht, dass nichts, was von außen in den Menschen hineinkommt, ihn unrein machen kann?",
    "notes": [],
    "glosses": [
     "und",
@@ -6997,7 +7006,7 @@
    ]
   },
   "7.19": {
-   "text": "Denn es geht nicht in sein Herz, sondern in den Bauch und geht in die Grube hinaus.“ Damit erklärte er alle Speisen für rein.",
+   "text": "Denn es kommt nicht in sein Herz, sondern in den Magen und wird wieder ausgeschieden.“ Damit erklärte er alle Speisen für rein.",
    "notes": [
     {
      "anchor": "Damit erklärte er alle Speisen für rein",
@@ -7028,7 +7037,7 @@
    ]
   },
   "7.20": {
-   "text": "Er sagte aber: „Was aus dem Menschen herauskommt, das macht den Menschen unrein.",
+   "text": "Weiter sagte er: „Was aus dem Menschen herauskommt, das macht ihn unrein.",
    "notes": [],
    "glosses": [
     "er sagte",
@@ -7046,11 +7055,11 @@
    ]
   },
   "7.21": {
-   "text": "Denn von innen, aus dem Herzen der Menschen, kommen die bösen Gedanken heraus: Unzucht, Diebstahl, Mord,",
+   "text": "Denn von innen, aus dem Herzen der Menschen, kommen die bösen Gedanken und mit ihnen sexuelle Unmoral, Diebstahl, Mord,",
    "notes": [
     {
-     "anchor": "Unzucht",
-     "text": "Griechisch porneia: sexuelles Fehlverhalten aller Art."
+     "anchor": "sexuelle Unmoral",
+     "text": "Griechisch porneia: sexuelles Fehlverhalten aller Art, früher oft mit „Unzucht“ übersetzt."
     }
    ],
    "glosses": [
@@ -7072,11 +7081,15 @@
    ]
   },
   "7.22": {
-   "text": "Ehebruch, Habgier, Bosheit, Hinterlist, Zügellosigkeit, Neid, Lästerung, Hochmut, Unvernunft.",
+   "text": "Ehebruch, Habgier, Bosheit, Betrug, Zügellosigkeit, Neid, Verleumdung, Überheblichkeit und Unvernunft.",
    "notes": [
     {
      "anchor": "Neid",
      "text": "Wörtlich „ein böses Auge“, eine Redewendung für Neid und Missgunst."
+    },
+    {
+     "anchor": "Verleumdung",
+     "text": "Griechisch blasphēmia: Lästerung gegen Gott oder Menschen."
     }
    ],
    "glosses": [
@@ -7109,7 +7122,7 @@
    ]
   },
   "7.24": {
-   "text": "Von dort brach er auf und ging in das Gebiet von Tyrus. Und er ging in ein Haus und wollte nicht, dass es jemand erfuhr; aber er konnte nicht verborgen bleiben.",
+   "text": "Jesus brach von dort auf und ging in das Gebiet von Tyrus. Dort ging er in ein Haus und wollte, dass niemand davon erfuhr. Aber er konnte nicht verborgen bleiben.",
    "notes": [
     {
      "anchor": "Tyrus",
@@ -7139,7 +7152,7 @@
    ]
   },
   "7.25": {
-   "text": "Sondern sofort hörte eine Frau von ihm, deren Töchterchen einen unreinen Geist hatte, und sie kam und fiel ihm zu Füßen.",
+   "text": "Eine Frau hörte von ihm, deren kleine Tochter von einem unreinen Geist besessen war. Sie kam gleich und warf sich ihm zu Füßen.",
    "notes": [],
    "glosses": [
     "sondern",
@@ -7164,11 +7177,11 @@
    ]
   },
   "7.26": {
-   "text": "Die Frau war aber eine Griechin, ihrer Herkunft nach Syrophönizierin. Und sie bat ihn, den Dämon aus ihrer Tochter auszutreiben.",
+   "text": "Die Frau war keine Jüdin, sondern Griechin, und stammte aus Syrophönizien. Sie bat Jesus, den Dämon aus ihrer Tochter auszutreiben.",
    "notes": [
     {
      "anchor": "Griechin",
-     "text": "Hier im Sinn von „Nichtjüdin“, griechisch sprechend und geprägt. Syrophönizien war der Teil Phöniziens, der zur Provinz Syrien gehörte."
+     "text": "Hier im Sinn von „Nichtjüdin“, griechisch sprechend und geprägt. „Keine Jüdin“ steht nicht im Griechischen, ist aber gemeint. Syrophönizien war der Teil Phöniziens, der zur Provinz Syrien gehörte."
     }
    ],
    "glosses": [
@@ -7194,7 +7207,7 @@
    ]
   },
   "7.27": {
-   "text": "Und er sagte zu ihr: „Lass zuerst die Kinder satt werden! Denn es ist nicht recht, den Kindern das Brot wegzunehmen und es den Hunden hinzuwerfen.“",
+   "text": "Er sagte zu ihr: „Lass zuerst die Kinder satt werden! Es ist nicht recht, den Kindern das Brot wegzunehmen und es den Hunden hinzuwerfen.“",
    "notes": [
     {
      "anchor": "Kinder",
@@ -7234,7 +7247,7 @@
    ]
   },
   "7.28": {
-   "text": "Sie aber antwortete und sagt zu ihm: „Herr, auch die Hunde unter dem Tisch essen von den Krümeln der Kinder.“",
+   "text": "Sie antwortete ihm: „Herr, auch die Hunde unter dem Tisch fressen von den Krümeln der Kinder.“",
    "notes": [
     {
      "anchor": "Herr",
@@ -7264,7 +7277,7 @@
    ]
   },
   "7.29": {
-   "text": "Und er sagte zu ihr: „Um dieses Wortes willen geh hin; der Dämon ist aus deiner Tochter ausgefahren.“",
+   "text": "Da sagte er zu ihr: „Weil du das gesagt hast, geh nach Hause: Der Dämon hat deine Tochter verlassen.“",
    "notes": [],
    "glosses": [
     "und",
@@ -7285,7 +7298,7 @@
    ]
   },
   "7.30": {
-   "text": "Und sie ging nach Hause und fand das Kind auf dem Bett liegen, und der Dämon war ausgefahren.",
+   "text": "Sie ging nach Hause und fand das Kind auf dem Bett liegen. Der Dämon war ausgefahren.",
    "notes": [],
    "glosses": [
     "und",
@@ -7308,7 +7321,7 @@
    ]
   },
   "7.31": {
-   "text": "Und als er das Gebiet von Tyrus wieder verlassen hatte, kam er über Sidon an den See von Galiläa, mitten in das Gebiet der Dekapolis.",
+   "text": "Danach verließ Jesus das Gebiet von Tyrus wieder und kam über Sidon an den See von Galiläa, mitten in das Gebiet der Dekapolis.",
    "notes": [
     {
      "anchor": "über Sidon",
@@ -7339,10 +7352,10 @@
    ]
   },
   "7.32": {
-   "text": "Und sie bringen einen Tauben zu ihm, der auch kaum reden konnte, und bitten ihn, ihm die Hand aufzulegen.",
+   "text": "Dort brachten Leute einen Gehörlosen zu ihm, der auch kaum sprechen konnte. Sie baten Jesus, ihm die Hand aufzulegen.",
    "notes": [
     {
-     "anchor": "kaum reden konnte",
+     "anchor": "kaum sprechen konnte",
      "text": "Griechisch mogilalos, ein sehr seltenes Wort. Es steht auch in Jesaja 35,6 (griechische Übersetzung), wo Gottes Heil angekündigt wird: „Die Zunge des Stummen wird jubeln.“"
     }
    ],
@@ -7364,7 +7377,7 @@
    ]
   },
   "7.33": {
-   "text": "Und er nahm ihn von der Menge weg für sich allein, legte ihm seine Finger in die Ohren, spuckte und berührte seine Zunge.",
+   "text": "Jesus nahm ihn beiseite, weg von der Menge. Er legte ihm die Finger in die Ohren, spuckte aus und berührte seine Zunge.",
    "notes": [
     {
      "anchor": "spuckte",
@@ -7397,7 +7410,7 @@
    ]
   },
   "7.34": {
-   "text": "Dann blickte er zum Himmel auf, seufzte und sagt zu ihm: „Effata!“, das heißt: „Öffne dich!“",
+   "text": "Dann blickte er zum Himmel auf, seufzte und sagte zu ihm: „Effata!“ Das heißt: „Öffne dich!“",
    "notes": [
     {
      "anchor": "Effata",
@@ -7421,7 +7434,7 @@
    ]
   },
   "7.35": {
-   "text": "Und sofort öffneten sich seine Ohren, und die Fessel seiner Zunge löste sich, und er redete richtig.",
+   "text": "Sofort öffneten sich seine Ohren, die Fessel seiner Zunge löste sich, und er konnte richtig sprechen.",
    "notes": [
     {
      "anchor": "die Fessel seiner Zunge löste sich",
@@ -7448,7 +7461,7 @@
    ]
   },
   "7.36": {
-   "text": "Und er gebot ihnen, es niemandem zu sagen. Doch je mehr er es ihnen gebot, desto mehr verkündeten sie es.",
+   "text": "Jesus verbot den Leuten, es jemandem zu erzählen. Doch je mehr er es ihnen verbot, desto mehr erzählten sie davon.",
    "notes": [],
    "glosses": [
     "und",
@@ -7468,11 +7481,11 @@
    ]
   },
   "7.37": {
-   "text": "Und sie gerieten ganz und gar außer sich und sagten: „Er hat alles gut gemacht: Die Tauben lässt er hören und die Stummen reden.“",
+   "text": "Sie waren völlig überwältigt und sagten: „Wie gut ist alles, was er getan hat! Die Gehörlosen lässt er hören und die Stummen sprechen.“",
    "notes": [
     {
-     "anchor": "Er hat alles gut gemacht",
-     "text": "Anklang an 1. Mose 1,31: „Gott sah alles an, was er gemacht hatte, und siehe, es war sehr gut.“"
+     "anchor": "Wie gut ist alles, was er getan hat",
+     "text": "Wörtlich „Er hat alles gut gemacht“. Anklang an 1. Mose 1,31: „Gott sah alles an, was er gemacht hatte, und es war sehr gut.“"
     }
    ],
    "glosses": [
@@ -7495,7 +7508,7 @@
    ]
   },
   "8.1": {
-   "text": "In jenen Tagen, als wieder eine große Menge da war und sie nichts zu essen hatten, rief er die Jünger zu sich und sagt zu ihnen:",
+   "text": "In dieser Zeit war wieder einmal eine große Menschenmenge bei Jesus, und sie hatten nichts zu essen. Da rief er die Jünger zu sich und sagte:",
    "notes": [],
    "glosses": [
     "in",
@@ -7519,7 +7532,7 @@
    ]
   },
   "8.2": {
-   "text": "„Ich habe Mitleid mit der Menge, denn sie sind schon drei Tage bei mir und haben nichts zu essen.",
+   "text": "„Die Leute tun mir leid. Sie sind schon drei Tage bei mir und haben nichts mehr zu essen.",
    "notes": [],
    "glosses": [
     "ich habe Mitleid",
@@ -7540,7 +7553,7 @@
    ]
   },
   "8.3": {
-   "text": "Und wenn ich sie hungrig nach Hause schicke, werden sie unterwegs zusammenbrechen; und einige von ihnen sind von weit her gekommen.“",
+   "text": "Wenn ich sie hungrig nach Hause schicke, werden sie unterwegs zusammenbrechen. Einige von ihnen sind von weit her gekommen.“",
    "notes": [
     {
      "anchor": "von weit her",
@@ -7569,10 +7582,10 @@
    ]
   },
   "8.4": {
-   "text": "Und seine Jünger antworteten ihm: „Woher soll man diese hier in der Wüste mit Brot satt machen können?“",
+   "text": "Seine Jünger antworteten ihm: „Wo soll man hier in dieser einsamen Gegend Brot herbekommen, um sie alle satt zu machen?“",
    "notes": [
     {
-     "anchor": "Woher soll man",
+     "anchor": "Wo soll man",
      "text": "Erstaunlich, dass die Jünger nach der ersten Speisung (6,35–44) so fragen. Markus zeigt ihr Unverständnis (vgl. 8,17–21)."
     }
    ],
@@ -7596,7 +7609,7 @@
    ]
   },
   "8.5": {
-   "text": "Und er fragte sie: „Wie viele Brote habt ihr?“ Sie sagten: „Sieben.“",
+   "text": "Er fragte sie: „Wie viele Brote habt ihr?“ Sie antworteten: „Sieben.“",
    "notes": [],
    "glosses": [
     "und",
@@ -7612,7 +7625,7 @@
    ]
   },
   "8.6": {
-   "text": "Und er gebietet der Menge, sich auf der Erde zu lagern. Und er nahm die sieben Brote, sprach das Dankgebet, brach sie und gab sie seinen Jüngern, damit sie sie vorsetzten. Und sie setzten sie der Menge vor.",
+   "text": "Da forderte er die Leute auf, sich auf den Boden zu setzen. Er nahm die sieben Brote, sprach das Dankgebet, brach sie und gab sie seinen Jüngern zum Verteilen. Und die Jünger verteilten sie an die Leute.",
    "notes": [
     {
      "anchor": "sprach das Dankgebet",
@@ -7649,7 +7662,7 @@
    ]
   },
   "8.7": {
-   "text": "Und sie hatten einige kleine Fische. Und er sprach den Segen darüber und sagte, man solle auch sie vorsetzen.",
+   "text": "Sie hatten auch noch ein paar kleine Fische. Jesus sprach das Segensgebet darüber und ließ auch sie verteilen.",
    "notes": [],
    "glosses": [
     "und",
@@ -7666,7 +7679,7 @@
    ]
   },
   "8.8": {
-   "text": "Und sie aßen und wurden satt. Und sie sammelten die übrigen Brocken, sieben Körbe.",
+   "text": "Die Leute aßen und wurden satt. Danach sammelten sie die übrigen Reste ein: sieben Körbe voll.",
    "notes": [
     {
      "anchor": "sieben Körbe",
@@ -7687,7 +7700,7 @@
    ]
   },
   "8.9": {
-   "text": "Es waren aber etwa viertausend. Und er entließ sie.",
+   "text": "Es waren etwa viertausend Menschen. Dann schickte Jesus sie nach Hause.",
    "notes": [],
    "glosses": [
     "es waren",
@@ -7700,7 +7713,7 @@
    ]
   },
   "8.10": {
-   "text": "Und sofort stieg er mit seinen Jüngern ins Boot und kam in die Gegend von Dalmanuta.",
+   "text": "Gleich danach stieg er mit seinen Jüngern ins Boot und fuhr in die Gegend von Dalmanuta.",
    "notes": [
     {
      "anchor": "Dalmanuta",
@@ -7726,7 +7739,7 @@
    ]
   },
   "8.11": {
-   "text": "Und die Pharisäer kamen heraus und fingen an, mit ihm zu streiten. Sie verlangten von ihm ein Zeichen vom Himmel, um ihn auf die Probe zu stellen.",
+   "text": "Da kamen die Pharisäer und fingen an, mit ihm zu streiten. Sie wollten ihn auf die Probe stellen und verlangten von ihm ein Zeichen vom Himmel.",
    "notes": [
     {
      "anchor": "Zeichen vom Himmel",
@@ -7754,10 +7767,10 @@
    ]
   },
   "8.12": {
-   "text": "Und er seufzte tief in seinem Geist und sagt: „Was verlangt diese Generation ein Zeichen? Amen, ich sage euch: Dieser Generation wird niemals ein Zeichen gegeben werden!“",
+   "text": "Jesus seufzte tief und sagte: „Warum verlangt diese Generation ein Zeichen? Amen, das sage ich euch: Diese Generation wird niemals ein Zeichen bekommen!“",
    "notes": [
     {
-     "anchor": "wird niemals ein Zeichen gegeben werden",
+     "anchor": "wird niemals ein Zeichen bekommen",
      "text": "Wörtlich „wenn ein Zeichen gegeben wird …“: eine hebräische Schwurformel, bei der die Fortsetzung („… dann soll mir dies und das geschehen“) unausgesprochen bleibt. Sie bedeutet ein feierliches Nein."
     }
    ],
@@ -7786,7 +7799,7 @@
    ]
   },
   "8.13": {
-   "text": "Und er ließ sie stehen, stieg wieder [ins Boot] und fuhr ans andere Ufer.",
+   "text": "Dann ließ er sie stehen, stieg wieder ins Boot und fuhr ans andere Ufer.",
    "notes": [],
    "glosses": [
     "und",
@@ -7801,7 +7814,7 @@
    ]
   },
   "8.14": {
-   "text": "Und sie hatten vergessen, Brote mitzunehmen, und hatten nur ein einziges Brot bei sich im Boot.",
+   "text": "Die Jünger hatten vergessen, Brot mitzunehmen. Nur ein einziges Brot hatten sie bei sich im Boot.",
    "notes": [
     {
      "anchor": "ein einziges Brot",
@@ -7828,7 +7841,7 @@
    ]
   },
   "8.15": {
-   "text": "Und er warnte sie: „Seht zu, hütet euch vor dem Sauerteig der Pharisäer und dem Sauerteig des Herodes!“",
+   "text": "Da warnte Jesus sie: „Passt auf! Hütet euch vor dem Sauerteig der Pharisäer und vor dem Sauerteig des Herodes!“",
    "notes": [
     {
      "anchor": "Sauerteig",
@@ -7854,7 +7867,7 @@
    ]
   },
   "8.16": {
-   "text": "Und sie überlegten miteinander, dass sie keine Brote hätten.",
+   "text": "Da redeten sie miteinander darüber, dass sie kein Brot hatten.",
    "notes": [],
    "glosses": [
     "und",
@@ -7868,7 +7881,7 @@
    ]
   },
   "8.17": {
-   "text": "Und er merkte es und sagt zu ihnen: „Was überlegt ihr, dass ihr keine Brote habt? Begreift ihr noch nicht und versteht ihr nicht? Habt ihr ein verhärtetes Herz?",
+   "text": "Jesus merkte es und sagte zu ihnen: „Warum redet ihr darüber, dass ihr kein Brot habt? Begreift ihr immer noch nicht? Versteht ihr denn gar nichts? Ist euer Herz so verhärtet?",
    "notes": [],
    "glosses": [
     "und",
@@ -7893,10 +7906,10 @@
    ]
   },
   "8.18": {
-   "text": "Augen habt ihr und seht nicht, und Ohren habt ihr und hört nicht? Und erinnert ihr euch nicht,",
+   "text": "Ihr habt Augen und seht nicht, ihr habt Ohren und hört nicht? Erinnert ihr euch nicht?",
    "notes": [
     {
-     "anchor": "Augen habt ihr und seht nicht",
+     "anchor": "Ihr habt Augen und seht nicht",
      "text": "Anklang an Jeremia 5,21 und Ezechiel 12,2. Jesus gebraucht für die Jünger fast dieselben Worte wie für „die draußen“ in 4,12."
     }
    ],
@@ -7916,7 +7929,7 @@
    ]
   },
   "8.19": {
-   "text": "als ich die fünf Brote für die Fünftausend brach, wie viele Körbe voll Brocken ihr aufgesammelt habt?“ Sie sagen zu ihm: „Zwölf.“",
+   "text": "Als ich die fünf Brote für die Fünftausend brach, wie viele Körbe voller Reste habt ihr da eingesammelt?“ Sie antworteten: „Zwölf.“",
    "notes": [],
    "glosses": [
     "als",
@@ -7938,7 +7951,7 @@
    ]
   },
   "8.20": {
-   "text": "„Und als [ich] die sieben für die Viertausend [brach], wie viele Körbe voll Brocken habt ihr aufgesammelt?“ Und sie sagen: „Sieben.“",
+   "text": "„Und als ich die sieben Brote für die Viertausend brach, wie viele Körbe voller Reste habt ihr da eingesammelt?“ Sie antworteten: „Sieben.“",
    "notes": [],
    "glosses": [
     "als",
@@ -7959,7 +7972,7 @@
    ]
   },
   "8.21": {
-   "text": "Und er sagte zu ihnen: „Versteht ihr noch nicht?“",
+   "text": "Da sagte er zu ihnen: „Versteht ihr immer noch nicht?“",
    "notes": [],
    "glosses": [
     "und",
@@ -7970,7 +7983,7 @@
    ]
   },
   "8.22": {
-   "text": "Und sie kommen nach Betsaida. Und man bringt einen Blinden zu ihm und bittet ihn, ihn zu berühren.",
+   "text": "Sie kamen nach Betsaida. Dort brachten Leute einen Blinden zu Jesus und baten ihn, den Mann zu berühren.",
    "notes": [],
    "glosses": [
     "und",
@@ -7990,7 +8003,7 @@
    ]
   },
   "8.23": {
-   "text": "Und er nahm den Blinden bei der Hand und führte ihn aus dem Dorf hinaus, spuckte ihm in die Augen, legte ihm die Hände auf und fragte ihn: „Siehst du etwas?“",
+   "text": "Jesus nahm den Blinden an der Hand und führte ihn aus dem Dorf hinaus. Er spuckte ihm in die Augen, legte ihm die Hände auf und fragte ihn: „Siehst du etwas?“",
    "notes": [],
    "glosses": [
     "und",
@@ -8022,7 +8035,7 @@
    ]
   },
   "8.24": {
-   "text": "Und er blickte auf und sagte: „Ich sehe die Menschen; wie Bäume sehe ich sie umhergehen.“",
+   "text": "Der Mann blickte auf und sagte: „Ich sehe die Menschen. Sie sehen aus wie Bäume, die umhergehen.“",
    "notes": [
     {
      "anchor": "Ich sehe die Menschen",
@@ -8044,7 +8057,7 @@
    ]
   },
   "8.25": {
-   "text": "Dann legte er ihm noch einmal die Hände auf die Augen. Da sah er klar und war wiederhergestellt und konnte alles deutlich sehen.",
+   "text": "Da legte Jesus ihm noch einmal die Hände auf die Augen. Jetzt sah der Mann klar. Er war geheilt und konnte alles deutlich erkennen.",
    "notes": [],
    "glosses": [
     "dann",
@@ -8067,7 +8080,7 @@
    ]
   },
   "8.26": {
-   "text": "Und er schickte ihn nach Hause und sagte: „Geh nicht einmal in das Dorf hinein!“",
+   "text": "Jesus schickte ihn nach Hause und sagte: „Geh nicht erst ins Dorf!“",
    "notes": [],
    "glosses": [
     "und",
@@ -8085,7 +8098,7 @@
    ]
   },
   "8.27": {
-   "text": "Und Jesus und seine Jünger zogen hinaus in die Dörfer von Cäsarea Philippi. Und unterwegs fragte er seine Jünger: „Für wen halten mich die Leute?“",
+   "text": "Jesus zog mit seinen Jüngern weiter in die Dörfer bei Cäsarea Philippi. Unterwegs fragte er sie: „Für wen halten mich die Leute?“",
    "notes": [
     {
      "anchor": "Cäsarea Philippi",
@@ -8130,7 +8143,7 @@
    ]
   },
   "8.28": {
-   "text": "Sie aber sagten zu ihm: „Johannes der Täufer; andere: Elia; wieder andere: einer der Propheten.“",
+   "text": "Sie antworteten: „Manche halten dich für Johannes den Täufer, andere für Elia und wieder andere für einen der Propheten.“",
    "notes": [],
    "glosses": [
     "sie",
@@ -8154,7 +8167,7 @@
    ]
   },
   "8.29": {
-   "text": "Und er fragte sie: „Ihr aber, für wen haltet ihr mich?“ Petrus antwortet ihm: „Du bist der Messias.“",
+   "text": "Da fragte er sie: „Und ihr, für wen haltet ihr mich?“ Petrus antwortete: „Du bist der Messias.“",
    "notes": [
     {
      "anchor": "Messias",
@@ -8184,7 +8197,7 @@
    ]
   },
   "8.30": {
-   "text": "Und er gebot ihnen streng, niemandem von ihm zu erzählen.",
+   "text": "Doch Jesus verbot ihnen streng, mit irgendjemandem über ihn zu reden.",
    "notes": [],
    "glosses": [
     "und",
@@ -8198,14 +8211,14 @@
    ]
   },
   "8.31": {
-   "text": "Und er fing an, sie zu lehren: Der Menschensohn muss vieles erleiden und von den Ältesten und den Hohenpriestern und den Schriftgelehrten verworfen und getötet werden und nach drei Tagen auferstehen.",
+   "text": "Dann fing er an, ihnen zu erklären: „Der Menschensohn muss viel leiden. Die Ältesten, die Hohepriester und die Schriftgelehrten werden ihn verwerfen. Er wird getötet werden und nach drei Tagen auferstehen.“",
    "notes": [
     {
      "anchor": "muss",
      "text": "Griechisch dei: Es ist notwendig, nach Gottes Plan, wie die Schrift ihn bezeugt."
     },
     {
-     "anchor": "Ältesten und den Hohenpriestern und den Schriftgelehrten",
+     "anchor": "Die Ältesten, die Hohepriester und die Schriftgelehrten",
      "text": "Die drei Gruppen, die den Hohen Rat in Jerusalem bildeten."
     },
     {
@@ -8247,11 +8260,11 @@
    ]
   },
   "8.32": {
-   "text": "Und er sagte das Wort ganz offen. Da nahm ihn Petrus beiseite und fing an, ihn zurechtzuweisen.",
+   "text": "Das sagte er ihnen ganz offen. Da nahm ihn Petrus beiseite und machte ihm Vorwürfe.",
    "notes": [
     {
-     "anchor": "zurechtzuweisen",
-     "text": "Dasselbe Wort wie für Jesu Anfahren der Dämonen (1,25; 3,12) und das Schweigegebot (8,30)."
+     "anchor": "machte ihm Vorwürfe",
+     "text": "Wörtlich „fing an, ihn anzufahren“, dasselbe Wort wie für Jesu Anfahren der Dämonen (1,25; 3,12) und das Schweigegebot (8,30)."
     }
    ],
    "glosses": [
@@ -8271,7 +8284,7 @@
    ]
   },
   "8.33": {
-   "text": "Er aber wandte sich um, sah seine Jünger an und wies Petrus zurecht: „Geh weg, hinter mich, Satan! Denn du hast nicht im Sinn, was Gott will, sondern was die Menschen wollen.“",
+   "text": "Aber Jesus drehte sich um, sah seine Jünger an und wies Petrus zurecht: „Geh weg, hinter mich, Satan! Denn du hast nicht im Sinn, was Gott will, sondern was Menschen wollen.“",
    "notes": [
     {
      "anchor": "hinter mich",
@@ -8312,14 +8325,14 @@
    ]
   },
   "8.34": {
-   "text": "Und er rief die Menge samt seinen Jüngern zu sich und sagte zu ihnen: „Wenn jemand mir nachfolgen will, der verleugne sich selbst und nehme sein Kreuz auf sich und folge mir!",
+   "text": "Dann rief er die Menge und seine Jünger zu sich und sagte zu ihnen: „Wer mir folgen will, muss sich selbst verleugnen. Er muss sein Kreuz auf sich nehmen und mir folgen.",
    "notes": [
     {
      "anchor": "sein Kreuz auf sich",
      "text": "Zum Tod Verurteilte mussten den Querbalken ihres Kreuzes selbst zur Hinrichtung tragen. Das Bild meint die Bereitschaft, für Jesus alles bis zum Leben einzusetzen."
     },
     {
-     "anchor": "verleugne sich selbst",
+     "anchor": "sich selbst verleugnen",
      "text": "Dasselbe Wort wie bei der Verleugnung des Petrus (14,30.72): sich selbst nicht mehr kennen wollen, nicht mehr das eigene Ich obenan stellen."
     }
    ],
@@ -8353,7 +8366,7 @@
    ]
   },
   "8.35": {
-   "text": "Denn wer sein Leben retten will, wird es verlieren; wer aber sein Leben um meinetwillen und um des Evangeliums willen verliert, wird es retten.",
+   "text": "Denn wer sein Leben retten will, wird es verlieren. Wer aber sein Leben verliert, weil er zu mir und zum Evangelium hält, der wird es retten.",
    "notes": [
     {
      "anchor": "Leben",
@@ -8388,7 +8401,7 @@
    ]
   },
   "8.36": {
-   "text": "Denn was nützt es einem Menschen, die ganze Welt zu gewinnen und dabei sein Leben einzubüßen?",
+   "text": "Was nützt es einem Menschen, die ganze Welt zu gewinnen, wenn er dabei sein Leben verliert?",
    "notes": [],
    "glosses": [
     "was",
@@ -8407,7 +8420,7 @@
    ]
   },
   "8.37": {
-   "text": "Denn was könnte ein Mensch als Gegenwert für sein Leben geben?",
+   "text": "Was könnte ein Mensch denn als Gegenwert für sein Leben geben?",
    "notes": [],
    "glosses": [
     "was",
@@ -8421,11 +8434,11 @@
    ]
   },
   "8.38": {
-   "text": "Denn wer sich meiner und meiner Worte schämt in dieser ehebrecherischen und sündigen Generation, dessen wird sich auch der Menschensohn schämen, wenn er in der Herrlichkeit seines Vaters mit den heiligen Engeln kommt.“",
+   "text": "Wer sich vor dieser treulosen und sündigen Generation für mich und meine Worte schämt, für den wird sich auch der Menschensohn schämen. Das wird geschehen, wenn er in der Herrlichkeit seines Vaters mit den heiligen Engeln kommt.“",
    "notes": [
     {
-     "anchor": "ehebrecherischen",
-     "text": "In der Sprache der Propheten ist „Ehebruch“ ein Bild für Untreue gegenüber Gott (z. B. Hosea 2,4)."
+     "anchor": "treulosen",
+     "text": "Wörtlich „ehebrecherisch“. In der Sprache der Propheten ist „Ehebruch“ ein Bild für Untreue gegenüber Gott (z. B. Hosea 2,4)."
     }
    ],
    "glosses": [
